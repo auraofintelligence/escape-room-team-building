@@ -1,23 +1,33 @@
 {
   "date": "2026-10-29",
-  "method": "Managed isolated static preview and browser interaction",
+  "edition": "ROUND ONE",
+  "method": "Local browser preview with desktop and 390 px viewport checks",
   "desktop": {
-    "executive_summary": "Business proposition, hero and navigation render cleanly",
-    "chapter_menu": "All 16 destinations available",
-    "source_filter": "Matching title, exact source ID R106 and zero-result states verified",
-    "presentation": "Next advances to 2 / 11; Escape returns to outline",
-    "source_reader_D15": "Full navigation renders; Sources returns to the main source library"
+    "executive_summary": "ROUND ONE opening and generated puzzle-doorway brand icon render cleanly",
+    "chapter_menu": "16 destinations; revised research and paid-work chapter verified",
+    "source_filter": "R119 matches the corrected 78000 AUD listing and observation/quote status; no-match state verified",
+    "presentation": "11 chapter cards; old agent-suite framing absent"
   },
   "responsive": {
-    "frame_widths_css_pixels": [
-      320,
-      390
-    ],
+    "width_css_pixels": 390,
     "page_horizontal_overflow": false,
-    "chapter_menu": "All 16 links visible when opened; Escape closes it",
-    "contents_links": "Equipment section link reaches the intended section",
-    "tables": "Wide financial table scrolls within its own region"
+    "brand_icon_loaded": true,
+    "scenario_labels_present": true
   },
-  "publication_gate": "See content/build-report.json for final asset, source, archive and link checks",
+  "favicon": {
+    "formats": [
+      "ICO",
+      "PNG"
+    ],
+    "sizes": [
+      16,
+      32,
+      48,
+      180,
+      192
+    ],
+    "generated": true,
+    "provenance": "content/favicon.json"
+  },
   "operating_agents_activated": false
 }

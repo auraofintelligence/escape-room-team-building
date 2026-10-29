@@ -332,5 +332,7 @@
     "unique_urls": 204,
     "original_register": "https://auraofintelligence.github.io/installing-the-missing-middle/content/embedded-links.json",
     "treatment": "Preserve unchanged as original-document bibliography, and distinguish operative market/legal claims from the source archive."
-  }
+  },
+  "revision_note": "Original documents preserved with matching SHA-256 hashes in ROUND ONE. Research-source verification is recorded separately in sources.json.",
+  "original_hash_errors": []
 }

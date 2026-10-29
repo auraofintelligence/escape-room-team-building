@@ -23,7 +23,7 @@ from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.opc.constants import RELATIONSHIP_TYPE as RT
 from docx.shared import Inches, Pt, RGBColor
-from fitz import Font
+from reportlab.pdfbase.pdfmetrics import stringWidth
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -234,11 +234,10 @@ def widths_for(headers, rows):
     widths = [CONTENT_WIDTH * w / total for w in weights]
     minimum = .66 if n > 5 else .82
     minima = [max(minimum, .075 * max(map(len, re.findall(r"[A-Za-z]+", h) or [""])) + .19) for h in headers]
-    measure = Font("helv")
     for i, is_number in enumerate(numeric):
         if is_number:
             numeric_values = [v for v in samples[i][1:] if re.fullmatch(r"[\d\s,$.%+()×÷\-–/]+", v)]
-            numeric_width = max(measure.text_length(v, fontsize=TABLE_FONT) for v in numeric_values)
+            numeric_width = max(stringWidth(v, "Helvetica", TABLE_FONT) for v in numeric_values)
             minima[i] = max(minima[i], (numeric_width + 12) / 72)
     if sum(minima) > CONTENT_WIDTH:
         raise ValueError("Table needs a wider print layout: " + str(headers))
@@ -385,6 +384,8 @@ def chapter(doc, c, refs, first=False):
         raw_name = c["slug"] + "_" + s.get("id", s["title"])
         name = re.sub(r"\W", "_", raw_name)[:29] + "_" + hashlib.sha256(raw_name.encode()).hexdigest()[:6]
         bookmark(h, "s_" + name)
+        if s.get('basis'):
+            doc.add_paragraph(s['basis'], style='SourceNote').paragraph_format.keep_with_next = True
         markdown(doc, s["body"], refs)
         reference_note(doc, s.get("refs", []), refs)
     reference_note(doc, c.get("refs", []), refs)
@@ -401,8 +402,6 @@ def contents(doc, plan, pagination, follows_art=False):
     for label, target in entries:
         p = doc.add_paragraph(style="Contents")
         hyperlink(p, label, target, internal=True)
-        p.add_run("\t")
-        field(p, "PAGEREF " + target + " \\h", str(pagination.get(target, 1)))
     p = doc.add_paragraph(style="SourceNote")
     hyperlink(p, "Online business plan", BASE)
     p.add_run("  |  ")
@@ -413,7 +412,7 @@ def opening_art(doc):
     path = ROOT/"content/artwork.json"
     if not path.is_file():
         return False
-    entry = next((a for a in json.loads(path.read_text()) if a.get("slug") == "index"), None)
+    entry = next((a for a in json.loads(path.read_text(encoding="utf-8")) if a.get("slug") == "index"), None)
     if not entry or not (ROOT/entry["path"]).is_file():
         return False
     from PIL import Image
@@ -439,7 +438,7 @@ def source_register(doc, sources, refs):
     p.paragraph_format.page_break_before = True
     bookmark(p, "source_register")
     p = doc.add_paragraph()
-    inline(p, "The original documents and project websites from Installing the Missing Middle inform the business design. Market and operating sources inform current commercial assumptions. Source IDs below match the website and canonical source register.", refs)
+    inline(p, "The original documents and project websites from Installing the Missing Middle inform the business design. Market and cost references distinguish source observations, worked assumptions and verification status. Source IDs below match the website and canonical source register.", refs)
     p = doc.add_paragraph(style="SourceNote")
     hyperlink(p, "Complete source register", BASE+"content/sources.json")
     p.add_run("  |  ")
@@ -456,8 +455,11 @@ def source_register(doc, sources, refs):
             if note:
                 markdown(doc, note, refs, style="RegisterText")
             if entry.get("checked"):
-                p = doc.add_paragraph("Checked " + str(entry["checked"]), style="SourceNote")
+                p = doc.add_paragraph("Recorded observation date: " + str(entry["checked"]), style="SourceNote")
                 p.paragraph_format.keep_with_next = True
+            if entry.get('verification_status'):
+                doc.add_paragraph(entry['verification_status'].replace('_',' ')+': '+entry.get('verification_note',''), style='SourceNote')
+                doc.add_paragraph('Supplier quotation date: none recorded.', style='SourceNote')
             p = doc.add_paragraph(style="SourceNote")
             if key == "documents":
                 path = entry.get("path", "")
@@ -506,11 +508,11 @@ def main():
     parser.add_argument("--output", type=Path, default=ROOT/"downloads/Escape-Room-Network-Business-Plan.docx")
     parser.add_argument("--pagination-json", type=Path)
     args = parser.parse_args()
-    plan = json.loads(args.plan.read_text())
-    sources = json.loads(args.sources.read_text())
+    plan = json.loads(args.plan.read_text(encoding="utf-8"))
+    sources = json.loads(args.sources.read_text(encoding="utf-8"))
     validate_inputs(plan, sources)
     refs = {e["id"]:e for key in ("documents", "links", "research") for e in sources.get(key, [])}
-    pagination = json.loads(args.pagination_json.read_text()) if args.pagination_json else {}
+    pagination = json.loads(args.pagination_json.read_text(encoding="utf-8")) if args.pagination_json else {}
     doc = Document()
     setup(doc)
     doc.core_properties.title = plan.get("title", "Escape Room Team Building Business Plan")
@@ -535,7 +537,7 @@ def main():
         p = doc.add_paragraph(title, "Heading 1")
         p.paragraph_format.space_before = Pt(18)
         bookmark(p, mark)
-        text = (ROOT/file).read_text()
+        text = (ROOT/file).read_text(encoding="utf-8")
         # The heading already appears above; preserve every substantive term.
         text = re.sub(r"\A# [^\n]+\n+", "", text)
         first_body_paragraph = len(doc.paragraphs)
@@ -566,7 +568,7 @@ def main():
         "manuscript_words": len(re.findall(r"\S+", " ".join(c["title"]+" "+c["lead"]+" "+" ".join(s["title"]+" "+s["body"] for s in c["sections"]) for c in plan["chapters"]))),
         "licence_included": True,
         "all_chapter_bodies_included": True,
-        "operating_system_status": "Proposed for Luke's approval"
+        "research_status": "ROUND ONE exploratory comparisons for founder review"
     }
     (ROOT/"content/document-build-report.json").write_text(json.dumps(report, indent=2)+"\n")
     print(json.dumps(report, indent=2))

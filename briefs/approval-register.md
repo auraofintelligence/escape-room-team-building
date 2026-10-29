@@ -1,42 +1,24 @@
-# Proposed operating-system approval register
+# ROUND ONE research and decision register
 
-This register concerns the escape-room business operating system. The website and documents describe the proposal for Luke Nathan Hayes to review. They do not activate an operating agent, hire a contractor, contact a prospect, make a purchase or create a recurring business task.
+This register supports first-round business-plan development. Luke Nathan Hayes retains the business decisions. Research comparisons are not recorded as choices.
 
-## Decision record
+## Directions retained from the brief
 
-System status: awaiting Luke's approval.
+Escape-room design; an Australia-wide network; interconnected tourism; repeat visits and renewal; JIT learning and skill transfer; paid contractors with AI extending research and computation; and connections with Aura of Intelligence and p4a-xyz-cinema.
 
-Decision maker: Luke Nathan Hayes.
+## Questions for review
 
-Approval date: not recorded.
-
-Approved version: not recorded.
-
-Approved operating accounts and data scopes: not recorded.
-
-Spending and contracting limits: not recorded.
-
-## Decisions for approval
-
-| Decision | Proposed scope | Status |
+| Topic | Evidence or alternatives to examine | Decision recorded |
 |---|---|---|
-| Operating roles | Adopt the named roles, tasks, deliverables and handovers in the agent-roles chapter. | Awaiting Luke |
-| Access | Assign each role only the documents, systems and accounts needed for its approved work. | Awaiting Luke |
-| Contractor engagement | Approve who may request quotes, shortlist suppliers, issue work orders and accept completed work. | Awaiting Luke |
-| Expenditure | Set budgets, delegated limits, payment checks and the route for exceptions. | Awaiting Luke |
-| Communications | Approve external identities, audiences, templates, contact scope and escalation. | Awaiting Luke |
-| Customer operations | Approve booking, settlement, refund and complaint workflows and responsible human support. | Awaiting Luke |
-| Learning records | Approve recording choices, participant access, correction, retention and separation of personal records from booking records. | Awaiting Luke |
-| Deployment | Approve the first site, work packages, qualified contractors, commissioning evidence and opening conditions. | Awaiting Luke |
-| Renewal | Approve the room asset register, funded reserve, condition checks and scheduled work packages. | Awaiting Luke |
-| Automation | Approve any recurring task, event trigger, tool access and pause procedure before activation. | Awaiting Luke |
+| Customer offer and pricing | Competitor conditions, customer value and willingness to pay | None |
+| Premises and room count | Hosted, dedicated and partner formats; measured space and local demand | None |
+| Design and technology | Room concepts, independent play, capture alternatives and human review | None |
+| Paid work | Scope, skills, hours, contractor quotations, training and feasible staffing | None |
+| Tourism and renewal | Routes, repeat demand, rotation costs and commercial relationships | None |
+| Commercial and financial structure | Complete costs, cash timing, revenue relationships and ownership alternatives | None |
+| AI support | Useful research tasks, evidence checks, computation costs and manual alternatives | None |
+| Timing | Dependencies and supplier evidence for whichever work is later chosen | None |
 
-Approval may establish standing authority within a defined scope and budget. A role prepares a concise decision pack when an action falls outside that authority. The approval record must preserve the actual decision and version rather than treating a suggested plan as permission.
+## Recording a founder decision
 
-## Decision pack
-
-Each requested decision identifies the purpose, proposed action, responsible role, relevant source material, cost, timing, alternatives, expected output and any ongoing authority requested. A completed work package records what was accepted and who accepted it.
-
-## Pause and revision
-
-Luke can pause a role, revoke access or narrow its authority. A revised role or materially changed spending scope returns for a new decision. Records distinguish a proposal, an approved instruction, an action completed and a result accepted.
+When a choice is actually made, record its subject, alternatives considered, evidence, date and scope. A model assumption remains labelled as an assumption unless a separate decision is recorded. This edition records no supplier engagement, purchase, agent activation or operating schedule.

@@ -2,7 +2,7 @@
 """Read-only audit of the published model and manuscript.
 
 Run from any working directory with Python 3. This checks the current documented
-model, including its published-price snapshot and selected calendar assumptions.
+model, including its published-price snapshot and illustrative calendar assumptions.
 It never regenerates or changes finance.json, plan.json or other publications.
 Prices still require the source and supplier checks described in the manuscript.
 """
@@ -120,7 +120,7 @@ op_by_name = {}
 for op in f['operations']:
     label = op['name']
     op_by_name[label] = op
-    # These are the selected calendars documented in the current manuscript.
+    # These are the worked calendars documented in the current manuscript.
     sunday_fraction = D(1) / 6 if op['rooms'] == 4 else D(0)
     rate_a = (w['ordinary_A'] * (1-sunday_fraction) +
               w['sunday_A'] * sunday_fraction) * (1+w['sg_rate'])

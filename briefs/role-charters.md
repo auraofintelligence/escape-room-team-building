@@ -1,55 +1,35 @@
-# Proposed operating agent role charters
+# Research computation and paid work
 
-Status: awaiting Luke Nathan Hayes approval.
+## Research support and founder decisions
 
-## Organisation and authority
+The business plan is for Luke Nathan Hayes to examine and develop. AI can help retrieve sources, compare alternatives, itemise costs, calculate scenarios and prepare questions. Those outputs need evidence and review. A model's recommendation is not a business decision.
 
-I am the founder and accountable lead for this business. The proposed agent suite supports my decisions and, after approval, carries out the work allowed by its defined scope. Contractors and employees perform their agreed roles, with specialist work assigned to appropriately qualified people. Partner businesses retain authority over their own operations.
+No agent suite, reporting hierarchy or operating structure is a conclusion of ROUND ONE. The useful question at this stage is which research and computation tasks improve the evidence, how their outputs can be checked, and what they cost. The founder retains the direction, interpretation and choice of any next work.
 
-Every role has a brief, authorised sources, required outputs, handovers, account access, expenditure or communication limits, review conditions and a pause process. A role can receive standing authority within an approved scope. Exceptions return as concise decision packs.
+## Research tasks and reviewable outputs
 
-The suite below is a system design for approval. It is not running. Publishing the plan does not create operating agents, business schedules, outreach, hiring or purchasing authority.
-
-## Proposed roles and concrete outputs
-
-| Role | Specific work | Required output and handover |
+| Research or computation task | Material for review | Human judgment or evidence needed |
 |---|---|---|
-| Programme coordinator | Maintain the plan, dependencies, decisions, owners and version register | Weekly decision pack and accepted work-package register for Luke. |
-| Market and site analyst | Research catchments, room competitors, transport, premises and buyer requirements | A sourced candidate-site case for finance and deployment review. |
-| Experience architect | Author the room paths, stories, age settings, no-hint logic and reset states | Scenario specification, parts list and independent-play test record. |
-| Procurement and reuse planner | Compare new and used items, stock, condition, freight, warranty and suppliers | Itemised landed-cost comparison and proposed purchase order. |
-| Deployment coordinator | Sequence paid labour, trades, materials, site access, installation and acceptance | Resource-loaded work plan, daily task packs and completion evidence. |
-| People and just-in-time learning coordinator | Prepare role scopes, contractor comparisons, onboarding and task-specific learning | Proposed engagements, paid training records and supervised task evidence. |
-| Finance and settlement controller | Model cash, costs, quotes, pass liabilities, venue payments and reserves | Reconciled forecast, settlement statement and exceptions for approval. |
-| Tourism and partnership planner | Develop routes, partner offers, event packages and draft communications | A bookable itinerary specification and proposed partner agreement. |
-| Learning and language designer | Maintain the contextual taxonomy, reflection process and life-stage curriculum | Facilitator guides, selected outcomes and participant-facing learning tools. |
-| Audio and data engineer | Specify capture, RF, acoustics, processing, access, retention and correction | Tested technical design, data-flow record and service recovery procedure. |
-| Asset and renewal planner | Track condition, faults, useful life, content fatigue and relocation opportunities | Costed renewal schedule, reserve requirement and rotation proposal. |
-| Contract and source reviewer | Maintain current sources and assemble premises, employment and partner questions | A source-linked review pack for Luke and the relevant professional adviser. |
+| Compare markets and premises | Cited operator offers, catchments, room counts and measured site questions | Whether an opportunity fits the business and warrants further investigation. |
+| Explore room concepts | Alternative stories, puzzle dependencies, reset methods and parts lists | Creative direction, playtesting, access needs and cultural authority. |
+| Compare new and used purchases | Itemised delivered-cost comparisons with dates and missing fields | Fitness, condition, actual quantities, availability and purchase choice. |
+| Calculate delivery and operation | Editable hours, capacities, cash movements and sensitivity results | Appropriate scope, actual contractor quotes and feasible staffing. |
+| Develop JIT learning material | Draft task explanations, checklists and lesson sequences | Skilled workers' methods, paid teaching time and observed task performance. |
+| Examine tourism connections | Route concepts, booking alternatives and settlement arithmetic | Actual partner interest, visitor demand and chosen commercial relationships. |
+| Examine language and learning | Contextual examples and alternative interpretations | Participant accounts, human review and evidence of transfer. |
 
-These are proposed functional roles. They can be combined or separated as workload and approved systems develop. The role count is not an employee count or an assumed software subscription bill.
+These are types of work, not job appointments, contractor assignments or named software agents. They could be combined, divided or handled without AI according to what proves useful.
 
-## Hiring paid labourers and contractors
+## Paid labour contractors and specialist knowledge
 
-The approved workflow begins with a work package: location, drawings, quantities, task, competence, materials, tools, dates, site conditions, acceptance checks and payment terms. The people coordinator prepares an appropriate engagement brief; procurement compares supplier offers; finance verifies the available budget; deployment sequences the accepted work.
+Contractors, tradespeople, designers, educators and other specialists are part of the intended delivery capability. Their exact work, employment or contracting arrangements, and responsibilities need to follow the scope being considered. No provider or staffing model is selected here.
 
-Luke approves the initial engagement authority and its limits. The future system can then request quotes, schedule people or issue agreed work orders within that authority. A change outside the approved scope returns with its cost and timetable effect. The agent records the completed action and the evidence of acceptance.
+An itemised comparison would include preparation, setup, any agreed travel, paid learning, specialist tasks, supervision, testing and handover. AI-generated hours remain assumptions until a scoped quote or observation supports them. Skilled judgment and qualified sign-off remain with the relevant people.
 
-The business pays for preparation, setup, travel where agreed, training, the task itself and handover. Qualified work and professional sign-off remain with the responsible human provider. The just-in-time material helps people perform the actual task and preserves their useful knowledge for the next crew.
+JIT learning can help carry useful knowledge between paid crews. Comparing drawings, demonstrations, task rehearsal and recorded explanations would show which methods actually help a new team do the work. Filming, editing and mentoring also consume paid time and need their own cost lines.
 
-## A complete approval record
+## Questions for the next research round
 
-| Decision | What Luke reviews before activation |
-|---|---|
-| System adoption | Role charters, objectives, outputs and reporting relationships. |
-| Data and accounts | Approved systems, credentials, information scope and retention. |
-| Communications | Identity, audiences, templates, contact limits and escalation. |
-| Hiring and contracting | Who can request quotes, engage people, vary work and accept delivery. |
-| Expenditure | Budget, per-action limits, payment checks and exceptions. |
-| Customer operations | Bookings, settlement, refunds, complaints and human support. |
-| Deployment and renewal | First approved sites, scope, reserve, works and acceptance evidence. |
-| Automation | Actual triggers, schedules, tools, monitoring and pause procedure. |
+The next useful outputs are clearer alternatives and better evidence: which customers value the concept, which room formats fit them, which costs can be supported, and how design, tourism and renewal could work together. The research decision register records those questions and the founder's actual choices when made.
 
-The register records the approved version, date and authority. Proposed, approved, completed and accepted are distinct states. A changed role or material increase in authority returns for review. Luke can pause a role or narrow its access.
-
-The first approval pack is delivered with this business plan. No operational task is scheduled merely because its proposed role appears here.
+Software comparisons can include manual methods, individual AI-assisted tasks and more structured tools. Any future workflow design is a separate question to evaluate when there is a defined need. ROUND ONE establishes no delegated authority to contact, contract, purchase, schedule or operate customer services.

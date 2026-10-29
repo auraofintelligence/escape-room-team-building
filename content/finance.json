@@ -2,121 +2,176 @@
   "meta": {
     "as_of": "2026-10-29",
     "currency": "AUD",
-    "title": "Escape-room network itemised financial research",
-    "status": "Proposal for Luke approval. Operating roles inactive. No procurement, outreach or hiring executed.",
-    "basis": "Revenue scenarios are separate from a fully quoted profit forecast. Explicit design quantities and hours multiply published source prices. Unquoted costs remain visible and non-zero in scope.",
-    "replacement_of_old_model": "Supersedes prior guessed fitout totals, flat loaded wage, blanket overhead and 3% reserve. Do not publish the earlier $251,928 profit as this model."
+    "title": "ROUND ONE escape room network cost research and worked illustrations",
+    "status": "Exploratory comparisons for founder review. No commercial or operating selections recorded.",
+    "basis": "Source prices, inherited unverified listings, model assumptions and founder decisions are separate. Every scenario is illustrative; no scenario is a forecast or approved budget.",
+    "replacement_of_old_model": "Supersedes prior guessed fitout totals, flat loaded wage, blanket overhead and 3% reserve. Do not publish the earlier $251,928 profit as this model.",
+    "price_observation_date": "2026-10-29",
+    "supplier_quotation_date": null,
+    "quote_date_note": "No supplier quotation requested or recorded. checked means a source observation date, not a quotation date.",
+    "source_verification": "See source_registry verification_status and verification_note on every entry."
   },
   "source_registry": [
     {
       "id": "R101",
       "title": "Fair Work, Amusement Events and Recreation Award, effective 1 July 2026",
       "url": "https://awards.fairwork.gov.au/MA000080.html",
-      "web_ref": "turn46search0",
       "support": "Published example adult casual Grade 4 rates $36.81 ordinary and $51.54 Sunday; Grade 6 $39.11 and $54.76. Coverage and classifications require confirmation against actual duties.",
-      "checked": "2026-10-29"
+      "checked": "2026-10-29",
+      "verification_status": "page_rechecked",
+      "verification_note": "Official award rechecked, including example adult casual Grade 4 and Grade 6 rates.",
+      "quote_date": null,
+      "quote_status": "No requested supplier quotation recorded",
+      "recorded_observation_date": "2026-10-29"
     },
     {
       "id": "R102",
       "title": "ATO, calculating super guarantee",
       "url": "https://smallbusiness.taxsuperandyou.gov.au/super-guarantee-employer-obligations/how-to-calculate-super-guarantee",
-      "web_ref": "turn50search5",
       "support": "Current super guarantee percentage 12%; apply to eligible earnings. This is separate from insurance, payroll tax and other employment costs.",
-      "checked": "2026-10-29"
+      "checked": "2026-10-29",
+      "verification_status": "partial_verification",
+      "verification_note": "Earlier teaching page did not expose the rate in retrieved text. Official ATO material corroborates 12%; see the added official Payday Super source.",
+      "quote_date": null,
+      "quote_status": "No requested supplier quotation recorded",
+      "recorded_observation_date": "2026-10-29"
     },
     {
       "id": "R103",
       "title": "Stripe Australia, current pricing",
       "url": "https://stripe.com/au/pricing",
-      "web_ref": "turn64view3",
       "support": "Live page checked 29 October shows domestic online cards 1.65% plus A$0.30, fees including GST. Older search snippets show 1.7% and are superseded here. International cards 3.5% plus A$0.30.",
-      "checked": "2026-10-29"
+      "checked": "2026-10-29",
+      "verification_status": "page_rechecked",
+      "verification_note": "Provider page confirms domestic online cards at 1.65% plus 0.30 AUD and fees including GST.",
+      "quote_date": null,
+      "quote_status": "No requested supplier quotation recorded",
+      "recorded_observation_date": "2026-10-29"
     },
     {
       "id": "R104",
       "title": "Dash Group, Brisbane labour hire charge rates",
       "url": "https://dashgroup.net.au/labour-hire-brisbane",
-      "web_ref": "turn62search7",
       "support": "Provider indicative charge rates ex GST: general labour $55-60/hour; carpenter $75-85; shopfitting/joinery $65-85. Final project, duration and location quote required. Search retrieval available; full open failed.",
-      "checked": "2026-10-29"
+      "checked": "2026-10-29",
+      "verification_status": "partial_verification",
+      "verification_note": "Full open failed; provider search result reproduces indicative labour/carpentry/shopfitting rates. Not a requested quote.",
+      "quote_date": null,
+      "quote_status": "No requested supplier quotation recorded",
+      "recorded_observation_date": "2026-10-29"
     },
     {
       "id": "R105",
       "title": "Voltora, Brisbane electrical attendance prices",
       "url": "https://www.voltoraindustries.com.au/",
-      "web_ref": "turn62search2",
       "support": "Business hours callout and first hour $258.50 including GST; additional hour $148.50 including GST, materials extra. These convert to $235 and $135 excluding GST.",
-      "checked": "2026-10-29"
+      "checked": "2026-10-29",
+      "verification_status": "page_rechecked",
+      "verification_note": "Provider page confirms 258.50 AUD first attendance/hour and 148.50 AUD additional hours including GST; indicative only.",
+      "quote_date": null,
+      "quote_status": "No requested supplier quotation recorded",
+      "recorded_observation_date": "2026-10-29"
     },
     {
       "id": "R106",
       "title": "Store DJ, Rode Wireless PRO dual kit",
       "url": "https://www.storedj.com.au/products/rode-wireless-pro-dual-compact-wireless-mic-system-w-accessories-black",
-      "web_ref": "turn58view3",
       "support": "Listed $385; online stock available, Brisbane branch zero in page snapshot. Shipping offer subject to conditions. Promotional price dated 29 October.",
-      "checked": "2026-10-29"
+      "checked": "2026-10-29",
+      "verification_status": "page_rechecked",
+      "verification_note": "Retail page rechecked for 385 AUD promotional price. Availability and offer expiry remain order-specific.",
+      "quote_date": null,
+      "quote_status": "No requested supplier quotation recorded",
+      "recorded_observation_date": "2026-10-29"
     },
     {
       "id": "R107",
       "title": "Rode, simultaneous Wireless PRO systems",
       "url": "https://help.rode.com/hc/en-us/articles/9220351205135-Can-I-use-multiple-Wireless-PRO-kits-at-a-single-location",
-      "web_ref": "turn61view0",
       "support": "Manufacturer says up to four kits, eight transmitters, in one place. Consumer-kit prototype is not multiplied into an unengineered multi-room 24-channel system.",
-      "checked": "2026-10-29"
+      "checked": "2026-10-29",
+      "verification_status": "page_rechecked",
+      "verification_note": "Manufacturer page rechecked for up to four Wireless PRO kits/eight transmitters in one location.",
+      "quote_date": null,
+      "quote_status": "No requested supplier quotation recorded",
+      "recorded_observation_date": "2026-10-29"
     },
     {
       "id": "R108",
       "title": "Better Music, Zoom LiveTrak L-8",
       "url": "https://www.bettermusic.com.au/products/zoom-l8-livetrak",
-      "web_ref": "turn64view7",
       "support": "Listed $715, online backorder when inspected, shipping calculated separately; six independent preamps and SD multitrack recording.",
-      "checked": "2026-10-29"
+      "checked": "2026-10-29",
+      "verification_status": "page_rechecked",
+      "verification_note": "Retail page rechecked for 715 AUD. This is a list-price observation, not a delivered quote.",
+      "quote_date": null,
+      "quote_status": "No requested supplier quotation recorded",
+      "recorded_observation_date": "2026-10-29"
     },
     {
       "id": "R109",
       "title": "Store DJ, Hosa CMP-159 breakout cable",
       "url": "https://www.storedj.com.au/products/hosa-cmp-159-3-5mm-trs-to-dual-1-4-ts-stereo-breakout-cable-10ft",
-      "web_ref": "turn61view1",
       "support": "Listed $22, 3.5mm stereo TRS to dual 6.35mm mono TS, online in stock; single item shipping $10, qualifying order shipping conditions apply.",
-      "checked": "2026-10-29"
+      "checked": "2026-10-29",
+      "verification_status": "page_rechecked",
+      "verification_note": "Retail page rechecked for 22 AUD cable price; delivery is separate.",
+      "quote_date": null,
+      "quote_status": "No requested supplier quotation recorded",
+      "recorded_observation_date": "2026-10-29"
     },
     {
       "id": "R110",
       "title": "Officeworks, Matrix visitor chair",
       "url": "https://www.officeworks.com.au/shop/officeworks/p/matrix-visitor-chair-jbmatvmbk",
-      "web_ref": "turn52search0",
       "support": "Listed new price $179. Commercial seating comparison, not the same model as the used chair.",
-      "checked": "2026-10-29"
+      "checked": "2026-10-29",
+      "verification_status": "page_rechecked",
+      "verification_note": "Retail page rechecked for 179 AUD chair price.",
+      "quote_date": null,
+      "quote_status": "No requested supplier quotation recorded",
+      "recorded_observation_date": "2026-10-29"
     },
     {
       "id": "R111",
       "title": "Officeworks, Matrix visitor armchair",
       "url": "https://www.officeworks.com.au/shop/officeworks/p/matrix-mesh-visitor-armchair-black-jbmatvmabk",
-      "web_ref": "turn52search4",
       "support": "New armchair listed in the associated Officeworks range at $199; product specifies 160kg capacity and delivery surcharge. See range https://www.officeworks.com.au/shop/officeworks/c/furniture/chairs-seating/lounge-chairs.",
-      "checked": "2026-10-29"
+      "checked": "2026-10-29",
+      "verification_status": "page_rechecked",
+      "verification_note": "Retail page rechecked for 199 AUD armchair price; specification claims retained from prior research need product confirmation.",
+      "quote_date": null,
+      "quote_status": "No requested supplier quotation recorded",
+      "recorded_observation_date": "2026-10-29"
     },
     {
       "id": "R112",
       "title": "Danny's Desks, Chibel ex-hire chair",
       "url": "https://dannysdesks.com.au/product/chibel-office-chair-ex-hire-stock/",
-      "web_ref": "turn64view1",
       "support": "Category lists $39. Product describes light scuffs, as-is clearance, no commercial/manufacturer warranty, 110kg rating, Eagle Farm collection by appointment. Stock quantity and GST invoice to confirm. Category https://dannysdesks.com.au/product-category/clearance/clearance-visitor-chairs/.",
-      "checked": "2026-10-29"
+      "checked": "2026-10-29",
+      "verification_status": "inherited_reference_requires_verification",
+      "verification_note": "Used-product page not retrievable. 39 AUD, condition, load rating and collection details remain inherited unverified claims.",
+      "quote_date": null,
+      "quote_status": "No requested supplier quotation recorded",
+      "recorded_observation_date": "2026-10-29"
     },
     {
       "id": "R113",
       "title": "Officeworks, folding table range",
       "url": "https://www.officeworks.com.au/shop/officeworks/c/furniture/desks-tables/folding-trestle-tables",
-      "web_ref": "turn59search4",
       "support": "Rapidline folding table 1800x900 white listed at $292. Delivery-only fee to confirm for the site.",
-      "checked": "2026-10-29"
+      "checked": "2026-10-29",
+      "verification_status": "partial_verification",
+      "verification_note": "Range page retrieved without the 292 AUD table price. Retain as unverified inherited input.",
+      "quote_date": null,
+      "quote_status": "No requested supplier quotation recorded",
+      "recorded_observation_date": "2026-10-29"
     },
     {
       "id": "R114",
       "title": "Mack's Office Furniture, current second-hand catalogue",
       "url": "https://www.macks.com.au/collections/second-hand-furniture",
-      "web_ref": "turn85view0",
       "support": "Direct product pages list a used metal-frame desk, 1600 x 800 mm, at $150 including GST, listed 19 October 2026 and described as in good condition; and a used cupboard, 1600h x 900w x 430d mm, at $129 including GST, listed 23 October 2026. Both pages display availability, but required quantities and delivered cost remain unconfirmed. Central Victoria dealer. Exact desk: https://www.macks.com.au/collections/second-hand-furniture/products/secondhand-metal-frame-desk-1600-x-800 . Exact cupboard: https://www.macks.com.au/collections/second-hand-furniture/products/second-hand-cupboard-1600h-x-900w-x-430d .",
       "checked": "2026-10-29",
       "product_links": [
@@ -129,90 +184,131 @@
           "url": "https://www.macks.com.au/collections/second-hand-furniture/products/second-hand-cupboard-1600h-x-900w-x-430d"
         }
       ],
-      "web_refs": [
-        "turn86view0",
-        "turn85view0"
-      ]
+      "verification_status": "inherited_reference_requires_verification",
+      "verification_note": "Used desk and cupboard pages not retrievable. 150/129 AUD, listing dates, tax basis, stock and condition remain inherited unverified claims.",
+      "quote_date": null,
+      "quote_status": "No requested supplier quotation recorded",
+      "recorded_observation_date": "2026-10-29"
     },
     {
       "id": "R115",
       "title": "Australian Computer Traders, refurbished desktop range",
       "url": "https://www.australiancomputertraders.com.au/",
-      "web_ref": "turn65search4",
       "support": "Grade A HP EliteDesk 800 G6 Mini, i5 tenth generation,16GB RAM,256GB SSD,Windows11 listed $399. Intended as prototype capture/control computer, not a guaranteed multi-room AI inference server.",
-      "checked": "2026-10-29"
+      "checked": "2026-10-29",
+      "verification_status": "inherited_reference_requires_verification",
+      "verification_note": "Supplier homepage timed out. Exact refurbished configuration and 399 AUD remain inherited unverified claims.",
+      "quote_date": null,
+      "quote_status": "No requested supplier quotation recorded",
+      "recorded_observation_date": "2026-10-29"
     },
     {
       "id": "R116",
       "title": "Scorptec, CyberPower UPS published range",
       "url": "https://www.scorptec.com.au/cyberpowerupsfreedel",
-      "web_ref": "turn57search4",
       "support": "CP900EPFCLCDa 900VA/540W UPS listed $299 and in stock. Load and runtime must be verified for the chosen equipment; this does not supply emergency building systems.",
-      "checked": "2026-10-29"
+      "checked": "2026-10-29",
+      "verification_status": "partial_verification",
+      "verification_note": "Range page retrieved; exact 299 AUD model/stock assertion not independently confirmed in this revision.",
+      "quote_date": null,
+      "quote_status": "No requested supplier quotation recorded",
+      "recorded_observation_date": "2026-10-29"
     },
     {
       "id": "R117",
       "title": "Indestroom, Australian turnkey room catalogue",
       "url": "https://erworkshop.com/escape-room-supplier-australia/",
-      "web_ref": "turn66view0",
       "support": "Published AUD package benchmarks: Jungle $42,500; Magic School $89,900; Pharaoh $63,300; Vault32 $101,600. Standard configurations converted from EUR; request a fixed scope and terms. Freight, tax, site works and required design changes are not established by the headline.",
-      "checked": "2026-10-29"
+      "checked": "2026-10-29",
+      "verification_status": "page_rechecked",
+      "verification_note": "Supplier catalogue rechecked for 42500, 89900, 63300 and 101600 AUD package benchmarks.",
+      "quote_date": null,
+      "quote_status": "No requested supplier quotation recorded",
+      "recorded_observation_date": "2026-10-29"
     },
     {
       "id": "R118",
       "title": "Property Now,338 Lytton Road listing",
       "url": "https://www.commercialrealestate.com.au/property/338-lytton-road-morningside-qld-4170-18288980",
-      "web_ref": "turn67search1",
       "support": "300m2 listing $6750/month plus GST and outgoings, last updated 22 September 2026. A comparable asking rent, not a selected or approved 400 m2 venue.",
-      "checked": "2026-10-29"
+      "checked": "2026-10-29",
+      "verification_status": "page_rechecked",
+      "verification_note": "Listing rechecked at 6750 AUD per month plus GST and outgoings, 300 m², updated 22 September 2026.",
+      "quote_date": null,
+      "quote_status": "No requested supplier quotation recorded",
+      "recorded_observation_date": "2026-10-29"
     },
     {
       "id": "R119",
       "title": "Chase Commercial,4/65 Riverside Place listing",
       "url": "https://www.commercialrealestate.com.au/property/4-65-riverside-place-morningside-qld-4170-18314217",
-      "web_ref": "turn67search2",
-      "support": "300m2 two-level office/storage listing $72000/year plus outgoings and GST, last updated 29 September 2026. Different layout from a single-level escape venue.",
-      "checked": "2026-10-29"
+      "support": "Rechecked advertised rent: 300 m² two-level premises at 78,000 AUD per year plus outgoings and GST, equivalent to 260 AUD/m²/year. Page update 11 September 2026; observed 29 October 2026. No lease or site choice.",
+      "checked": "2026-10-29",
+      "verification_status": "page_rechecked",
+      "verification_note": "Correction: retrieved listing asks 78000 AUD per year plus GST and outgoings, 300 m², updated 11 September 2026. Earlier 72000 AUD value superseded.",
+      "quote_date": null,
+      "quote_status": "No requested supplier quotation recorded",
+      "recorded_observation_date": "2026-10-29"
     },
     {
       "id": "R120",
       "title": "Alliance Electrical, Northern Rivers rates",
       "url": "https://allianceelectrical.com.au/rates",
-      "web_ref": "turn63view0",
       "support": "Northern Rivers NSW regional comparison only: first hour $190 excluding GST, later $110; effective 30 July 2026, materials and specified travel additional. Not used as a Brisbane quote.",
-      "checked": "2026-10-29"
+      "checked": "2026-10-29",
+      "verification_status": "inherited_reference_requires_verification",
+      "verification_note": "Source retained from the previous edition; not independently rechecked in this revision. Treat specific factual or price claims as inherited observations.",
+      "quote_date": null,
+      "quote_status": "No requested supplier quotation recorded",
+      "recorded_observation_date": "2026-10-29"
     },
     {
       "id": "R121",
       "title": "OpenAI, current API prices",
       "url": "https://developers.openai.com/api/docs/pricing",
-      "web_ref": "turn71view0",
       "support": "Current file transcription gpt-transcribe estimated US$0.0045/minute; live transcription US$0.017/minute. Standard gpt-6.1-sol US$2/million input and US$10/million output tokens; web search US$10/1000 calls plus content tokens; file search US$2.50/1000 calls. These are current unit-price benchmarks, not model selections or subscriptions.",
-      "checked": "2026-10-29"
+      "checked": "2026-10-29",
+      "verification_status": "page_rechecked",
+      "verification_note": "Official pricing and named model pages rechecked. Standard short-context gpt-6.1-sol input/output examples are 2/10 USD per million; transcription examples 0.0045/0.017 USD per minute.",
+      "quote_date": null,
+      "quote_status": "No requested supplier quotation recorded",
+      "recorded_observation_date": "2026-10-29"
     },
     {
       "id": "R122",
       "title": "OpenAI, current transcription workflows",
       "url": "https://developers.openai.com/api/docs/guides/transcription",
-      "web_ref": "turn71view4",
       "support": "Recommends gpt-transcribe for recorded files and gpt-live-transcribe for live incoming audio. Older whisper/4o transcription models are deprecated; this budget uses the current file benchmark.",
-      "checked": "2026-10-29"
+      "checked": "2026-10-29",
+      "verification_status": "page_rechecked",
+      "verification_note": "Official transcription guide retrieved. Workflow/model names are documentation examples, not business choices.",
+      "quote_date": null,
+      "quote_status": "No requested supplier quotation recorded",
+      "recorded_observation_date": "2026-10-29"
     },
     {
       "id": "R123",
       "title": "OpenAI, API credit currency",
       "url": "https://help.openai.com/en/articles/10421635-multicurrency-billing",
-      "web_ref": "turn73search0",
       "support": "API credit purchases are currently limited to USD. Translate actual invoice amounts using the actual AUD conversion and separately record taxes and payment charges.",
-      "checked": "2026-10-29"
+      "checked": "2026-10-29",
+      "verification_status": "inherited_reference_requires_verification",
+      "verification_note": "Source retained from the previous edition; not independently rechecked in this revision. Treat specific factual or price claims as inherited observations.",
+      "quote_date": null,
+      "quote_status": "No requested supplier quotation recorded",
+      "recorded_observation_date": "2026-10-29"
     },
     {
       "id": "R124",
       "title": "Deepgram, processed multichannel duration pricing rule",
       "url": "https://deepgram.com/pricing",
-      "web_ref": "turn70view2",
       "support": "The official pricing page says multichannel processing is billed by total processed duration across channels. This supports the conservative separate-channel volume method; the selected unit-price example is a separate OpenAI file transcription benchmark.",
-      "checked": "2026-10-29"
+      "checked": "2026-10-29",
+      "verification_status": "inherited_reference_requires_verification",
+      "verification_note": "Source retained from the previous edition; not independently rechecked in this revision. Treat specific factual or price claims as inherited observations.",
+      "quote_date": null,
+      "quote_status": "No requested supplier quotation recorded",
+      "recorded_observation_date": "2026-10-29"
     }
   ],
   "products": [
@@ -220,19 +316,22 @@
       "name": "School and youth",
       "price_inc_gst": 39,
       "booking_share": 0.3,
-      "paid_players": 6
+      "paid_players": 6,
+      "scenario_status": "worked_illustration_not_selected"
     },
     {
       "name": "Standard public",
       "price_inc_gst": 59,
       "booking_share": 0.5,
-      "paid_players": 4.5
+      "paid_players": 4.5,
+      "scenario_status": "worked_illustration_not_selected"
     },
     {
       "name": "Premium workshop",
       "price_inc_gst": 99,
       "booking_share": 0.2,
-      "paid_players": 5.5
+      "paid_players": 5.5,
+      "scenario_status": "worked_illustration_not_selected"
     }
   ],
   "unit_revenue": {
@@ -258,7 +357,8 @@
       "review_years": 3,
       "status": "published_catalogue_x_design_quantity",
       "tax_basis": "Displayed AUD retail price. GST invoice and freight to be confirmed; not silently treated as an ex-GST project quote.",
-      "line_total": 1540
+      "line_total": 1540,
+      "scenario_status": "worked_illustration_not_selected"
     },
     {
       "id": "A02",
@@ -273,7 +373,8 @@
       "review_years": 5,
       "status": "published_catalogue_x_design_quantity",
       "tax_basis": "Displayed AUD retail price. GST invoice and freight to be confirmed; not silently treated as an ex-GST project quote.",
-      "line_total": 715
+      "line_total": 715,
+      "scenario_status": "worked_illustration_not_selected"
     },
     {
       "id": "A03",
@@ -288,7 +389,8 @@
       "review_years": 3,
       "status": "published_catalogue_x_design_quantity",
       "tax_basis": "Displayed AUD retail price. GST invoice and freight to be confirmed; not silently treated as an ex-GST project quote.",
-      "line_total": 88
+      "line_total": 88,
+      "scenario_status": "worked_illustration_not_selected"
     },
     {
       "id": "A04",
@@ -303,7 +405,8 @@
       "review_years": 4,
       "status": "published_catalogue_x_design_quantity",
       "tax_basis": "Displayed AUD retail price. GST invoice and freight to be confirmed; not silently treated as an ex-GST project quote.",
-      "line_total": 399
+      "line_total": 399,
+      "scenario_status": "worked_illustration_not_selected"
     },
     {
       "id": "A05",
@@ -318,7 +421,8 @@
       "review_years": 4,
       "status": "published_catalogue_x_design_quantity",
       "tax_basis": "Displayed AUD retail price. GST invoice and freight to be confirmed; not silently treated as an ex-GST project quote.",
-      "line_total": 299
+      "line_total": 299,
+      "scenario_status": "worked_illustration_not_selected"
     }
   ],
   "prototype_displayed_price_subtotal": 3041,
@@ -338,7 +442,8 @@
       ],
       "tax_basis": "Displayed AUD retail price. GST invoice and freight to be confirmed; not silently treated as an ex-GST project quote.",
       "status": "published_catalogue_x_design_quantity",
-      "explanation": "Used seats for reflection, briefing and waiting; mix includes higher-capacity armchairs below. Bulk stock is unconfirmed."
+      "explanation": "Used seats for reflection, briefing and waiting; mix includes higher-capacity armchairs below. Bulk stock is unconfirmed.",
+      "scenario_status": "worked_illustration_not_selected"
     },
     {
       "id": "F02",
@@ -355,7 +460,8 @@
       ],
       "tax_basis": "Displayed AUD retail price. GST invoice and freight to be confirmed; not silently treated as an ex-GST project quote.",
       "status": "published_catalogue_x_design_quantity",
-      "explanation": "Provide higher-capacity 160 kg seating and arm support within the mixed furniture plan."
+      "explanation": "Provide higher-capacity 160 kg seating and arm support within the mixed furniture plan.",
+      "scenario_status": "worked_illustration_not_selected"
     },
     {
       "id": "F03",
@@ -372,7 +478,8 @@
       ],
       "tax_basis": "Displayed AUD retail price. GST invoice and freight to be confirmed; not silently treated as an ex-GST project quote.",
       "status": "published_catalogue_x_design_quantity",
-      "explanation": "Reflection and flexible activity tables; portable storage supports room turnover."
+      "explanation": "Reflection and flexible activity tables; portable storage supports room turnover.",
+      "scenario_status": "worked_illustration_not_selected"
     },
     {
       "id": "F04",
@@ -390,7 +497,8 @@
       "tax_basis": "Published AUD price includes GST. Freight and required stock quantity remain unconfirmed.",
       "status": "published_catalogue_x_design_quantity",
       "explanation": "Staff/reception work surface; delivery from regional Victoria may erase the used-price advantage.",
-      "product_url": "https://www.macks.com.au/collections/second-hand-furniture/products/secondhand-metal-frame-desk-1600-x-800"
+      "product_url": "https://www.macks.com.au/collections/second-hand-furniture/products/secondhand-metal-frame-desk-1600-x-800",
+      "scenario_status": "worked_illustration_not_selected"
     },
     {
       "id": "F05",
@@ -408,7 +516,8 @@
       "tax_basis": "Published AUD price includes GST. Freight and required stock quantity remain unconfirmed.",
       "status": "published_catalogue_x_design_quantity",
       "explanation": "Prop and equipment storage subject to anchoring, keys, condition and required stock quantity checks. Listed 23 October 2026; published price includes GST.",
-      "product_url": "https://www.macks.com.au/collections/second-hand-furniture/products/second-hand-cupboard-1600h-x-900w-x-430d"
+      "product_url": "https://www.macks.com.au/collections/second-hand-furniture/products/second-hand-cupboard-1600h-x-900w-x-430d",
+      "scenario_status": "worked_illustration_not_selected"
     }
   ],
   "furniture_displayed_subtotals": {
@@ -512,7 +621,8 @@
       "two_room_low": 880,
       "two_room_high": 960,
       "four_room_low": 1760,
-      "four_room_high": 1920
+      "four_room_high": 1920,
+      "scenario_status": "worked_illustration_not_selected"
     },
     {
       "id": "T02",
@@ -530,7 +640,8 @@
       "two_room_low": 6000,
       "two_room_high": 6800,
       "four_room_low": 12000,
-      "four_room_high": 13600
+      "four_room_high": 13600,
+      "scenario_status": "worked_illustration_not_selected"
     },
     {
       "id": "T03",
@@ -548,7 +659,8 @@
       "two_room_low": 4400,
       "two_room_high": 4800,
       "four_room_low": 8800,
-      "four_room_high": 9600
+      "four_room_high": 9600,
+      "scenario_status": "worked_illustration_not_selected"
     },
     {
       "id": "T04",
@@ -566,7 +678,8 @@
       "two_room_low": 2360,
       "two_room_high": 2360,
       "four_room_low": 4720,
-      "four_room_high": 4720
+      "four_room_high": 4720,
+      "scenario_status": "worked_illustration_not_selected"
     }
   ],
   "trade_subtotals_ex_gst": {
@@ -586,7 +699,7 @@
     "example_ordinary_wage": 36.81,
     "super_rate": 0.12,
     "wages_plus_sg": 2638.5408,
-    "scope": "Eight people × one day; selected Grade 4 wage used only as transparent cost benchmark; trainer, role grading and extra employment costs additional.",
+    "scope": "Eight people × one day; illustrative Grade 4 wage used only as transparent cost benchmark; trainer, role grading and extra employment costs additional.",
     "source_ids": [
       "R101",
       "R102"
@@ -631,7 +744,8 @@
             "reflection_preparation_delivery_notes": 81.9,
             "premium_workshop": 21.06,
             "total_before_roster_fragmentation": 801.46
-          }
+          },
+          "status": "sensitivity_input_without_demand_evidence"
         },
         {
           "sold_fraction": 0.5,
@@ -648,7 +762,8 @@
             "reflection_preparation_delivery_notes": 136.5,
             "premium_workshop": 35.1,
             "total_before_roster_fragmentation": 909.1
-          }
+          },
+          "status": "sensitivity_input_without_demand_evidence"
         },
         {
           "sold_fraction": 0.7,
@@ -665,12 +780,14 @@
             "reflection_preparation_delivery_notes": 191.1,
             "premium_workshop": 49.14,
             "total_before_roster_fragmentation": 1016.74
-          }
+          },
+          "status": "sensitivity_input_without_demand_evidence"
         }
       ],
       "extra_reset_minutes_per_team": 0,
       "baseline_total_coverage_hours": 640,
-      "coverage_note": "Coverage hours are split across compliant shifts and people; they do not assume an 11-hour ordinary casual shift. Additional task minutes must be converted into paid roster blocks, including applicable minimum engagements, breaks and relief."
+      "coverage_note": "Coverage hours are split across compliant shifts and people; they do not assume an 11-hour ordinary casual shift. Additional task minutes must be converted into paid roster blocks, including applicable minimum engagements, breaks and relief.",
+      "scenario_status": "worked_illustration_not_selected"
     },
     {
       "name": "Two-room hosted partner,46weeks",
@@ -703,7 +820,8 @@
             "reflection_preparation_delivery_notes": 474.6,
             "premium_workshop": 122.04,
             "total_before_roster_fragmentation": 4615.64
-          }
+          },
+          "status": "sensitivity_input_without_demand_evidence"
         },
         {
           "sold_fraction": 0.5,
@@ -720,7 +838,8 @@
             "reflection_preparation_delivery_notes": 791.0,
             "premium_workshop": 203.4,
             "total_before_roster_fragmentation": 5239.4
-          }
+          },
+          "status": "sensitivity_input_without_demand_evidence"
         },
         {
           "sold_fraction": 0.7,
@@ -737,12 +856,14 @@
             "reflection_preparation_delivery_notes": 1107.4,
             "premium_workshop": 284.76,
             "total_before_roster_fragmentation": 5863.16
-          }
+          },
+          "status": "sensitivity_input_without_demand_evidence"
         }
       ],
       "extra_reset_minutes_per_team": 0,
       "baseline_total_coverage_hours": 3680,
-      "coverage_note": "Coverage hours are split across compliant shifts and people; they do not assume an 11-hour ordinary casual shift. Additional task minutes must be converted into paid roster blocks, including applicable minimum engagements, breaks and relief."
+      "coverage_note": "Coverage hours are split across compliant shifts and people; they do not assume an 11-hour ordinary casual shift. Additional task minutes must be converted into paid roster blocks, including applicable minimum engagements, breaks and relief.",
+      "scenario_status": "worked_illustration_not_selected"
     },
     {
       "name": "Four-room reference,48weeks",
@@ -775,7 +896,8 @@
             "reflection_preparation_delivery_notes": 1590.4,
             "premium_workshop": 408.96,
             "total_before_roster_fragmentation": 9471.36
-          }
+          },
+          "status": "sensitivity_input_without_demand_evidence"
         },
         {
           "sold_fraction": 0.5,
@@ -792,7 +914,8 @@
             "reflection_preparation_delivery_notes": 2650.666667,
             "premium_workshop": 681.6,
             "total_before_roster_fragmentation": 11561.6
-          }
+          },
+          "status": "sensitivity_input_without_demand_evidence"
         },
         {
           "sold_fraction": 0.7,
@@ -809,12 +932,14 @@
             "reflection_preparation_delivery_notes": 3710.933333,
             "premium_workshop": 954.24,
             "total_before_roster_fragmentation": 13651.84
-          }
+          },
+          "status": "sensitivity_input_without_demand_evidence"
         }
       ],
       "extra_reset_minutes_per_team": 0,
       "baseline_total_coverage_hours": 6336,
-      "coverage_note": "Coverage hours are split across compliant shifts and people; they do not assume an 11-hour ordinary casual shift. Additional task minutes must be converted into paid roster blocks, including applicable minimum engagements, breaks and relief."
+      "coverage_note": "Coverage hours are split across compliant shifts and people; they do not assume an 11-hour ordinary casual shift. Additional task minutes must be converted into paid roster blocks, including applicable minimum engagements, breaks and relief.",
+      "scenario_status": "worked_illustration_not_selected"
     },
     {
       "name": "Four-room75-minutecycle",
@@ -847,7 +972,8 @@
             "reflection_preparation_delivery_notes": 1391.6,
             "premium_workshop": 357.84,
             "total_before_roster_fragmentation": 9278.24
-          }
+          },
+          "status": "sensitivity_input_without_demand_evidence"
         },
         {
           "sold_fraction": 0.5,
@@ -864,7 +990,8 @@
             "reflection_preparation_delivery_notes": 2319.333333,
             "premium_workshop": 596.4,
             "total_before_roster_fragmentation": 11239.733333
-          }
+          },
+          "status": "sensitivity_input_without_demand_evidence"
         },
         {
           "sold_fraction": 0.7,
@@ -881,19 +1008,21 @@
             "reflection_preparation_delivery_notes": 3247.066667,
             "premium_workshop": 834.96,
             "total_before_roster_fragmentation": 13201.226667
-          }
+          },
+          "status": "sensitivity_input_without_demand_evidence"
         }
       ],
       "extra_reset_minutes_per_team": 5,
       "baseline_total_coverage_hours": 6336,
-      "coverage_note": "Coverage hours are split across compliant shifts and people; they do not assume an 11-hour ordinary casual shift. Additional task minutes must be converted into paid roster blocks, including applicable minimum engagements, breaks and relief."
+      "coverage_note": "Coverage hours are split across compliant shifts and people; they do not assume an 11-hour ordinary casual shift. Additional task minutes must be converted into paid roster blocks, including applicable minimum engagements, breaks and relief.",
+      "scenario_status": "worked_illustration_not_selected"
     }
   ],
   "quote_required": [
     {
       "id": "Q01",
       "item": "Premises rent and outgoings",
-      "scope": "Selected 400 m2 venue or host agreement, actual area and use approval, parking, landlord works, rent review and outgoings schedule. Published 300 m2 comparables are not a 400 m2 quote.",
+      "scope": "Premises or host alternatives, measured usable areas, use approval, access, parking, landlord works, rent review and outgoings. The 400 m² layout is only a worked comparison.",
       "status": "quote_required",
       "cost": null
     },
@@ -928,7 +1057,7 @@
     {
       "id": "Q06",
       "item": "Room design and content rights",
-      "scope": "Four no-hint scenarios, version routes, local story permissions, prototype/fresh group testing, manuals and rights schedule. Supplier standard kits are comparison products.",
+      "scope": "Room concepts and quantities to compare, independent play without hints, local story permissions, access versions, playtests, manuals and content rights. No catalogue or number of scenarios selected.",
       "status": "quote_required",
       "cost": null
     },
@@ -942,14 +1071,14 @@
     {
       "id": "Q08",
       "item": "Multi-room audio and monitoring",
-      "scope": "Site RF/acoustic survey, 12 or 24 participant capture, time alignment, live monitoring, recording/analysis architecture, data retention, storage, playback and acceptance test. No automatic multiplication of consumer kit.",
+      "scope": "Recording and unrecorded reflection alternatives, actual participant count, site RF/acoustics, time alignment, review workload, storage, retention and acceptance tests. Channel counts in the model are assumptions.",
       "status": "quote_required",
       "cost": null
     },
     {
       "id": "Q09",
       "item": "Software and AI services",
-      "scope": "Approved agent role build, booking integration, source access, usage volumes, selected inference/API rate card and monitoring. Operating roles remain inactive until Luke approves.",
+      "scope": "Research and computation methods, manual and AI-assisted alternatives, booking integration if needed, usage quantities, provider rate comparisons, testing and maintenance. No agent team or workflow selected.",
       "status": "quote_required",
       "cost": null
     },
@@ -977,7 +1106,7 @@
     {
       "id": "Q13",
       "item": "Utilities, connectivity and premises services",
-      "scope": "Selected tariff/contract, meter/load schedule, hours, water, waste, cleaning and maintenance contracts.",
+      "scope": "Alternative utilities and connectivity tariffs, measured loads, hours, water, waste, cleaning and maintenance scope.",
       "status": "quote_required",
       "cost": null
     },
@@ -1014,9 +1143,10 @@
     {
       "source_id": "R119",
       "area_m2": 300,
-      "annual_rent_ex_gst": 72000,
-      "rent_per_m2_year": 240,
-      "notes": "Two-level office/storage; not an accessible single-level room layout quote."
+      "annual_rent_ex_gst": 78000,
+      "rent_per_m2_year": 260,
+      "notes": "Two-level office/storage; not an accessible single-level room layout quote.",
+      "correction": "Rechecked listing shows 78000 AUD, replacing inherited 72000 AUD. Page updated 11 September 2026."
     }
   ],
   "renewal_assets": [
@@ -1026,7 +1156,8 @@
       "purchase_cost_displayed": 1540,
       "reserve_years": 3,
       "annual_reserve": 513.333333,
-      "scope": "one_room_prototype"
+      "scope": "one_room_prototype",
+      "scenario_status": "worked_illustration_not_selected"
     },
     {
       "id": "A02",
@@ -1034,7 +1165,8 @@
       "purchase_cost_displayed": 715,
       "reserve_years": 5,
       "annual_reserve": 143.0,
-      "scope": "one_room_prototype"
+      "scope": "one_room_prototype",
+      "scenario_status": "worked_illustration_not_selected"
     },
     {
       "id": "A03",
@@ -1042,7 +1174,8 @@
       "purchase_cost_displayed": 88,
       "reserve_years": 3,
       "annual_reserve": 29.333333,
-      "scope": "one_room_prototype"
+      "scope": "one_room_prototype",
+      "scenario_status": "worked_illustration_not_selected"
     },
     {
       "id": "A04",
@@ -1050,7 +1183,8 @@
       "purchase_cost_displayed": 399,
       "reserve_years": 4,
       "annual_reserve": 99.75,
-      "scope": "one_room_prototype"
+      "scope": "one_room_prototype",
+      "scenario_status": "worked_illustration_not_selected"
     },
     {
       "id": "A05",
@@ -1058,7 +1192,8 @@
       "purchase_cost_displayed": 299,
       "reserve_years": 4,
       "annual_reserve": 74.75,
-      "scope": "one_room_prototype"
+      "scope": "one_room_prototype",
+      "scenario_status": "worked_illustration_not_selected"
     },
     {
       "id": "F01",
@@ -1066,7 +1201,8 @@
       "purchase_cost_displayed": 1248,
       "reserve_years": 3,
       "annual_reserve": 416.0,
-      "scope": "four_room_shared_furniture"
+      "scope": "four_room_shared_furniture",
+      "scenario_status": "worked_illustration_not_selected"
     },
     {
       "id": "F02",
@@ -1074,7 +1210,8 @@
       "purchase_cost_displayed": 796,
       "reserve_years": 7,
       "annual_reserve": 113.714286,
-      "scope": "four_room_shared_furniture"
+      "scope": "four_room_shared_furniture",
+      "scenario_status": "worked_illustration_not_selected"
     },
     {
       "id": "F03",
@@ -1082,7 +1219,8 @@
       "purchase_cost_displayed": 1168,
       "reserve_years": 7,
       "annual_reserve": 166.857143,
-      "scope": "four_room_shared_furniture"
+      "scope": "four_room_shared_furniture",
+      "scenario_status": "worked_illustration_not_selected"
     },
     {
       "id": "F04",
@@ -1090,7 +1228,8 @@
       "purchase_cost_displayed": 300,
       "reserve_years": 5,
       "annual_reserve": 60.0,
-      "scope": "four_room_shared_furniture"
+      "scope": "four_room_shared_furniture",
+      "scenario_status": "worked_illustration_not_selected"
     },
     {
       "id": "F05",
@@ -1098,7 +1237,8 @@
       "purchase_cost_displayed": 516,
       "reserve_years": 5,
       "annual_reserve": 103.2,
-      "scope": "four_room_shared_furniture"
+      "scope": "four_room_shared_furniture",
+      "scenario_status": "worked_illustration_not_selected"
     }
   ],
   "renewal_schedules": {
@@ -1325,21 +1465,21 @@
     "central_residual_without_processor_gst_credit": 31.212045,
     "each_venue_net_per_person": 48.181818,
     "ordinary_venue_net_per_person": 53.636364,
-    "status": "proposed_direct_distribution_tariff_for_approval",
+    "status": "worked_settlement_illustration_not_selected",
     "source_ids": [
       "R103"
     ]
   },
   "central_network": {
     "revenue_formula": "Earned deployment contract margin + earned design/training/licence service fees + earned pass service fee + contracted maintenance/renewal fees",
-    "cost_formula": "Luke allocated pay + actual approved agent/API usage + paid contractor work + network marketing + support + insurance/legal/admin + refunds/processorfees",
+    "cost_formula": "Luke allocated pay + actual chosen research/computation usage + paid contractor work + network marketing + support + insurance/legal/admin + refunds/processorfees",
     "prohibited_double_count": "Venue ticket allocations are pass settlement liabilities, not central network revenue. Supplier pass-through and grant cash require correct accounting. Local manager pay and Luke programme management pay must be allocated to actual work once.",
     "unpriced_service_tariffs": "Design,installation,licence,maintenance and training prices are proposed from fully scoped quotes and approval; no compulsory percentage extraction assumption."
   },
   "financial_completion": {
     "full_profit_available": false,
     "reason": "Premises, custom design, multi-room audio, insurance, management, utilities, consumables and other named cost packages are not quoted.",
-    "headroom_formula": "Operating result = table remaining_for_all_other_costs minus actual annual rent/outgoings minus management/founder pay minus all other operating costs minus approved renewal provision. Financing/depreciation/income tax separate.",
+    "headroom_formula": "Operating result = table remaining_for_all_other_costs minus actual annual rent/outgoings minus management/founder pay minus all other operating costs minus costed renewal provision. Financing/depreciation/income tax separate.",
     "break_even_formula": "(Annual fixed wages + priced other fixed costs + quoted other fixed costs + annual renewal provision) / (net sales per team - variable wages per team - transaction cost per team - other variable cost per team) / available annual team slots",
     "startup_cash_formula": "Approved capital expenditure milestones + actual GST timing + lease bond/rent and outgoings + preopening paid work + forecast cash trough + agreed risk items - committed available funding. Unconfirmed grants/expressions of interest count as zero."
   },
@@ -1356,7 +1496,7 @@
     "unpriced_roster_effects": "Minimum-engagement gaps, simultaneous demand, break coverage beyond the included relief minutes, child and accessibility support, training, management and specialist duties must be measured and priced. No unsupported percentage or free founder labour is substituted."
   },
   "software_ai_budget": {
-    "status": "Published price benchmarks and explicit proposed usage quantities only. No subscriptions, uploaded recordings or operating agents are activated.",
+    "status": "Worked usage comparisons with named price benchmarks; no provider, model or workflow selected.",
     "currency": "USD for provider unit costs; do not add directly to AUD venue costs.",
     "fx_formula": "AUD cash = provider USD invoice × actual AUD paid per USD + payment/FX charges + applicable taxes. Net operating expense subtracts only eligible input tax credits. No exchange rate or tax exemption is assumed.",
     "source_ids": [
@@ -1496,7 +1636,8 @@
           "file_transcription_usd": 5805.0594,
           "live_transcription_usd": 21930.2244
         }
-      ]
+      ],
+      "selection_status": "comparison_only"
     },
     "token_unit_price_benchmark": {
       "model": "gpt-6.1-sol",
@@ -1506,7 +1647,8 @@
       "source_ids": [
         "R121"
       ],
-      "note": "A current unit-price example, not a required model. No cache, batch, promotional or free-credit saving is assumed."
+      "note": "A current unit-price example, not a required model. No cache, batch, promotional or free-credit saving is assumed.",
+      "selection_status": "comparison_only"
     },
     "team_analysis_work_packages": [
       {
@@ -1532,10 +1674,10 @@
     ],
     "team_analysis_usd_per_team": 0.092,
     "team_analysis_four_room_50_percent_usd": 418.048,
-    "agent_cost_formula": "For each approved role: runs × [(uncached input tokens × input price + cached-read tokens × cached price + billable cache-write tokens × write price + billable output tokens × output price)/1000000 + sum(tool actions × tool unit charge)] + actual sandbox/compute time + storage + connector/licence charges. Include retries and all calls in multi-step runs. Billable reasoning tokens are included where the provider charges them.",
+    "agent_cost_formula": "For each task being compared: runs × [(uncached input tokens × input price + cached-read tokens × cached price + billable cache-write tokens × write price + billable output tokens × output price)/1000000 + sum(tool actions × tool unit charge)] + actual sandbox/compute time + storage + connector/licence charges. Include retries and all calls in multi-step runs. Billable reasoning tokens are included where the provider charges them.",
     "role_budget_fields": [
-      "role",
-      "approved deliverable",
+      "task",
+      "deliverable being compared",
       "runs per month",
       "calls per run",
       "uncached input tokens per call",
@@ -1581,8 +1723,30 @@
       "Agent workflow implementation, evaluation and maintenance",
       "Connector seats and third-party licences",
       "Human review beyond time already included in the facilitator work package",
-      "Actual approved monthly role volumes, retries and usage limits"
+      "Actual task volumes, if chosen, retries and usage limits"
     ],
     "venue_model_treatment": "These prices make the software cost measurable. The existing AUD headroom table remains before software and all other listed costs until actual FX, selected workflow and usage are priced. It is not a profit table."
+  },
+  "founder_decisions": {
+    "business_prices": null,
+    "premises": null,
+    "room_count": null,
+    "layout": null,
+    "timeline": null,
+    "technology": null,
+    "ai_provider_or_model": null,
+    "operating_structure": null,
+    "agent_team": null,
+    "contractor_roles": null,
+    "financial_assumptions": null
+  },
+  "assumption_register": {
+    "products": "The 39/59/99 AUD prices, booking shares and group sizes are inherited worked inputs without willingness-to-pay evidence.",
+    "operations": "Room counts, cycles, days, staffed coverage, sold fractions and closures are comparison assumptions without local demand or roster validation.",
+    "prototype_and_furniture": "Quantities are illustrative. Unit prices are source observations with separate verification statuses. Totals are partial basket extensions.",
+    "trades": "Published charge-rate comparators multiplied by assumed hours, not contractor quotations or an installation specification.",
+    "renewal": "Useful-life horizons and reserve contributions are illustrations, not approved replacements, predicted failures or guaranteed supplier prices.",
+    "software": "Provider/model names identify price benchmarks only. Tokens, calls, recording duration and volumes are assumptions. No architecture or workflow chosen.",
+    "tax": "The arithmetic assumes taxable sales, a 1.1 GST divisor and eligible input credits where stated. Actual treatment depends on entities, invoices and professional advice."
   }
 }

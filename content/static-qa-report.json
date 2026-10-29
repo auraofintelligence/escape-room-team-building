@@ -1,7 +1,12 @@
 {
+  "date": "2026-10-29",
+  "edition": "ROUND ONE",
   "main_pages": 16,
   "source_readers": 14,
-  "source_entries": 78,
+  "source_entries": 79,
   "hero_files": 16,
+  "generated_favicon": true,
+  "original_documents_unchanged": true,
+  "financial_arithmetic_checks": 709,
   "errors": []
 }

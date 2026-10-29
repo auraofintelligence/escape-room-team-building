@@ -1,12 +1,12 @@
 # Authoring instructions
 
-This repository publishes Luke Nathan Hayes's escape-room network business plan. The business organisation and agent roles described in the plan are proposed for Luke's approval. Publication does not activate those roles.
+This repository publishes Luke Nathan Hayes's escape-room network business plan. This is ROUND ONE exploratory research. AI extends research and computation; the manuscript must not prescribe an operating agent suite or treat scenarios as founder choices.
 
 Read content/plan.json, content/finance.json, content/sources.json and briefs/approval-register.md before changing the plan. The canonical manuscript is content/plan.json. The website and portable Markdown edition are generated from it. Keep the PDF and Word edition consistent with the same manuscript.
 
 Use Australian English, AUD and metric units. Do not use em dashes in newly authored prose. Preserve original source files unchanged. The plan begins with the executive summary and its clear business proposition. Language analysis and whole-of-life learning belong in the middle of the business plan.
 
-Luke is the accountable founder. Describe agent tasks, inputs, outputs, handovers and approval boundaries. Do not execute the proposed agents, contact prospects, hire people, spend funds, enter agreements or create operating schedules without Luke's explicit approval of the system and relevant action. Ordinary authoring, local validation and an explicitly authorised website publication are separate from business operations.
+Luke retains the business decisions. Clearly separate source observations, worked assumptions and actual founder decisions. Do not imply a model, price, premises, room count, timeline, technology, operating structure, contractor role or financial assumption has been chosen. Label numerical scenarios as comparisons or worked illustrations. Retain source dates and distinguish advertised prices from requested quotations. No quotation date may be invented. Do not execute operating workflows, contact people, hire, spend, enter agreements or create schedules as part of authoring. Keep this framing in generated pages, briefs and downloads.
 
 Rooms run without hints. Microphones and event records support reflection after play. Include destructive-language noticing, useful disagreement, vocabulary, teamwork and skill transfer. Staff address safety, access or technical failures directly.
 

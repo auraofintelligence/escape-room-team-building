@@ -1,0 +1,16 @@
+{
+  "generator": "Built-in image generation",
+  "generated": "2026-10-29",
+  "prompt": "Use case: logo-brand. Create one original square favicon artwork for an Australian escape-room network linking puzzle adventures, travel and shared learning. A bold, compact labyrinth doorway icon: a simple intriguing open doorway formed by two interlocking puzzle-like paths, with a small warm amber light visible inside. Deep blue-green/navy background, pale sage doorway, tiny amber accent, cohesive with a refined sage/navy/amber website. Flat graphic, strong silhouette, very few large shapes, crisp edges, generous contrast, readable at 16 by 16 pixels. Entire mark centred and occupies 85 percent of square. Solid square dark background extending edge to edge, no white margin. No letters, words, numbers, monogram, padlock, keys, gradients, tiny details, mockup or watermark. Generate finished raster favicon artwork only.",
+  "project_original": "assets/favicon-artwork.png",
+  "sha256": "28c80a152e0e91bd7ffefb94f9005ce94361eeeb0f43499eede4303a75b2caf0",
+  "processing": "Only format conversion and Lanczos resizing. Generated artwork preserved.",
+  "outputs": [
+    "assets/favicon.ico",
+    "assets/favicon-16.png",
+    "assets/favicon-32.png",
+    "assets/favicon-48.png",
+    "assets/favicon-192.png",
+    "assets/apple-touch-icon.png"
+  ]
+}

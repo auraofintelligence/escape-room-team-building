@@ -1,10 +1,10 @@
 # Escape Room Team Building
 
-An Australian network business plan
+ROUND ONE Australian escape room network business plan
 
-By Luke Nathan Hayes. Business plan 1.0, 29 October 2026.
+By Luke Nathan Hayes. ROUND ONE research and comparison edition, 29 October 2026.
 
-Read the business plan and current direction before interpreting archive sources. Agent roles are proposals awaiting Luke's approval. This publication activates no operating agent, outreach, hiring, purchase or scheduled business task. Room capacity follows installed rooms, session timetables and demand. No population-per-node calculation applies. C-Hour is non-monetary. Personal Auras and data belong to their people. The Strange But True Public Source Licence applies.
+Read the business plan and current direction before interpreting archive sources. ROUND ONE is exploratory research. Source observations, model assumptions and founder decisions are separate. Numerical scenarios are worked illustrations. No prices, premises, room counts, calendars, technologies, contractor arrangements, agent teams or financial commitments are chosen by this edition. AI extends research and computation. Source entries distinguish observation dates, verification status and supplier quotation dates. Room capacity follows installed rooms, session timetables and demand. No population-per-node calculation applies. C-Hour is non-monetary. Personal Auras and data belong to their people. The Strange But True Public Source Licence applies.
 
 - [Executive summary](https://auraofintelligence.github.io/escape-room-team-building/index.html)
 - [Market](https://auraofintelligence.github.io/escape-room-team-building/market.html)
@@ -13,10 +13,10 @@ Read the business plan and current direction before interpreting archive sources
 - [Itemised economics](https://auraofintelligence.github.io/escape-room-team-building/economics.html)
 - [Finance](https://auraofintelligence.github.io/escape-room-team-building/finance.html)
 - [Learning through life](https://auraofintelligence.github.io/escape-room-team-building/learning.html)
-- [Proposed agent system](https://auraofintelligence.github.io/escape-room-team-building/agent-roles.html)
+- [Research and paid work](https://auraofintelligence.github.io/escape-room-team-building/agent-roles.html)
 - [Renewal and rotation](https://auraofintelligence.github.io/escape-room-team-building/renewal.html)
 - [Partnerships and local value](https://auraofintelligence.github.io/escape-room-team-building/partnerships.html)
-- [Programme and decisions](https://auraofintelligence.github.io/escape-room-team-building/roadmap.html)
+- [Research and next decisions](https://auraofintelligence.github.io/escape-room-team-building/roadmap.html)
 - [Sources and projects](https://auraofintelligence.github.io/escape-room-team-building/sources.html)
 - [Downloads](https://auraofintelligence.github.io/escape-room-team-building/downloads.html)
 - [Licence](https://auraofintelligence.github.io/escape-room-team-building/licence.html)

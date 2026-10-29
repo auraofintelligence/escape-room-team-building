@@ -1,13 +1,13 @@
 {
-  "docx": "downloads/Escape-Room-Network-Business-Plan.docx",
-  "canonical_plan_sha256": "674f7783df3938b86dce416939ddc36bfa3616dc1edcfe85987f43c3b5a8ac8c",
-  "source_register_sha256": "f86997d701b74f4916233ba0f420c70de9c62af7c9dc413c51c5bd2203e39703",
+  "docx": "downloads\\Escape-Room-Network-Business-Plan.docx",
+  "canonical_plan_sha256": "140849366d9c02876182281d0ab9d7b322cc6537b28922da3fb56849ac7301d4",
+  "source_register_sha256": "0af6159c4a3be8bbda20ce83cb13f08552a8a24c6fe1c84dab546d0ac1e10acb",
   "chapters": 11,
-  "sections": 60,
-  "source_entries": 78,
-  "table_count": 27,
-  "manuscript_words": 12557,
+  "sections": 59,
+  "source_entries": 79,
+  "table_count": 26,
+  "manuscript_words": 12327,
   "licence_included": true,
   "all_chapter_bodies_included": true,
-  "operating_system_status": "Proposed for Luke's approval"
+  "research_status": "ROUND ONE exploratory comparisons for founder review"
 }

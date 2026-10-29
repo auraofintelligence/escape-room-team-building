@@ -9,14 +9,14 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://auraofintelligence.github.io/escape-room-team-building/'
 REPO = 'https://github.com/auraofintelligence/escape-room-team-building'
 UTILITIES = [('sources', 'Sources and projects'), ('downloads', 'Downloads'), ('licence', 'Licence'), ('sitemap', 'All pages'), ('presentation', 'Presentation')]
-PLAN = json.loads((ROOT/'content/plan.json').read_text())
+PLAN = json.loads((ROOT/'content/plan.json').read_text(encoding="utf-8"))
 CHAPTERS = PLAN['chapters']
-SOURCES = json.loads((ROOT/'content/sources.json').read_text())
+SOURCES = json.loads((ROOT/'content/sources.json').read_text(encoding="utf-8"))
 DOCS = SOURCES.get('documents', [])
 PROJECTS = SOURCES.get('links', [])
 RESEARCH = SOURCES.get('research', [])
 REFS = {x['id']: x for x in DOCS+PROJECTS+RESEARCH}
-ART = {x['slug']: x for x in json.loads((ROOT/'content/artwork.json').read_text())} if (ROOT/'content/artwork.json').exists() else {}
+ART = {x['slug']: x for x in json.loads((ROOT/'content/artwork.json').read_text(encoding="utf-8"))} if (ROOT/'content/artwork.json').exists() else {}
 NAV = [(x['slug'], x.get('nav_title', x['title'])) for x in CHAPTERS] + UTILITIES
 TITLE = PLAN.get('title', 'Escape Room Team Building')
 DATE = PLAN.get('date', '29 October 2026')
@@ -124,7 +124,7 @@ def shell(slug, title, lead, body, *, art=True, section='Business plan', canonic
     url = canonical or BASE+('' if slug=='index' else slug+'.html')
     base = '<base href="../../">' if base_tag else ''
     skip_href = 'documents/readers/'+slug+'.html#main' if base_tag else '#main'
-    return f'''<!doctype html><html lang="en-AU"><head>{base}<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{escape(title)} | {escape(TITLE)}</title><meta name="description" content="{escape(lead,quote=True)}"><meta name="theme-color" content="#203b4c"><link rel="canonical" href="{escape(url,quote=True)}"><meta property="og:type" content="website"><meta property="og:title" content="{escape(title,quote=True)}"><meta property="og:description" content="{escape(lead,quote=True)}"><meta property="og:url" content="{escape(url,quote=True)}"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/site.css"><link rel="stylesheet" href="assets/refinements.css"><script defer src="assets/site.js"></script><link rel="describedby" href="llms.txt"></head><body id="top"><a class="skip" href="{skip_href}">Skip to content</a><header class="header"><div class="wrap header-inner"><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">E</span><span>Escape Room<br>Team Building</span></a><nav class="main-nav" aria-label="Main navigation"><a href="index.html">The business</a><a href="network-tourism.html">The network</a><a href="sources.html">Sources</a><button class="menu-button" data-menu aria-expanded="false" aria-controls="all-nav">All chapters</button></nav></div><nav class="all-nav" id="all-nav" aria-label="All chapters" hidden><div class="wrap nav-grid">{nav}</div></nav></header><main id="main"><div class="wrap intro"><p class="eyebrow">{escape(section)} · Luke Nathan Hayes</p><h1>{escape(title)}</h1><p class="lead">{escape(lead)}</p>{actions}</div>{hero(slug) if art else ''}{body}</main><footer class="footer"><div class="wrap route-nav"><a href="{prev[0]}.html">Previous<strong>← {escape(prev[1])}</strong></a><a href="{nxt[0]}.html">Next<strong>{escape(nxt[1])} →</strong></a></div><div class="wrap footer-base"><p>© 2026 Luke Nathan Hayes · Strange But True Public Source Licence.<br>{escape(EDITION)} · {escape(DATE)}</p><div class="footer-links"><a href="sitemap.html">All pages</a><a href="downloads.html">PDF &amp; Word</a><a href="licence.html">Licence</a><a href="{REPO}" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></div></footer><button class="top" data-top aria-label="Return to top">↑</button></body></html>'''
+    return f'''<!doctype html><html lang="en-AU"><head>{base}<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{escape(title)} | {escape(TITLE)}</title><meta name="description" content="{escape(lead,quote=True)}"><meta name="theme-color" content="#203b4c"><link rel="canonical" href="{escape(url,quote=True)}"><meta property="og:type" content="website"><meta property="og:title" content="{escape(title,quote=True)}"><meta property="og:description" content="{escape(lead,quote=True)}"><meta property="og:url" content="{escape(url,quote=True)}"><link rel="icon" href="assets/favicon.ico?v=round-one" sizes="any"><link rel="icon" href="assets/favicon-32.png?v=round-one" type="image/png" sizes="32x32"><link rel="icon" href="assets/favicon-16.png?v=round-one" type="image/png" sizes="16x16"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png"><link rel="stylesheet" href="assets/site.css"><link rel="stylesheet" href="assets/refinements.css"><script defer src="assets/site.js"></script><link rel="describedby" href="llms.txt"></head><body id="top"><a class="skip" href="{skip_href}">Skip to content</a><header class="header"><div class="wrap header-inner"><a class="brand" href="index.html"><img class="brand-mark" src="assets/favicon-192.png" width="48" height="48" alt=""><span>Escape Room<br>Team Building</span></a><nav class="main-nav" aria-label="Main navigation"><a href="index.html">The business</a><a href="network-tourism.html">The network</a><a href="sources.html">Sources</a><button class="menu-button" data-menu aria-expanded="false" aria-controls="all-nav">All chapters</button></nav></div><nav class="all-nav" id="all-nav" aria-label="All chapters" hidden><div class="wrap nav-grid">{nav}</div></nav></header><main id="main"><div class="wrap intro"><p class="eyebrow">ROUND ONE · {escape(section)}</p><h1>{escape(title)}</h1><p class="lead">{escape(lead)}</p>{actions}</div>{hero(slug) if art else ''}{body}</main><footer class="footer"><div class="wrap route-nav"><a href="{prev[0]}.html">Previous<strong>← {escape(prev[1])}</strong></a><a href="{nxt[0]}.html">Next<strong>{escape(nxt[1])} →</strong></a></div><div class="wrap footer-base"><p>© 2026 Luke Nathan Hayes · Strange But True Public Source Licence.<br>{escape(EDITION)} · {escape(DATE)}</p><div class="footer-links"><a href="sitemap.html">All pages</a><a href="downloads.html">PDF &amp; Word</a><a href="licence.html">Licence</a><a href="{REPO}" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></div></footer><button class="top" data-top aria-label="Return to top">↑</button></body></html>'''
 
 def build_chapters():
     for i,c in enumerate(CHAPTERS):
@@ -136,7 +136,8 @@ def build_chapters():
                 raise ValueError(f'Duplicate section anchor {c["slug"]}#{sid}')
             used.add(sid)
             anchors.append((sid,s['title']))
-            blocks.append(f'<section id="{sid}"><h2>{escape(s["title"])}</h2>{markdown(s["body"])}{reference_chips(s.get("refs",[]))}</section>')
+            basis = '<p class="scenario-basis">'+escape(s['basis'])+'</p>' if s.get('basis') else ''
+            blocks.append(f'<section id="{sid}"><h2>{escape(s["title"])}</h2>{basis}{markdown(s["body"])}{reference_chips(s.get("refs",[]))}</section>')
         metrics = c.get('metrics', [])
         metric = '<div class="metrics">'+''.join(f'<div class="metric"><strong>{escape(str(m["value"]))}</strong><span>{escape(m["label"])}</span></div>' for m in metrics)+'</div>' if metrics else ''
         aside = '<aside class="aside"><h2>On this page</h2>'+''.join(f'<a href="#{a}">{escape(t)}</a>' for a,t in anchors)+'</aside>'
@@ -146,9 +147,16 @@ def build_chapters():
     for c in CHAPTERS:
         manuscript += '## '+c['title']+'\n\n'+c['lead']+'\n\n'
         for s in c['sections']:
-            manuscript += '### '+s['title']+'\n\n'+s['body'].strip()+'\n\n'
+            manuscript += '### '+s['title']+'\n\n'+(s['basis']+'\n\n' if s.get('basis') else '')+s['body'].strip()+'\n\n'
             if s.get('refs'): manuscript += 'Sources: '+', '.join(s['refs'])+'\n\n'
         if c.get('refs'): manuscript += 'Chapter sources: '+', '.join(c['refs'])+'\n\n'
+    manuscript += '## Source register\n\n'
+    for ref in DOCS+PROJECTS+RESEARCH:
+        url = ref.get('url') or ref.get('source_url') or BASE+'sources.html#'+ref['id']
+        manuscript += ref['id']+' ['+ref['title']+']('+url+')\n\n'
+        manuscript += ref.get('verification_note',ref.get('application',''))+'\n\n'
+        if ref.get('recorded_observation_date'):
+            manuscript += 'Recorded observation date: '+ref['recorded_observation_date']+'. Supplier quotation date: none recorded.\n\n'
     write('content/plan.md',manuscript)
 
 def build_sources():
@@ -162,17 +170,20 @@ def build_sources():
     for kind,items in [('Connected project',PROJECTS),('Market and operating source',RESEARCH)]:
         for x in items:
             purpose = x.get('application',x.get('purpose',x.get('note','')))
-            checked = f'<p class="metadata">Checked {escape(x["checked"])}</p>' if x.get('checked') else ''
+            checked = f'<p class="metadata">Recorded observation date: {escape(x["checked"])}</p>' if x.get('checked') else ''
+            if x.get('verification_status'):
+                checked += '<p class="metadata">'+escape(x['verification_status'].replace('_',' '))+': '+escape(x.get('verification_note',''))+'</p>'
+                checked += '<p class="metadata">Supplier quotation date: none recorded.</p>'
             cards.append(f'<article class="card" id="{x["id"]}" data-search="{escape(x["id"]+" "+x["title"]+" "+purpose,quote=True)}"><p class="tag">{x["id"]} · {kind}</p><h3><a href="{escape(x["url"],quote=True)}" target="_blank" rel="noopener noreferrer">{escape(x["title"])} ↗</a></h3><p>{inline(purpose)}</p>{checked}</article>')
     controls=f'<div class="filter"><label class="sr-only" for="source-search">Search sources and projects</label><input id="source-search" data-filter type="search" placeholder="Find a source, project or topic"></div><p data-count aria-live="polite">{len(cards)} entries</p><p data-empty class="empty" hidden>No matches. Try a broader term.</p>'
-    intro='<p>The complete reference collection from <a href="https://auraofintelligence.github.io/installing-the-missing-middle/" target="_blank" rel="noopener noreferrer">Installing the Missing Middle</a> sits alongside current market and operating sources. Original files retain their original wording and rights. Each entry explains its use in this business plan.</p>'
+    intro='<p>The complete reference collection from <a href="https://auraofintelligence.github.io/installing-the-missing-middle/" target="_blank" rel="noopener noreferrer">Installing the Missing Middle</a> sits alongside market and cost research. Each entry separates its recorded observation date from verification for this revision. Advertised prices are observations; no requested supplier quotation is recorded. Original files retain their wording and rights.</p>'
     body='<section class="wrap wide-section">'+intro+controls+'<div class="card-grid">'+''.join(cards)+'</div><div class="notice"><p><a href="content/embedded-links.json">Embedded links from the source documents</a> preserve the wider reference trail. <a href="content/sources.json">Download the source register</a>.</p></div></section>'
     write('sources.html',shell('sources','Sources and project connections','The market research, original documents and connected projects behind the business plan.',body,section='Reference library'))
 
 def build_utilities():
-    body='''<section class="wrap wide-section"><div class="card-grid"><article class="card"><h2>The complete business plan</h2><p>Matching full-scope editions covering the market, network, deployment, finance, learning, renewal and proposed agent organisation.</p><div class="actions"><a class="button" href="downloads/Escape-Room-Network-Business-Plan.pdf">PDF plan</a><a class="button secondary" href="downloads/Escape-Room-Network-Business-Plan.docx">Editable Word plan</a></div></article><article class="card"><h2>Manuscript and model inputs</h2><p><a href="content/plan.md">Markdown manuscript</a> · <a href="content/plan.json">Structured manuscript</a> · <a href="content/finance.json">Financial inputs and calculations</a></p><p><a href="presentation.html">Open the chapter presentation</a> for a concise view of the whole plan.</p></article><article class="card"><h2>Original source collection</h2><p>Unchanged source documents, the source register and embedded links from Installing the Missing Middle, with additions for this business.</p><div class="actions"><a class="button secondary" href="downloads/Escape-Room-Network-Source-Pack.zip">Download source pack</a><a href="sources.html">Browse the source library</a></div></article><article class="card"><h2>Proposed operating system</h2><p>The agent roles define tasks, outputs and decision rights for Luke's approval.</p><p><a href="agent-roles.html">Read the proposed roles</a> · <a href="briefs/approval-register.md">Approval register</a> · <a href="AGENTS.md">Authoring instructions</a></p><p>No operating agents, outreach, hiring, purchasing or business schedules are activated by this publication.</p></article></div></section>'''
+    body='''<section class="wrap wide-section"><div class="card-grid"><article class="card"><h2>The complete business plan</h2><p>Matching ROUND ONE research editions covering the opportunity, market evidence, design, tourism, costs, learning, paid work and renewal.</p><div class="actions"><a class="button" href="downloads/Escape-Room-Network-Business-Plan.pdf">PDF plan</a><a class="button secondary" href="downloads/Escape-Room-Network-Business-Plan.docx">Editable Word plan</a></div></article><article class="card"><h2>Manuscript and model inputs</h2><p><a href="content/plan.md">Markdown manuscript</a> · <a href="content/plan.json">Structured manuscript</a> · <a href="content/finance.json">Financial inputs and calculations</a></p><p><a href="presentation.html">Open the chapter presentation</a> for a concise view of the whole plan.</p></article><article class="card"><h2>Original source collection</h2><p>Unchanged source documents, the source register and embedded links from Installing the Missing Middle, with additions for this business.</p><div class="actions"><a class="button secondary" href="downloads/Escape-Room-Network-Source-Pack.zip">Download source pack</a><a href="sources.html">Browse the source library</a></div></article><article class="card"><h2>Research and founder decisions</h2><p>Research and computation support a review of the alternatives. Commercial and operating choices remain open.</p><p><a href="agent-roles.html">Research and paid work</a> · <a href="briefs/approval-register.md">Research decision register</a> · <a href="AGENTS.md">Authoring instructions</a></p></article></div></section>'''
     write('downloads.html',shell('downloads','Read and develop the full plan','PDF, editable Word, the manuscript, model inputs and original source collection.',body,section='Downloads'))
-    licence=(ROOT/'LICENCE.md').read_text()
+    licence=(ROOT/'LICENCE.md').read_text(encoding="utf-8")
     blocks=[]
     for b in licence.split('\n\n'):
         if b.startswith('# '):continue
@@ -188,7 +199,7 @@ def build_utilities():
     write('404.html',shell('404','Find your next chapter','The business plan and source library are here.','<section class="wrap wide-section"><a class="button" href="index.html">Executive summary</a> <a href="sitemap.html">All pages</a></section>',art=False,section='Page not found'))
     write('.nojekyll','')
     write('robots.txt','# Discovery does not grant rights beyond LICENCE.md.\nSitemap: '+BASE+'sitemap.xml\n')
-    llm='# '+TITLE+'\n\n'+PLAN.get('subtitle','')+'\n\nBy Luke Nathan Hayes. '+EDITION+', '+DATE+'.\n\nRead the business plan and current direction before interpreting archive sources. Agent roles are proposals awaiting Luke\'s approval. This publication activates no operating agent, outreach, hiring, purchase or scheduled business task. Room capacity follows installed rooms, session timetables and demand. No population-per-node calculation applies. C-Hour is non-monetary. Personal Auras and data belong to their people. The Strange But True Public Source Licence applies.\n\n'+'\n'.join(f'- [{t}]({BASE+s+".html"})' for s,t in NAV)+'\n\n- [Full manuscript]('+BASE+'content/plan.md)\n- [Source register]('+BASE+'content/sources.json)\n- [Licence]('+BASE+'LICENCE.md)\n'
+    llm='# '+TITLE+'\n\n'+PLAN.get('subtitle','')+'\n\nBy Luke Nathan Hayes. '+EDITION+', '+DATE+'.\n\nRead the business plan and current direction before interpreting archive sources. ROUND ONE is exploratory research. Source observations, model assumptions and founder decisions are separate. Numerical scenarios are worked illustrations. No prices, premises, room counts, calendars, technologies, contractor arrangements, agent teams or financial commitments are chosen by this edition. AI extends research and computation. Source entries distinguish observation dates, verification status and supplier quotation dates. Room capacity follows installed rooms, session timetables and demand. No population-per-node calculation applies. C-Hour is non-monetary. Personal Auras and data belong to their people. The Strange But True Public Source Licence applies.\n\n'+'\n'.join(f'- [{t}]({BASE+s+".html"})' for s,t in NAV)+'\n\n- [Full manuscript]('+BASE+'content/plan.md)\n- [Source register]('+BASE+'content/sources.json)\n- [Licence]('+BASE+'LICENCE.md)\n'
     write('llms.txt',llm)
     urls=[BASE+('' if s=='index' else s+'.html') for s,_ in NAV]
     write('sitemap.xml','<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+escape(u)+'</loc></url>' for u in urls)+'</urlset>')
@@ -197,7 +208,7 @@ def update_readers():
     for d in DOCS:
         p=ROOT/'documents/readers'/f'{d["id"]}.html'
         if not p.exists():continue
-        old=p.read_text()
+        old=p.read_text(encoding="utf-8")
         m=re.search(r'<article class="reader">(.*?)</article>',old,re.S)
         if m:
             content=m[1]
@@ -208,7 +219,7 @@ def update_readers():
             if d.get('path') and (ROOT/d['path']).is_file():
                 content='<p><a href="'+quote(d['path'],safe='/')+'">Open this unchanged source file</a></p>'+content
         body='<div class="wrap"><article class="reader">'+content+'</article></div>'
-        p.write_text(shell(d['id'],d['title'],'Unchanged source text in a searchable reading copy.',body,art=False,section='Original document',canonical=BASE+'documents/readers/'+d['id']+'.html',base_tag=True))
+        p.write_text(shell(d['id'],d['title'],'Unchanged source text in a searchable reading copy.',body,art=False,section='Original document',canonical=BASE+'documents/readers/'+d['id']+'.html',base_tag=True),encoding='utf-8')
 
 def source_pack():
     p=ROOT/'downloads/Escape-Room-Network-Source-Pack.zip'
@@ -238,7 +249,7 @@ def checks(require_assets=False):
     readers=sorted((ROOT/'documents/readers').glob('*.html'))
     def parse(p):
         if p not in parsed:
-            parser=Links();parser.feed(p.read_text());parsed[p]=parser
+            parser=Links();parser.feed(p.read_text(encoding="utf-8"));parsed[p]=parser
         return parsed[p]
     for p in main_pages+readers+[ROOT/'404.html']:
         if not p.is_file():
@@ -246,9 +257,9 @@ def checks(require_assets=False):
         parser=parse(p)
         if parser.h1!=1:errors.append(f'{p.name}: expected one h1')
         if len(parser.ids)!=len(set(parser.ids)):errors.append(f'{p.name}: duplicate HTML ids')
-        if require_assets and p in main_pages and len(parser.images)!=1:errors.append(f'{p.name}: expected one hero image')
+        if require_assets and p in main_pages and sum('assets/heroes/' in a.get('src','') for a in parser.images)!=1:errors.append(f'{p.name}: expected one hero image')
         for a in parser.images:
-            if not a.get('alt'):errors.append(f'{p.name}: image without alt text')
+            if 'alt' not in a:errors.append(f'{p.name}: image without alt text')
         for ref in parser.refs:
             u=urlsplit(unescape(ref))
             if u.scheme or u.netloc:continue
