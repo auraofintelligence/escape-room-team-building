@@ -1,0 +1,1588 @@
+{
+  "meta": {
+    "as_of": "2026-10-29",
+    "currency": "AUD",
+    "title": "Escape-room network itemised financial research",
+    "status": "Proposal for Luke approval. Operating roles inactive. No procurement, outreach or hiring executed.",
+    "basis": "Revenue scenarios are separate from a fully quoted profit forecast. Explicit design quantities and hours multiply published source prices. Unquoted costs remain visible and non-zero in scope.",
+    "replacement_of_old_model": "Supersedes prior guessed fitout totals, flat loaded wage, blanket overhead and 3% reserve. Do not publish the earlier $251,928 profit as this model."
+  },
+  "source_registry": [
+    {
+      "id": "R101",
+      "title": "Fair Work, Amusement Events and Recreation Award, effective 1 July 2026",
+      "url": "https://awards.fairwork.gov.au/MA000080.html",
+      "web_ref": "turn46search0",
+      "support": "Published example adult casual Grade 4 rates $36.81 ordinary and $51.54 Sunday; Grade 6 $39.11 and $54.76. Coverage and classifications require confirmation against actual duties.",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "R102",
+      "title": "ATO, calculating super guarantee",
+      "url": "https://smallbusiness.taxsuperandyou.gov.au/super-guarantee-employer-obligations/how-to-calculate-super-guarantee",
+      "web_ref": "turn50search5",
+      "support": "Current super guarantee percentage 12%; apply to eligible earnings. This is separate from insurance, payroll tax and other employment costs.",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "R103",
+      "title": "Stripe Australia, current pricing",
+      "url": "https://stripe.com/au/pricing",
+      "web_ref": "turn64view3",
+      "support": "Live page checked 29 October shows domestic online cards 1.65% plus A$0.30, fees including GST. Older search snippets show 1.7% and are superseded here. International cards 3.5% plus A$0.30.",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "R104",
+      "title": "Dash Group, Brisbane labour hire charge rates",
+      "url": "https://dashgroup.net.au/labour-hire-brisbane",
+      "web_ref": "turn62search7",
+      "support": "Provider indicative charge rates ex GST: general labour $55-60/hour; carpenter $75-85; shopfitting/joinery $65-85. Final project, duration and location quote required. Search retrieval available; full open failed.",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "R105",
+      "title": "Voltora, Brisbane electrical attendance prices",
+      "url": "https://www.voltoraindustries.com.au/",
+      "web_ref": "turn62search2",
+      "support": "Business hours callout and first hour $258.50 including GST; additional hour $148.50 including GST, materials extra. These convert to $235 and $135 excluding GST.",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "R106",
+      "title": "Store DJ, Rode Wireless PRO dual kit",
+      "url": "https://www.storedj.com.au/products/rode-wireless-pro-dual-compact-wireless-mic-system-w-accessories-black",
+      "web_ref": "turn58view3",
+      "support": "Listed $385; online stock available, Brisbane branch zero in page snapshot. Shipping offer subject to conditions. Promotional price dated 29 October.",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "R107",
+      "title": "Rode, simultaneous Wireless PRO systems",
+      "url": "https://help.rode.com/hc/en-us/articles/9220351205135-Can-I-use-multiple-Wireless-PRO-kits-at-a-single-location",
+      "web_ref": "turn61view0",
+      "support": "Manufacturer says up to four kits, eight transmitters, in one place. Consumer-kit prototype is not multiplied into an unengineered multi-room 24-channel system.",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "R108",
+      "title": "Better Music, Zoom LiveTrak L-8",
+      "url": "https://www.bettermusic.com.au/products/zoom-l8-livetrak",
+      "web_ref": "turn64view7",
+      "support": "Listed $715, online backorder when inspected, shipping calculated separately; six independent preamps and SD multitrack recording.",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "R109",
+      "title": "Store DJ, Hosa CMP-159 breakout cable",
+      "url": "https://www.storedj.com.au/products/hosa-cmp-159-3-5mm-trs-to-dual-1-4-ts-stereo-breakout-cable-10ft",
+      "web_ref": "turn61view1",
+      "support": "Listed $22, 3.5mm stereo TRS to dual 6.35mm mono TS, online in stock; single item shipping $10, qualifying order shipping conditions apply.",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "R110",
+      "title": "Officeworks, Matrix visitor chair",
+      "url": "https://www.officeworks.com.au/shop/officeworks/p/matrix-visitor-chair-jbmatvmbk",
+      "web_ref": "turn52search0",
+      "support": "Listed new price $179. Commercial seating comparison, not the same model as the used chair.",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "R111",
+      "title": "Officeworks, Matrix visitor armchair",
+      "url": "https://www.officeworks.com.au/shop/officeworks/p/matrix-mesh-visitor-armchair-black-jbmatvmabk",
+      "web_ref": "turn52search4",
+      "support": "New armchair listed in the associated Officeworks range at $199; product specifies 160kg capacity and delivery surcharge. See range https://www.officeworks.com.au/shop/officeworks/c/furniture/chairs-seating/lounge-chairs.",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "R112",
+      "title": "Danny's Desks, Chibel ex-hire chair",
+      "url": "https://dannysdesks.com.au/product/chibel-office-chair-ex-hire-stock/",
+      "web_ref": "turn64view1",
+      "support": "Category lists $39. Product describes light scuffs, as-is clearance, no commercial/manufacturer warranty, 110kg rating, Eagle Farm collection by appointment. Stock quantity and GST invoice to confirm. Category https://dannysdesks.com.au/product-category/clearance/clearance-visitor-chairs/.",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "R113",
+      "title": "Officeworks, folding table range",
+      "url": "https://www.officeworks.com.au/shop/officeworks/c/furniture/desks-tables/folding-trestle-tables",
+      "web_ref": "turn59search4",
+      "support": "Rapidline folding table 1800x900 white listed at $292. Delivery-only fee to confirm for the site.",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "R114",
+      "title": "Mack's Office Furniture, current second-hand catalogue",
+      "url": "https://www.macks.com.au/collections/second-hand-furniture",
+      "web_ref": "turn85view0",
+      "support": "Direct product pages list a used metal-frame desk, 1600 x 800 mm, at $150 including GST, listed 19 October 2026 and described as in good condition; and a used cupboard, 1600h x 900w x 430d mm, at $129 including GST, listed 23 October 2026. Both pages display availability, but required quantities and delivered cost remain unconfirmed. Central Victoria dealer. Exact desk: https://www.macks.com.au/collections/second-hand-furniture/products/secondhand-metal-frame-desk-1600-x-800 . Exact cupboard: https://www.macks.com.au/collections/second-hand-furniture/products/second-hand-cupboard-1600h-x-900w-x-430d .",
+      "checked": "2026-10-29",
+      "product_links": [
+        {
+          "item": "Used 1600 x 800 mm desk",
+          "url": "https://www.macks.com.au/collections/second-hand-furniture/products/secondhand-metal-frame-desk-1600-x-800"
+        },
+        {
+          "item": "Used 1600h x 900w x 430d mm cupboard",
+          "url": "https://www.macks.com.au/collections/second-hand-furniture/products/second-hand-cupboard-1600h-x-900w-x-430d"
+        }
+      ],
+      "web_refs": [
+        "turn86view0",
+        "turn85view0"
+      ]
+    },
+    {
+      "id": "R115",
+      "title": "Australian Computer Traders, refurbished desktop range",
+      "url": "https://www.australiancomputertraders.com.au/",
+      "web_ref": "turn65search4",
+      "support": "Grade A HP EliteDesk 800 G6 Mini, i5 tenth generation,16GB RAM,256GB SSD,Windows11 listed $399. Intended as prototype capture/control computer, not a guaranteed multi-room AI inference server.",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "R116",
+      "title": "Scorptec, CyberPower UPS published range",
+      "url": "https://www.scorptec.com.au/cyberpowerupsfreedel",
+      "web_ref": "turn57search4",
+      "support": "CP900EPFCLCDa 900VA/540W UPS listed $299 and in stock. Load and runtime must be verified for the chosen equipment; this does not supply emergency building systems.",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "R117",
+      "title": "Indestroom, Australian turnkey room catalogue",
+      "url": "https://erworkshop.com/escape-room-supplier-australia/",
+      "web_ref": "turn66view0",
+      "support": "Published AUD package benchmarks: Jungle $42,500; Magic School $89,900; Pharaoh $63,300; Vault32 $101,600. Standard configurations converted from EUR; request a fixed scope and terms. Freight, tax, site works and required design changes are not established by the headline.",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "R118",
+      "title": "Property Now,338 Lytton Road listing",
+      "url": "https://www.commercialrealestate.com.au/property/338-lytton-road-morningside-qld-4170-18288980",
+      "web_ref": "turn67search1",
+      "support": "300m2 listing $6750/month plus GST and outgoings, last updated 22 September 2026. A comparable asking rent, not a selected or approved 400 m2 venue.",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "R119",
+      "title": "Chase Commercial,4/65 Riverside Place listing",
+      "url": "https://www.commercialrealestate.com.au/property/4-65-riverside-place-morningside-qld-4170-18314217",
+      "web_ref": "turn67search2",
+      "support": "300m2 two-level office/storage listing $72000/year plus outgoings and GST, last updated 29 September 2026. Different layout from a single-level escape venue.",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "R120",
+      "title": "Alliance Electrical, Northern Rivers rates",
+      "url": "https://allianceelectrical.com.au/rates",
+      "web_ref": "turn63view0",
+      "support": "Northern Rivers NSW regional comparison only: first hour $190 excluding GST, later $110; effective 30 July 2026, materials and specified travel additional. Not used as a Brisbane quote.",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "R121",
+      "title": "OpenAI, current API prices",
+      "url": "https://developers.openai.com/api/docs/pricing",
+      "web_ref": "turn71view0",
+      "support": "Current file transcription gpt-transcribe estimated US$0.0045/minute; live transcription US$0.017/minute. Standard gpt-6.1-sol US$2/million input and US$10/million output tokens; web search US$10/1000 calls plus content tokens; file search US$2.50/1000 calls. These are current unit-price benchmarks, not model selections or subscriptions.",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "R122",
+      "title": "OpenAI, current transcription workflows",
+      "url": "https://developers.openai.com/api/docs/guides/transcription",
+      "web_ref": "turn71view4",
+      "support": "Recommends gpt-transcribe for recorded files and gpt-live-transcribe for live incoming audio. Older whisper/4o transcription models are deprecated; this budget uses the current file benchmark.",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "R123",
+      "title": "OpenAI, API credit currency",
+      "url": "https://help.openai.com/en/articles/10421635-multicurrency-billing",
+      "web_ref": "turn73search0",
+      "support": "API credit purchases are currently limited to USD. Translate actual invoice amounts using the actual AUD conversion and separately record taxes and payment charges.",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "R124",
+      "title": "Deepgram, processed multichannel duration pricing rule",
+      "url": "https://deepgram.com/pricing",
+      "web_ref": "turn70view2",
+      "support": "The official pricing page says multichannel processing is billed by total processed duration across channels. This supports the conservative separate-channel volume method; the selected unit-price example is a separate OpenAI file transcription benchmark.",
+      "checked": "2026-10-29"
+    }
+  ],
+  "products": [
+    {
+      "name": "School and youth",
+      "price_inc_gst": 39,
+      "booking_share": 0.3,
+      "paid_players": 6
+    },
+    {
+      "name": "Standard public",
+      "price_inc_gst": 59,
+      "booking_share": 0.5,
+      "paid_players": 4.5
+    },
+    {
+      "name": "Premium workshop",
+      "price_inc_gst": 99,
+      "booking_share": 0.2,
+      "paid_players": 5.5
+    }
+  ],
+  "unit_revenue": {
+    "average_players": 5.15,
+    "gross_per_team": 311.85,
+    "net_per_team": 283.5,
+    "domestic_card_fee_cash_per_team": 5.445525,
+    "domestic_card_fee_net_per_team": 4.950477,
+    "transactions_per_team": 1
+  },
+  "prototype_lines": [
+    {
+      "id": "A01",
+      "item": "Rode Wireless PRO dual kit",
+      "quantity": 4,
+      "unit": "kit",
+      "unit_price": 385,
+      "source_ids": [
+        "R106",
+        "R107"
+      ],
+      "explanation": "Three active dual kits provide six independently recorded participant channels; one cold spare. One-room prototype only.",
+      "review_years": 3,
+      "status": "published_catalogue_x_design_quantity",
+      "tax_basis": "Displayed AUD retail price. GST invoice and freight to be confirmed; not silently treated as an ex-GST project quote.",
+      "line_total": 1540
+    },
+    {
+      "id": "A02",
+      "item": "Zoom LiveTrak L-8 mixer/recorder",
+      "quantity": 1,
+      "unit": "unit",
+      "unit_price": 715,
+      "source_ids": [
+        "R108"
+      ],
+      "explanation": "Six inputs for the three split stereo receiver outputs. Backorder status must be resolved.",
+      "review_years": 5,
+      "status": "published_catalogue_x_design_quantity",
+      "tax_basis": "Displayed AUD retail price. GST invoice and freight to be confirmed; not silently treated as an ex-GST project quote.",
+      "line_total": 715
+    },
+    {
+      "id": "A03",
+      "item": "Hosa CMP-159 breakout cable",
+      "quantity": 4,
+      "unit": "cable",
+      "unit_price": 22,
+      "source_ids": [
+        "R109"
+      ],
+      "explanation": "Three working stereo-to-dual-mono cables plus one spare.",
+      "review_years": 3,
+      "status": "published_catalogue_x_design_quantity",
+      "tax_basis": "Displayed AUD retail price. GST invoice and freight to be confirmed; not silently treated as an ex-GST project quote.",
+      "line_total": 88
+    },
+    {
+      "id": "A04",
+      "item": "Refurbished HP EliteDesk 800 G6 Mini",
+      "quantity": 1,
+      "unit": "computer",
+      "unit_price": 399,
+      "source_ids": [
+        "R115"
+      ],
+      "explanation": "Prototype capture/control and transfer testing. Display, archive storage and AI throughput are separate requirements.",
+      "review_years": 4,
+      "status": "published_catalogue_x_design_quantity",
+      "tax_basis": "Displayed AUD retail price. GST invoice and freight to be confirmed; not silently treated as an ex-GST project quote.",
+      "line_total": 399
+    },
+    {
+      "id": "A05",
+      "item": "CyberPower 900 VA/540 W UPS",
+      "quantity": 1,
+      "unit": "unit",
+      "unit_price": 299,
+      "source_ids": [
+        "R116"
+      ],
+      "explanation": "Prototype recorder/control continuity. Actual runtime test and load schedule required.",
+      "review_years": 4,
+      "status": "published_catalogue_x_design_quantity",
+      "tax_basis": "Displayed AUD retail price. GST invoice and freight to be confirmed; not silently treated as an ex-GST project quote.",
+      "line_total": 299
+    }
+  ],
+  "prototype_displayed_price_subtotal": 3041,
+  "furniture_lines": [
+    {
+      "id": "F01",
+      "item": "Ex-hire Chibel stackable visitor chair",
+      "quantity_two_room": 14,
+      "quantity_four_room": 32,
+      "unit": "item",
+      "unit_price": 39,
+      "two_room_total": 546,
+      "four_room_total": 1248,
+      "review_years": 3,
+      "source_ids": [
+        "R112"
+      ],
+      "tax_basis": "Displayed AUD retail price. GST invoice and freight to be confirmed; not silently treated as an ex-GST project quote.",
+      "status": "published_catalogue_x_design_quantity",
+      "explanation": "Used seats for reflection, briefing and waiting; mix includes higher-capacity armchairs below. Bulk stock is unconfirmed."
+    },
+    {
+      "id": "F02",
+      "item": "New Matrix visitor armchair",
+      "quantity_two_room": 2,
+      "quantity_four_room": 4,
+      "unit": "item",
+      "unit_price": 199,
+      "two_room_total": 398,
+      "four_room_total": 796,
+      "review_years": 7,
+      "source_ids": [
+        "R111"
+      ],
+      "tax_basis": "Displayed AUD retail price. GST invoice and freight to be confirmed; not silently treated as an ex-GST project quote.",
+      "status": "published_catalogue_x_design_quantity",
+      "explanation": "Provide higher-capacity 160 kg seating and arm support within the mixed furniture plan."
+    },
+    {
+      "id": "F03",
+      "item": "New Rapidline 1800 × 900 folding table",
+      "quantity_two_room": 2,
+      "quantity_four_room": 4,
+      "unit": "item",
+      "unit_price": 292,
+      "two_room_total": 584,
+      "four_room_total": 1168,
+      "review_years": 7,
+      "source_ids": [
+        "R113"
+      ],
+      "tax_basis": "Displayed AUD retail price. GST invoice and freight to be confirmed; not silently treated as an ex-GST project quote.",
+      "status": "published_catalogue_x_design_quantity",
+      "explanation": "Reflection and flexible activity tables; portable storage supports room turnover."
+    },
+    {
+      "id": "F04",
+      "item": "Used 1600 × 800 metal-frame desk",
+      "quantity_two_room": 1,
+      "quantity_four_room": 2,
+      "unit": "item",
+      "unit_price": 150,
+      "two_room_total": 150,
+      "four_room_total": 300,
+      "review_years": 5,
+      "source_ids": [
+        "R114"
+      ],
+      "tax_basis": "Published AUD price includes GST. Freight and required stock quantity remain unconfirmed.",
+      "status": "published_catalogue_x_design_quantity",
+      "explanation": "Staff/reception work surface; delivery from regional Victoria may erase the used-price advantage.",
+      "product_url": "https://www.macks.com.au/collections/second-hand-furniture/products/secondhand-metal-frame-desk-1600-x-800"
+    },
+    {
+      "id": "F05",
+      "item": "Used 1600h × 900w × 430d mm storage cupboard",
+      "quantity_two_room": 2,
+      "quantity_four_room": 4,
+      "unit": "item",
+      "unit_price": 129,
+      "two_room_total": 258,
+      "four_room_total": 516,
+      "review_years": 5,
+      "source_ids": [
+        "R114"
+      ],
+      "tax_basis": "Published AUD price includes GST. Freight and required stock quantity remain unconfirmed.",
+      "status": "published_catalogue_x_design_quantity",
+      "explanation": "Prop and equipment storage subject to anchoring, keys, condition and required stock quantity checks. Listed 23 October 2026; published price includes GST.",
+      "product_url": "https://www.macks.com.au/collections/second-hand-furniture/products/second-hand-cupboard-1600h-x-900w-x-430d"
+    }
+  ],
+  "furniture_displayed_subtotals": {
+    "two_room": 1936,
+    "four_room": 4028
+  },
+  "furniture_comparison": {
+    "two_room_all_new_seat_mix": 2904,
+    "two_room_mixed_seats": 944,
+    "two_room_seat_difference": 1960,
+    "four_room_all_new_seat_mix": 6524,
+    "four_room_mixed_seats": 2044,
+    "four_room_seat_difference": 4480,
+    "note": "Price comparison only. Different chair models/capacities. Freight, cleaning, repairs, tax and confirmed inventory may change savings."
+  },
+  "room_kit_benchmarks": [
+    {
+      "name": "Jungle",
+      "price_aud": 42500,
+      "area_m2": [
+        30,
+        50
+      ],
+      "players": [
+        2,
+        8
+      ],
+      "status": "supplier_standard_configuration_benchmark",
+      "tax_basis": "AUD conversion from supplier standard EUR configuration. GST/import tax/freight/site works/customisation unresolved.",
+      "source_ids": [
+        "R117"
+      ]
+    },
+    {
+      "name": "Magic School",
+      "price_aud": 89900,
+      "area_m2": [
+        30,
+        50
+      ],
+      "players": [
+        2,
+        6
+      ],
+      "status": "supplier_standard_configuration_benchmark",
+      "tax_basis": "AUD conversion from supplier standard EUR configuration. GST/import tax/freight/site works/customisation unresolved.",
+      "source_ids": [
+        "R117"
+      ]
+    },
+    {
+      "name": "Pharaoh",
+      "price_aud": 63300,
+      "area_m2": [
+        30,
+        70
+      ],
+      "players": [
+        2,
+        6
+      ],
+      "status": "supplier_standard_configuration_benchmark",
+      "tax_basis": "AUD conversion from supplier standard EUR configuration. GST/import tax/freight/site works/customisation unresolved.",
+      "source_ids": [
+        "R117"
+      ]
+    },
+    {
+      "name": "Vault32",
+      "price_aud": 101600,
+      "area_m2": [
+        40,
+        80
+      ],
+      "players": [
+        2,
+        10
+      ],
+      "status": "supplier_standard_configuration_benchmark",
+      "tax_basis": "AUD conversion from supplier standard EUR configuration. GST/import tax/freight/site works/customisation unresolved.",
+      "source_ids": [
+        "R117"
+      ]
+    }
+  ],
+  "room_kit_displayed_benchmark_sum": 297300,
+  "trade_work_packages": [
+    {
+      "id": "T01",
+      "task": "Receive, inventory and move room components",
+      "hours_two_room": 16,
+      "hours_four_room": 32,
+      "rate_low": 55,
+      "rate_high": 60,
+      "source_ids": [
+        "R104"
+      ],
+      "basis": "Two labourers, one 8-hour day for two rooms. Existing approved access and handling route assumed.",
+      "tax_basis": "Excluding GST; labour-hire charge rates already include provider employment costs, so do not add a second wage/super layer.",
+      "status": "published_rate_x_explicit_task_hour_assumption",
+      "two_room_low": 880,
+      "two_room_high": 960,
+      "four_room_low": 1760,
+      "four_room_high": 1920
+    },
+    {
+      "id": "T02",
+      "task": "Install supplied modular room components",
+      "hours_two_room": 80,
+      "hours_four_room": 160,
+      "rate_low": 75,
+      "rate_high": 85,
+      "source_ids": [
+        "R104"
+      ],
+      "basis": "One carpenter, five 8-hour days per room. Covers assembly of supplied components, not new building partitions or structural work.",
+      "tax_basis": "Excluding GST; labour-hire charge rates already include provider employment costs, so do not add a second wage/super layer.",
+      "status": "published_rate_x_explicit_task_hour_assumption",
+      "two_room_low": 6000,
+      "two_room_high": 6800,
+      "four_room_low": 12000,
+      "four_room_high": 13600
+    },
+    {
+      "id": "T03",
+      "task": "Assist assembly, position props, prepare work areas",
+      "hours_two_room": 80,
+      "hours_four_room": 160,
+      "rate_low": 55,
+      "rate_high": 60,
+      "source_ids": [
+        "R104"
+      ],
+      "basis": "One labourer for the same five 8-hour days per room. Work supervised by competent contractor.",
+      "tax_basis": "Excluding GST; labour-hire charge rates already include provider employment costs, so do not add a second wage/super layer.",
+      "status": "published_rate_x_explicit_task_hour_assumption",
+      "two_room_low": 4400,
+      "two_room_high": 4800,
+      "four_room_low": 8800,
+      "four_room_high": 9600
+    },
+    {
+      "id": "T04",
+      "task": "Electrical attendance allowance from published rate",
+      "hours_two_room": 16,
+      "hours_four_room": 32,
+      "rate_low": null,
+      "rate_high": null,
+      "source_ids": [
+        "R105"
+      ],
+      "basis": "One 8-hour attendance per room: first hour $235 excluding GST plus seven hours × $135. Work quantity must be confirmed from load/point schedule; materials and new service capacity excluded.",
+      "tax_basis": "Excluding GST; labour-hire charge rates already include provider employment costs, so do not add a second wage/super layer.",
+      "status": "published_rate_x_explicit_task_hour_assumption",
+      "two_room_low": 2360,
+      "two_room_high": 2360,
+      "four_room_low": 4720,
+      "four_room_high": 4720
+    }
+  ],
+  "trade_subtotals_ex_gst": {
+    "two_room": {
+      "low": 13640,
+      "high": 14920
+    },
+    "four_room": {
+      "low": 27280,
+      "high": 29840
+    }
+  },
+  "preopening_training": {
+    "people": 8,
+    "hours_each": 8,
+    "total_paid_hours": 64,
+    "example_ordinary_wage": 36.81,
+    "super_rate": 0.12,
+    "wages_plus_sg": 2638.5408,
+    "scope": "Eight people × one day; selected Grade 4 wage used only as transparent cost benchmark; trainer, role grading and extra employment costs additional.",
+    "source_ids": [
+      "R101",
+      "R102"
+    ]
+  },
+  "wage_inputs": {
+    "ordinary_A": 36.81,
+    "sunday_A": 51.54,
+    "ordinary_B": 39.11,
+    "sunday_B": 54.76,
+    "sg_rate": 0.12
+  },
+  "operations": [
+    {
+      "name": "Two-room paid pilot,8weeks",
+      "rooms": 2,
+      "starts_per_room_day": 6,
+      "trading_days": 40,
+      "baseline_hours_per_role_day": 8,
+      "nominal_team_slots": 480,
+      "renewal_blocked_slots": 12,
+      "available_team_slots": 468,
+      "baseline_roles": 2,
+      "baseline_wages_plus_sg": 27209.728,
+      "delivery_wages_plus_sg_per_team": 49.300347,
+      "extra_closed_days_per_room": 1,
+      "baseline_A_rate_plus_sg": 41.2272,
+      "baseline_B_rate_plus_sg": 43.8032,
+      "cases": [
+        {
+          "sold_fraction": 0.3,
+          "teams": 140.4,
+          "paid_visits": 723.06,
+          "gross_receipts": 43783.74,
+          "net_sales": 39803.4,
+          "wages_plus_sg": 34131.496672,
+          "card_fees_ex_gst": 695.047009,
+          "remaining_for_all_other_costs": 4976.856319,
+          "work_hours": {
+            "baseline_coverage": 640,
+            "reset_handover_relief": 58.5,
+            "reflection_preparation_delivery_notes": 81.9,
+            "premium_workshop": 21.06,
+            "total_before_roster_fragmentation": 801.46
+          }
+        },
+        {
+          "sold_fraction": 0.5,
+          "teams": 234.0,
+          "paid_visits": 1205.1,
+          "gross_receipts": 72972.9,
+          "net_sales": 66339.0,
+          "wages_plus_sg": 38746.00912,
+          "card_fees_ex_gst": 1158.411682,
+          "remaining_for_all_other_costs": 26434.579198,
+          "work_hours": {
+            "baseline_coverage": 640,
+            "reset_handover_relief": 97.5,
+            "reflection_preparation_delivery_notes": 136.5,
+            "premium_workshop": 35.1,
+            "total_before_roster_fragmentation": 909.1
+          }
+        },
+        {
+          "sold_fraction": 0.7,
+          "teams": 327.6,
+          "paid_visits": 1687.14,
+          "gross_receipts": 102162.06,
+          "net_sales": 92874.6,
+          "wages_plus_sg": 43360.521568,
+          "card_fees_ex_gst": 1621.776355,
+          "remaining_for_all_other_costs": 47892.302077,
+          "work_hours": {
+            "baseline_coverage": 640,
+            "reset_handover_relief": 136.5,
+            "reflection_preparation_delivery_notes": 191.1,
+            "premium_workshop": 49.14,
+            "total_before_roster_fragmentation": 1016.74
+          }
+        }
+      ],
+      "extra_reset_minutes_per_team": 0,
+      "baseline_total_coverage_hours": 640,
+      "coverage_note": "Coverage hours are split across compliant shifts and people; they do not assume an 11-hour ordinary casual shift. Additional task minutes must be converted into paid roster blocks, including applicable minimum engagements, breaks and relief."
+    },
+    {
+      "name": "Two-room hosted partner,46weeks",
+      "rooms": 2,
+      "starts_per_room_day": 6,
+      "trading_days": 230,
+      "baseline_hours_per_role_day": 8,
+      "nominal_team_slots": 2760,
+      "renewal_blocked_slots": 48,
+      "available_team_slots": 2712,
+      "baseline_roles": 2,
+      "baseline_wages_plus_sg": 156455.936,
+      "delivery_wages_plus_sg_per_team": 49.300347,
+      "extra_closed_days_per_room": 4,
+      "baseline_A_rate_plus_sg": 41.2272,
+      "baseline_B_rate_plus_sg": 43.8032,
+      "cases": [
+        {
+          "sold_fraction": 0.3,
+          "teams": 813.6,
+          "paid_visits": 4190.04,
+          "gross_receipts": 253721.16,
+          "net_sales": 230655.6,
+          "wages_plus_sg": 196566.698048,
+          "card_fees_ex_gst": 4027.708309,
+          "remaining_for_all_other_costs": 30061.193643,
+          "work_hours": {
+            "baseline_coverage": 3680,
+            "reset_handover_relief": 339.0,
+            "reflection_preparation_delivery_notes": 474.6,
+            "premium_workshop": 122.04,
+            "total_before_roster_fragmentation": 4615.64
+          }
+        },
+        {
+          "sold_fraction": 0.5,
+          "teams": 1356.0,
+          "paid_visits": 6983.4,
+          "gross_receipts": 422868.6,
+          "net_sales": 384426.0,
+          "wages_plus_sg": 223307.20608,
+          "card_fees_ex_gst": 6712.847182,
+          "remaining_for_all_other_costs": 154405.946738,
+          "work_hours": {
+            "baseline_coverage": 3680,
+            "reset_handover_relief": 565.0,
+            "reflection_preparation_delivery_notes": 791.0,
+            "premium_workshop": 203.4,
+            "total_before_roster_fragmentation": 5239.4
+          }
+        },
+        {
+          "sold_fraction": 0.7,
+          "teams": 1898.4,
+          "paid_visits": 9776.76,
+          "gross_receipts": 592016.04,
+          "net_sales": 538196.4,
+          "wages_plus_sg": 250047.714112,
+          "card_fees_ex_gst": 9397.986055,
+          "remaining_for_all_other_costs": 278750.699833,
+          "work_hours": {
+            "baseline_coverage": 3680,
+            "reset_handover_relief": 791.0,
+            "reflection_preparation_delivery_notes": 1107.4,
+            "premium_workshop": 284.76,
+            "total_before_roster_fragmentation": 5863.16
+          }
+        }
+      ],
+      "extra_reset_minutes_per_team": 0,
+      "baseline_total_coverage_hours": 3680,
+      "coverage_note": "Coverage hours are split across compliant shifts and people; they do not assume an 11-hour ordinary casual shift. Additional task minutes must be converted into paid roster blocks, including applicable minimum engagements, breaks and relief."
+    },
+    {
+      "name": "Four-room reference,48weeks",
+      "rooms": 4,
+      "starts_per_room_day": 8,
+      "trading_days": 288,
+      "baseline_hours_per_role_day": 11,
+      "nominal_team_slots": 9216,
+      "renewal_blocked_slots": 128,
+      "available_team_slots": 9088,
+      "baseline_roles": 2,
+      "baseline_wages_plus_sg": 287341.824,
+      "delivery_wages_plus_sg_per_team": 52.588324,
+      "extra_closed_days_per_room": 4,
+      "baseline_A_rate_plus_sg": 43.9768,
+      "baseline_B_rate_plus_sg": 46.724533,
+      "cases": [
+        {
+          "sold_fraction": 0.3,
+          "teams": 2726.4,
+          "paid_visits": 14040.96,
+          "gross_receipts": 850227.84,
+          "net_sales": 772934.4,
+          "wages_plus_sg": 430718.631765,
+          "card_fees_ex_gst": 13496.981236,
+          "remaining_for_all_other_costs": 328718.786998,
+          "work_hours": {
+            "baseline_coverage": 6336,
+            "reset_handover_relief": 1136.0,
+            "reflection_preparation_delivery_notes": 1590.4,
+            "premium_workshop": 408.96,
+            "total_before_roster_fragmentation": 9471.36
+          }
+        },
+        {
+          "sold_fraction": 0.5,
+          "teams": 4544.0,
+          "paid_visits": 23401.6,
+          "gross_receipts": 1417046.4,
+          "net_sales": 1288224.0,
+          "wages_plus_sg": 526303.170276,
+          "card_fees_ex_gst": 22494.968727,
+          "remaining_for_all_other_costs": 739425.860997,
+          "work_hours": {
+            "baseline_coverage": 6336,
+            "reset_handover_relief": 1893.333333,
+            "reflection_preparation_delivery_notes": 2650.666667,
+            "premium_workshop": 681.6,
+            "total_before_roster_fragmentation": 11561.6
+          }
+        },
+        {
+          "sold_fraction": 0.7,
+          "teams": 6361.6,
+          "paid_visits": 32762.24,
+          "gross_receipts": 1983864.96,
+          "net_sales": 1803513.6,
+          "wages_plus_sg": 621887.708786,
+          "card_fees_ex_gst": 31492.956218,
+          "remaining_for_all_other_costs": 1150132.934996,
+          "work_hours": {
+            "baseline_coverage": 6336,
+            "reset_handover_relief": 2650.666667,
+            "reflection_preparation_delivery_notes": 3710.933333,
+            "premium_workshop": 954.24,
+            "total_before_roster_fragmentation": 13651.84
+          }
+        }
+      ],
+      "extra_reset_minutes_per_team": 0,
+      "baseline_total_coverage_hours": 6336,
+      "coverage_note": "Coverage hours are split across compliant shifts and people; they do not assume an 11-hour ordinary casual shift. Additional task minutes must be converted into paid roster blocks, including applicable minimum engagements, breaks and relief."
+    },
+    {
+      "name": "Four-room75-minutecycle",
+      "rooms": 4,
+      "starts_per_room_day": 7,
+      "trading_days": 288,
+      "baseline_hours_per_role_day": 11,
+      "nominal_team_slots": 8064,
+      "renewal_blocked_slots": 112,
+      "available_team_slots": 7952,
+      "baseline_roles": 2,
+      "baseline_wages_plus_sg": 287341.824,
+      "delivery_wages_plus_sg_per_team": 56.253058,
+      "extra_closed_days_per_room": 4,
+      "baseline_A_rate_plus_sg": 43.9768,
+      "baseline_B_rate_plus_sg": 46.724533,
+      "cases": [
+        {
+          "sold_fraction": 0.3,
+          "teams": 2385.6,
+          "paid_visits": 12285.84,
+          "gross_receipts": 743949.36,
+          "net_sales": 676317.6,
+          "wages_plus_sg": 421539.118635,
+          "card_fees_ex_gst": 11809.858582,
+          "remaining_for_all_other_costs": 242968.622784,
+          "work_hours": {
+            "baseline_coverage": 6336,
+            "reset_handover_relief": 1192.8,
+            "reflection_preparation_delivery_notes": 1391.6,
+            "premium_workshop": 357.84,
+            "total_before_roster_fragmentation": 9278.24
+          }
+        },
+        {
+          "sold_fraction": 0.5,
+          "teams": 3976.0,
+          "paid_visits": 20476.4,
+          "gross_receipts": 1239915.6,
+          "net_sales": 1127196.0,
+          "wages_plus_sg": 511003.981724,
+          "card_fees_ex_gst": 19683.097636,
+          "remaining_for_all_other_costs": 596508.920639,
+          "work_hours": {
+            "baseline_coverage": 6336,
+            "reset_handover_relief": 1988.0,
+            "reflection_preparation_delivery_notes": 2319.333333,
+            "premium_workshop": 596.4,
+            "total_before_roster_fragmentation": 11239.733333
+          }
+        },
+        {
+          "sold_fraction": 0.7,
+          "teams": 5566.4,
+          "paid_visits": 28666.96,
+          "gross_receipts": 1735881.84,
+          "net_sales": 1578074.4,
+          "wages_plus_sg": 600468.844814,
+          "card_fees_ex_gst": 27556.336691,
+          "remaining_for_all_other_costs": 950049.218495,
+          "work_hours": {
+            "baseline_coverage": 6336,
+            "reset_handover_relief": 2783.2,
+            "reflection_preparation_delivery_notes": 3247.066667,
+            "premium_workshop": 834.96,
+            "total_before_roster_fragmentation": 13201.226667
+          }
+        }
+      ],
+      "extra_reset_minutes_per_team": 5,
+      "baseline_total_coverage_hours": 6336,
+      "coverage_note": "Coverage hours are split across compliant shifts and people; they do not assume an 11-hour ordinary casual shift. Additional task minutes must be converted into paid roster blocks, including applicable minimum engagements, breaks and relief."
+    }
+  ],
+  "quote_required": [
+    {
+      "id": "Q01",
+      "item": "Premises rent and outgoings",
+      "scope": "Selected 400 m2 venue or host agreement, actual area and use approval, parking, landlord works, rent review and outgoings schedule. Published 300 m2 comparables are not a 400 m2 quote.",
+      "status": "quote_required",
+      "cost": null
+    },
+    {
+      "id": "Q02",
+      "item": "Building design and approvals",
+      "scope": "Measured layout, acoustic design, building/fire/access review and certification fees.",
+      "status": "quote_required",
+      "cost": null
+    },
+    {
+      "id": "Q03",
+      "item": "Partitions, doors and finishes",
+      "scope": "Measured linear metres, wall height, door schedule, acoustic/fire performance, floor finish area, materials and installed labour.",
+      "status": "quote_required",
+      "cost": null
+    },
+    {
+      "id": "Q04",
+      "item": "Ventilation and cooling",
+      "scope": "Occupancy and heat-load design, duct routes, fresh air, plant scope and installed electrical work.",
+      "status": "quote_required",
+      "cost": null
+    },
+    {
+      "id": "Q05",
+      "item": "Electrical and data materials",
+      "scope": "Confirmed points/circuits, distribution, testing, data cabling and controls. T04 is only an attendance cost example.",
+      "status": "quote_required",
+      "cost": null
+    },
+    {
+      "id": "Q06",
+      "item": "Room design and content rights",
+      "scope": "Four no-hint scenarios, version routes, local story permissions, prototype/fresh group testing, manuals and rights schedule. Supplier standard kits are comparison products.",
+      "status": "quote_required",
+      "cost": null
+    },
+    {
+      "id": "Q07",
+      "item": "Room kit landed cost",
+      "scope": "Written configuration price, currency basis, packing, freight, customs/import GST, inland delivery and installation boundaries.",
+      "status": "quote_required",
+      "cost": null
+    },
+    {
+      "id": "Q08",
+      "item": "Multi-room audio and monitoring",
+      "scope": "Site RF/acoustic survey, 12 or 24 participant capture, time alignment, live monitoring, recording/analysis architecture, data retention, storage, playback and acceptance test. No automatic multiplication of consumer kit.",
+      "status": "quote_required",
+      "cost": null
+    },
+    {
+      "id": "Q09",
+      "item": "Software and AI services",
+      "scope": "Approved agent role build, booking integration, source access, usage volumes, selected inference/API rate card and monitoring. Operating roles remain inactive until Luke approves.",
+      "status": "quote_required",
+      "cost": null
+    },
+    {
+      "id": "Q10",
+      "item": "Professional and insurance",
+      "scope": "Legal/accounting service scope, public liability, property/contents, business interruption, cyber cover, workers compensation, applicable payroll tax and licences.",
+      "status": "quote_required",
+      "cost": null
+    },
+    {
+      "id": "Q11",
+      "item": "Management and paid specialist work",
+      "scope": "Luke remuneration allocation, venue manager duties/hours, specialist facilitation, breaks, child/access support, leave/relief and roster minimum-engagement effects.",
+      "status": "quote_required",
+      "cost": null
+    },
+    {
+      "id": "Q12",
+      "item": "Opening and ongoing consumables",
+      "scope": "Measured per-session cleaning/mic hygiene, printing, broken prop replacement, laundry and waste; quantity×actual supplier unit price.",
+      "status": "quote_required",
+      "cost": null
+    },
+    {
+      "id": "Q13",
+      "item": "Utilities, connectivity and premises services",
+      "scope": "Selected tariff/contract, meter/load schedule, hours, water, waste, cleaning and maintenance contracts.",
+      "status": "quote_required",
+      "cost": null
+    },
+    {
+      "id": "Q14",
+      "item": "Tourism distribution and promotion",
+      "scope": "Actual referral agreements, portal fees, advertising quantities/rates, pass settlement administration and refunds.",
+      "status": "quote_required",
+      "cost": null
+    },
+    {
+      "id": "Q15",
+      "item": "Freight, secondhand inspection and make-good",
+      "scope": "Collection/delivery, repair, cleaning, assembly, anchoring, remaining service life, end-of-lease removal and waste charges.",
+      "status": "quote_required",
+      "cost": null
+    },
+    {
+      "id": "Q16",
+      "item": "Contingency and financing",
+      "scope": "Itemised risk register priced after scope/quotes; loan terms, fees, cash timing and tax. No invented flat percentage substituted for unresolved scope.",
+      "status": "quote_required",
+      "cost": null
+    }
+  ],
+  "rent_comparables": [
+    {
+      "source_id": "R118",
+      "area_m2": 300,
+      "annual_rent_ex_gst": 81000,
+      "rent_per_m2_year": 270,
+      "notes": "Asking rent only, plus outgoings, existing office/warehouse mix; not selected 400 m2 venue."
+    },
+    {
+      "source_id": "R119",
+      "area_m2": 300,
+      "annual_rent_ex_gst": 72000,
+      "rent_per_m2_year": 240,
+      "notes": "Two-level office/storage; not an accessible single-level room layout quote."
+    }
+  ],
+  "renewal_assets": [
+    {
+      "id": "A01",
+      "item": "Rode Wireless PRO dual kit",
+      "purchase_cost_displayed": 1540,
+      "reserve_years": 3,
+      "annual_reserve": 513.333333,
+      "scope": "one_room_prototype"
+    },
+    {
+      "id": "A02",
+      "item": "Zoom LiveTrak L-8 mixer/recorder",
+      "purchase_cost_displayed": 715,
+      "reserve_years": 5,
+      "annual_reserve": 143.0,
+      "scope": "one_room_prototype"
+    },
+    {
+      "id": "A03",
+      "item": "Hosa CMP-159 breakout cable",
+      "purchase_cost_displayed": 88,
+      "reserve_years": 3,
+      "annual_reserve": 29.333333,
+      "scope": "one_room_prototype"
+    },
+    {
+      "id": "A04",
+      "item": "Refurbished HP EliteDesk 800 G6 Mini",
+      "purchase_cost_displayed": 399,
+      "reserve_years": 4,
+      "annual_reserve": 99.75,
+      "scope": "one_room_prototype"
+    },
+    {
+      "id": "A05",
+      "item": "CyberPower 900 VA/540 W UPS",
+      "purchase_cost_displayed": 299,
+      "reserve_years": 4,
+      "annual_reserve": 74.75,
+      "scope": "one_room_prototype"
+    },
+    {
+      "id": "F01",
+      "item": "Ex-hire Chibel stackable visitor chair",
+      "purchase_cost_displayed": 1248,
+      "reserve_years": 3,
+      "annual_reserve": 416.0,
+      "scope": "four_room_shared_furniture"
+    },
+    {
+      "id": "F02",
+      "item": "New Matrix visitor armchair",
+      "purchase_cost_displayed": 796,
+      "reserve_years": 7,
+      "annual_reserve": 113.714286,
+      "scope": "four_room_shared_furniture"
+    },
+    {
+      "id": "F03",
+      "item": "New Rapidline 1800 × 900 folding table",
+      "purchase_cost_displayed": 1168,
+      "reserve_years": 7,
+      "annual_reserve": 166.857143,
+      "scope": "four_room_shared_furniture"
+    },
+    {
+      "id": "F04",
+      "item": "Used 1600 × 800 metal-frame desk",
+      "purchase_cost_displayed": 300,
+      "reserve_years": 5,
+      "annual_reserve": 60.0,
+      "scope": "four_room_shared_furniture"
+    },
+    {
+      "id": "F05",
+      "item": "Used 1600h × 900w × 430d mm storage cupboard",
+      "purchase_cost_displayed": 516,
+      "reserve_years": 5,
+      "annual_reserve": 103.2,
+      "scope": "four_room_shared_furniture"
+    }
+  ],
+  "renewal_schedules": {
+    "one_room_prototype": {
+      "annual_reserve": 860.166667,
+      "schedule": [
+        {
+          "year": 1,
+          "reserve_contribution": 860.166667,
+          "planned_purchase_at_current_prices": 0.0,
+          "balance": 860.166667,
+          "items": []
+        },
+        {
+          "year": 2,
+          "reserve_contribution": 860.166667,
+          "planned_purchase_at_current_prices": 0.0,
+          "balance": 1720.333333,
+          "items": []
+        },
+        {
+          "year": 3,
+          "reserve_contribution": 860.166667,
+          "planned_purchase_at_current_prices": 1628.0,
+          "balance": 952.5,
+          "items": [
+            "A01",
+            "A03"
+          ]
+        },
+        {
+          "year": 4,
+          "reserve_contribution": 860.166667,
+          "planned_purchase_at_current_prices": 698.0,
+          "balance": 1114.666667,
+          "items": [
+            "A04",
+            "A05"
+          ]
+        },
+        {
+          "year": 5,
+          "reserve_contribution": 860.166667,
+          "planned_purchase_at_current_prices": 715.0,
+          "balance": 1259.833333,
+          "items": [
+            "A02"
+          ]
+        },
+        {
+          "year": 6,
+          "reserve_contribution": 860.166667,
+          "planned_purchase_at_current_prices": 1628.0,
+          "balance": 492.0,
+          "items": [
+            "A01",
+            "A03"
+          ]
+        },
+        {
+          "year": 7,
+          "reserve_contribution": 860.166667,
+          "planned_purchase_at_current_prices": 0.0,
+          "balance": 1352.166667,
+          "items": []
+        },
+        {
+          "year": 8,
+          "reserve_contribution": 860.166667,
+          "planned_purchase_at_current_prices": 698.0,
+          "balance": 1514.333333,
+          "items": [
+            "A04",
+            "A05"
+          ]
+        },
+        {
+          "year": 9,
+          "reserve_contribution": 860.166667,
+          "planned_purchase_at_current_prices": 1628.0,
+          "balance": 746.5,
+          "items": [
+            "A01",
+            "A03"
+          ]
+        },
+        {
+          "year": 10,
+          "reserve_contribution": 860.166667,
+          "planned_purchase_at_current_prices": 715.0,
+          "balance": 891.666667,
+          "items": [
+            "A02"
+          ]
+        }
+      ],
+      "horizons": {
+        "3": 1628.0,
+        "5": 3041.0,
+        "10": 7710.0
+      }
+    },
+    "four_room_shared_furniture": {
+      "annual_reserve": 859.771429,
+      "schedule": [
+        {
+          "year": 1,
+          "reserve_contribution": 859.771429,
+          "planned_purchase_at_current_prices": 0.0,
+          "balance": 859.771429,
+          "items": []
+        },
+        {
+          "year": 2,
+          "reserve_contribution": 859.771429,
+          "planned_purchase_at_current_prices": 0.0,
+          "balance": 1719.542857,
+          "items": []
+        },
+        {
+          "year": 3,
+          "reserve_contribution": 859.771429,
+          "planned_purchase_at_current_prices": 1248.0,
+          "balance": 1331.314286,
+          "items": [
+            "F01"
+          ]
+        },
+        {
+          "year": 4,
+          "reserve_contribution": 859.771429,
+          "planned_purchase_at_current_prices": 0.0,
+          "balance": 2191.085714,
+          "items": []
+        },
+        {
+          "year": 5,
+          "reserve_contribution": 859.771429,
+          "planned_purchase_at_current_prices": 816.0,
+          "balance": 2234.857143,
+          "items": [
+            "F04",
+            "F05"
+          ]
+        },
+        {
+          "year": 6,
+          "reserve_contribution": 859.771429,
+          "planned_purchase_at_current_prices": 1248.0,
+          "balance": 1846.628571,
+          "items": [
+            "F01"
+          ]
+        },
+        {
+          "year": 7,
+          "reserve_contribution": 859.771429,
+          "planned_purchase_at_current_prices": 1964.0,
+          "balance": 742.4,
+          "items": [
+            "F02",
+            "F03"
+          ]
+        },
+        {
+          "year": 8,
+          "reserve_contribution": 859.771429,
+          "planned_purchase_at_current_prices": 0.0,
+          "balance": 1602.171429,
+          "items": []
+        },
+        {
+          "year": 9,
+          "reserve_contribution": 859.771429,
+          "planned_purchase_at_current_prices": 1248.0,
+          "balance": 1213.942857,
+          "items": [
+            "F01"
+          ]
+        },
+        {
+          "year": 10,
+          "reserve_contribution": 859.771429,
+          "planned_purchase_at_current_prices": 816.0,
+          "balance": 1257.714286,
+          "items": [
+            "F04",
+            "F05"
+          ]
+        }
+      ],
+      "horizons": {
+        "3": 1248.0,
+        "5": 2064.0,
+        "10": 7340.0
+      }
+    }
+  },
+  "room_renewal_benchmark": {
+    "scope": "Four standard catalogue room kits as a price comparison, not selected or no-hint compliant designs.",
+    "displayed_replacement_cost": 297300,
+    "proposed_reserve_years": 5,
+    "annual_displayed_price_reserve": 59460.0,
+    "horizons": {
+      "3": 0,
+      "5": 297300,
+      "10": 594600
+    },
+    "exclusions": "Freight,taxes,site works,customisation,installation and recording technology. No salvage credit assumed. Requote before adoption."
+  },
+  "tourism_pass": {
+    "price_per_person_inc_gst": 169,
+    "ordinary_three_visits_inc_gst": 177,
+    "venue_allocation_each_visit_inc_gst": 53,
+    "network_service_per_pass_inc_gst": 10,
+    "passes_per_transaction": 5,
+    "customer_cash": 845.0,
+    "venue_allocations_gross": 795,
+    "central_service_gross": 50.0,
+    "central_service_net": 45.454545,
+    "processor_fee_cash": 14.2425,
+    "processor_fee_net_if_credit_eligible": 12.947727,
+    "central_residual_before_other_costs": 32.506818,
+    "central_residual_without_processor_gst_credit": 31.212045,
+    "each_venue_net_per_person": 48.181818,
+    "ordinary_venue_net_per_person": 53.636364,
+    "status": "proposed_direct_distribution_tariff_for_approval",
+    "source_ids": [
+      "R103"
+    ]
+  },
+  "central_network": {
+    "revenue_formula": "Earned deployment contract margin + earned design/training/licence service fees + earned pass service fee + contracted maintenance/renewal fees",
+    "cost_formula": "Luke allocated pay + actual approved agent/API usage + paid contractor work + network marketing + support + insurance/legal/admin + refunds/processorfees",
+    "prohibited_double_count": "Venue ticket allocations are pass settlement liabilities, not central network revenue. Supplier pass-through and grant cash require correct accounting. Local manager pay and Luke programme management pay must be allocated to actual work once.",
+    "unpriced_service_tariffs": "Design,installation,licence,maintenance and training prices are proposed from fully scoped quotes and approval; no compulsory percentage extraction assumption."
+  },
+  "financial_completion": {
+    "full_profit_available": false,
+    "reason": "Premises, custom design, multi-room audio, insurance, management, utilities, consumables and other named cost packages are not quoted.",
+    "headroom_formula": "Operating result = table remaining_for_all_other_costs minus actual annual rent/outgoings minus management/founder pay minus all other operating costs minus approved renewal provision. Financing/depreciation/income tax separate.",
+    "break_even_formula": "(Annual fixed wages + priced other fixed costs + quoted other fixed costs + annual renewal provision) / (net sales per team - variable wages per team - transaction cost per team - other variable cost per team) / available annual team slots",
+    "startup_cash_formula": "Approved capital expenditure milestones + actual GST timing + lease bond/rent and outgoings + preopening paid work + forecast cash trough + agreed risk items - committed available funding. Unconfirmed grants/expressions of interest count as zero."
+  },
+  "roster_audit": {
+    "status": "Coverage and task-hour budget, not an approved employee roster.",
+    "baseline_roles": "One A-rate monitor/control position and one B-rate host/operations position. Four-room coverage is 11 hours per position per trading day; two-room coverage is 8 hours.",
+    "additional_work": "Each sold team adds 25 A-rate minutes for reset, handover and relief, plus 35 B-rate minutes for reflection preparation, delivery and notes. The proposed 20% premium mix adds 45 B-rate minutes to each premium team. These minutes are additional to baseline coverage, not assumed free work by baseline employees.",
+    "long_cycle": "The 75-minute case keeps 45 minutes of independent play, extends reset from 10 to 15 minutes, and provides 15 minutes of timetable buffer. It adds five paid A-rate reset minutes per team and offers seven starts per room per day.",
+    "award_constraints": "For this published award benchmark, ordinary casual hours are limited to 10 per day and 38 per week; usual minimum engagement is 3 hours and Sunday work has a 4-hour minimum. The final classification, roster, breaks and employment terms must be checked against the actual work.",
+    "source_ids": [
+      "R101",
+      "R102"
+    ],
+    "unpriced_roster_effects": "Minimum-engagement gaps, simultaneous demand, break coverage beyond the included relief minutes, child and accessibility support, training, management and specialist duties must be measured and priced. No unsupported percentage or free founder labour is substituted."
+  },
+  "software_ai_budget": {
+    "status": "Published price benchmarks and explicit proposed usage quantities only. No subscriptions, uploaded recordings or operating agents are activated.",
+    "currency": "USD for provider unit costs; do not add directly to AUD venue costs.",
+    "fx_formula": "AUD cash = provider USD invoice × actual AUD paid per USD + payment/FX charges + applicable taxes. Net operating expense subtracts only eligible input tax credits. No exchange rate or tax exemption is assumed.",
+    "source_ids": [
+      "R121",
+      "R122",
+      "R123",
+      "R124"
+    ],
+    "transcription": {
+      "file_model_price_benchmark": "gpt-transcribe",
+      "file_usd_per_audio_minute": 0.0045,
+      "live_model_price_benchmark": "gpt-live-transcribe",
+      "live_usd_per_audio_minute": 0.017,
+      "duration_per_participant_minutes": 45,
+      "planning_actual_recorded_participants": 5.15,
+      "formula": "Sold teams × actual average recorded participants per team × full recorded minutes per participant × USD price per audio minute.",
+      "scope_note": "Planning average 5.15 assumes the paying participant mix also equals the recorded participant mix. Replace it with actual consenting recorded headcount, including any recorded teachers, carers or facilitators. Each separate participant file is charged for its full submitted duration. Do not assume a silence discount, a one-room-minute charge for multiple channels, or free credits. Debrief audio, retries and duplicate submissions add their actual duration.",
+      "processing_decision": "Post-play file processing is the priced base example. Live processing is a separate comparison, not an automatic requirement. Verify upload limits, turnaround and relevant accents/languages with the pilot before selecting a provider.",
+      "cases": [
+        {
+          "operation": "Two-room paid pilot,8weeks",
+          "sold_fraction": 0.3,
+          "sold_teams": 140.4,
+          "planning_recorded_participants_per_team": 5.15,
+          "duration_minutes_per_channel": 45,
+          "chargeable_audio_minutes": 32537.7,
+          "file_transcription_usd": 146.41965,
+          "live_transcription_usd": 553.1409
+        },
+        {
+          "operation": "Two-room paid pilot,8weeks",
+          "sold_fraction": 0.5,
+          "sold_teams": 234.0,
+          "planning_recorded_participants_per_team": 5.15,
+          "duration_minutes_per_channel": 45,
+          "chargeable_audio_minutes": 54229.5,
+          "file_transcription_usd": 244.03275,
+          "live_transcription_usd": 921.9015
+        },
+        {
+          "operation": "Two-room paid pilot,8weeks",
+          "sold_fraction": 0.7,
+          "sold_teams": 327.6,
+          "planning_recorded_participants_per_team": 5.15,
+          "duration_minutes_per_channel": 45,
+          "chargeable_audio_minutes": 75921.3,
+          "file_transcription_usd": 341.64585,
+          "live_transcription_usd": 1290.6621
+        },
+        {
+          "operation": "Two-room hosted partner,46weeks",
+          "sold_fraction": 0.3,
+          "sold_teams": 813.6,
+          "planning_recorded_participants_per_team": 5.15,
+          "duration_minutes_per_channel": 45,
+          "chargeable_audio_minutes": 188551.8,
+          "file_transcription_usd": 848.4831,
+          "live_transcription_usd": 3205.3806
+        },
+        {
+          "operation": "Two-room hosted partner,46weeks",
+          "sold_fraction": 0.5,
+          "sold_teams": 1356.0,
+          "planning_recorded_participants_per_team": 5.15,
+          "duration_minutes_per_channel": 45,
+          "chargeable_audio_minutes": 314253.0,
+          "file_transcription_usd": 1414.1385,
+          "live_transcription_usd": 5342.301
+        },
+        {
+          "operation": "Two-room hosted partner,46weeks",
+          "sold_fraction": 0.7,
+          "sold_teams": 1898.4,
+          "planning_recorded_participants_per_team": 5.15,
+          "duration_minutes_per_channel": 45,
+          "chargeable_audio_minutes": 439954.2,
+          "file_transcription_usd": 1979.7939,
+          "live_transcription_usd": 7479.2214
+        },
+        {
+          "operation": "Four-room reference,48weeks",
+          "sold_fraction": 0.3,
+          "sold_teams": 2726.4,
+          "planning_recorded_participants_per_team": 5.15,
+          "duration_minutes_per_channel": 45,
+          "chargeable_audio_minutes": 631843.2,
+          "file_transcription_usd": 2843.2944,
+          "live_transcription_usd": 10741.3344
+        },
+        {
+          "operation": "Four-room reference,48weeks",
+          "sold_fraction": 0.5,
+          "sold_teams": 4544.0,
+          "planning_recorded_participants_per_team": 5.15,
+          "duration_minutes_per_channel": 45,
+          "chargeable_audio_minutes": 1053072.0,
+          "file_transcription_usd": 4738.824,
+          "live_transcription_usd": 17902.224
+        },
+        {
+          "operation": "Four-room reference,48weeks",
+          "sold_fraction": 0.7,
+          "sold_teams": 6361.6,
+          "planning_recorded_participants_per_team": 5.15,
+          "duration_minutes_per_channel": 45,
+          "chargeable_audio_minutes": 1474300.8,
+          "file_transcription_usd": 6634.3536,
+          "live_transcription_usd": 25063.1136
+        },
+        {
+          "operation": "Four-room75-minutecycle",
+          "sold_fraction": 0.3,
+          "sold_teams": 2385.6,
+          "planning_recorded_participants_per_team": 5.15,
+          "duration_minutes_per_channel": 45,
+          "chargeable_audio_minutes": 552862.8,
+          "file_transcription_usd": 2487.8826,
+          "live_transcription_usd": 9398.6676
+        },
+        {
+          "operation": "Four-room75-minutecycle",
+          "sold_fraction": 0.5,
+          "sold_teams": 3976.0,
+          "planning_recorded_participants_per_team": 5.15,
+          "duration_minutes_per_channel": 45,
+          "chargeable_audio_minutes": 921438.0,
+          "file_transcription_usd": 4146.471,
+          "live_transcription_usd": 15664.446
+        },
+        {
+          "operation": "Four-room75-minutecycle",
+          "sold_fraction": 0.7,
+          "sold_teams": 5566.4,
+          "planning_recorded_participants_per_team": 5.15,
+          "duration_minutes_per_channel": 45,
+          "chargeable_audio_minutes": 1290013.2,
+          "file_transcription_usd": 5805.0594,
+          "live_transcription_usd": 21930.2244
+        }
+      ]
+    },
+    "token_unit_price_benchmark": {
+      "model": "gpt-6.1-sol",
+      "tier": "Standard",
+      "usd_per_million_uncached_input_tokens": 2,
+      "usd_per_million_output_tokens": 10,
+      "source_ids": [
+        "R121"
+      ],
+      "note": "A current unit-price example, not a required model. No cache, batch, promotional or free-credit saving is assumed."
+    },
+    "team_analysis_work_packages": [
+      {
+        "task": "Draft one team reflection from its authorised transcript and rubric",
+        "calls_per_team": 1,
+        "uncached_input_token_budget": 12000,
+        "output_token_budget": 2000,
+        "web_search_calls": 0,
+        "file_search_calls": 0,
+        "explanation": "Input includes transcript, instructions and rubric. Output is a draft for a qualified human facilitator, not a diagnosis or automatic judgment of a person.",
+        "usd_per_team": 0.044
+      },
+      {
+        "task": "Review the draft for evidence, alternatives and facilitator questions",
+        "calls_per_team": 1,
+        "uncached_input_token_budget": 14000,
+        "output_token_budget": 2000,
+        "web_search_calls": 0,
+        "file_search_calls": 0,
+        "explanation": "Second pass includes source transcript and first draft. Two calls are a proposed work package to measure during the pilot, not an activated agent.",
+        "usd_per_team": 0.048
+      }
+    ],
+    "team_analysis_usd_per_team": 0.092,
+    "team_analysis_four_room_50_percent_usd": 418.048,
+    "agent_cost_formula": "For each approved role: runs × [(uncached input tokens × input price + cached-read tokens × cached price + billable cache-write tokens × write price + billable output tokens × output price)/1000000 + sum(tool actions × tool unit charge)] + actual sandbox/compute time + storage + connector/licence charges. Include retries and all calls in multi-step runs. Billable reasoning tokens are included where the provider charges them.",
+    "role_budget_fields": [
+      "role",
+      "approved deliverable",
+      "runs per month",
+      "calls per run",
+      "uncached input tokens per call",
+      "cached tokens and writes",
+      "billable output tokens",
+      "tool actions and unit rates",
+      "retry count",
+      "storage and compute units",
+      "monthly USD cap",
+      "actual AUD conversion",
+      "human review hours"
+    ],
+    "tool_unit_examples": [
+      {
+        "tool": "Web search",
+        "usd_per_call": 0.01,
+        "additional": "Search content tokens are also billed at the model rate.",
+        "source_ids": [
+          "R121"
+        ]
+      },
+      {
+        "tool": "File search",
+        "usd_per_call": 0.0025,
+        "additional": "Storage and model token costs are separate.",
+        "source_ids": [
+          "R121"
+        ]
+      }
+    ],
+    "planning_run_example": {
+      "description": "One proposed research/planning deliverable with 20000 uncached input tokens, 4000 output tokens and three web-search actions. Retrieved search tokens must fit within the input budget or be added.",
+      "input_tokens": 20000,
+      "output_tokens": 4000,
+      "web_search_calls": 3,
+      "usd_per_run": 0.11,
+      "runs_per_month": null,
+      "monthly_total": null
+    },
+    "excluded_and_quote_required": [
+      "Booking software and payment integration",
+      "Hosting, secure storage, backups and retention controls",
+      "Agent workflow implementation, evaluation and maintenance",
+      "Connector seats and third-party licences",
+      "Human review beyond time already included in the facilitator work package",
+      "Actual approved monthly role volumes, retries and usage limits"
+    ],
+    "venue_model_treatment": "These prices make the software cost measurable. The existing AUD headroom table remains before software and all other listed costs until actual FX, selected workflow and usage are priced. It is not a profit table."
+  }
+}

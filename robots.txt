@@ -1,0 +1,2 @@
+# Discovery does not grant rights beyond LICENCE.md.
+Sitemap: https://auraofintelligence.github.io/escape-room-team-building/sitemap.xml

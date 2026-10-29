@@ -1,0 +1,13 @@
+{
+  "docx": "downloads/Escape-Room-Network-Business-Plan.docx",
+  "canonical_plan_sha256": "674f7783df3938b86dce416939ddc36bfa3616dc1edcfe85987f43c3b5a8ac8c",
+  "source_register_sha256": "f86997d701b74f4916233ba0f420c70de9c62af7c9dc413c51c5bd2203e39703",
+  "chapters": 11,
+  "sections": 60,
+  "source_entries": 78,
+  "table_count": 27,
+  "manuscript_words": 12557,
+  "licence_included": true,
+  "all_chapter_bodies_included": true,
+  "operating_system_status": "Proposed for Luke's approval"
+}

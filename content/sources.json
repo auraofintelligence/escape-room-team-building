@@ -1,0 +1,774 @@
+{
+  "documents": [
+    {
+      "id": "D01",
+      "title": "A Fair Go for the AI Age: Postcode-Level Sovereign Compute",
+      "original_name": "A Fair Go for the AI Age_ Postcode-Level Sovereign Compute as Shared National Infrastructure(20261029-080505).docx",
+      "path": "documents/originals/A Fair Go for the AI Age_ Postcode-Level Sovereign Compute as Shared National Infrastructure(20261029-080505).docx",
+      "git_blob": "694400948fb1991cf8db3a7608f03af434ffcf49",
+      "sha256": "ccc0b69b4044892cbd5a50eed16e1c47656db8db03b6630d62a96836967d2c8d",
+      "bytes": 44117,
+      "available": true,
+      "source_url": "https://raw.githubusercontent.com/auraofintelligence/Redlands_discovers_Luke_Hayes/2a8990819b78fda139f9948068f9bdfdd9fa58d9/references/files/hayes-fair-go-ai-age-postcode-sovereign-compute-2026-08-18.docx",
+      "note": "National rationale for shared community compute.",
+      "application": "Shared local capability, council and community connections, personally controlled data and a fair go as AI capabilities grow. Escape-room demand and deployment use room-level business cases; compute ratios and budgets are not transferred."
+    },
+    {
+      "id": "D02",
+      "title": "AUKUS Public Inquiry Submission",
+      "original_name": "AUKUS_Public_Inquiry_Submission_Luke_Nathan_Hayes_2026(20261029-080505).docx",
+      "path": "documents/originals/AUKUS_Public_Inquiry_Submission_Luke_Nathan_Hayes_2026(20261029-080505).docx",
+      "git_blob": "fc4dd5a911c01f39528923d2629bacbc6b2cf96a",
+      "sha256": "1fcc88fe31b0192107683880a9c21c4ce7e83b63e91b576316e618e43363ffea",
+      "bytes": 43828,
+      "available": true,
+      "source_url": "https://raw.githubusercontent.com/auraofintelligence/UNGA81-Luke-Hayes/12afc71ba7375a2096ab4c307934198568e58bed/documents/AUKUS_Public_Inquiry_Submission_Luke_Nathan_Hayes_2026.docx",
+      "note": "Wider national capability and public-investment context.",
+      "application": "Identify a local opportunity, prepare people and facilities, install, document, learn and pass the method to the next cohort. Experienced tradespeople remain paid contributors."
+    },
+    {
+      "id": "D03",
+      "title": "Aura Genesis for Children and Young People in Australian Care",
+      "original_name": "Aura_Genesis_Children_and_Teens_Australian_Care(2).docx",
+      "path": "documents/originals/Aura_Genesis_Children_and_Teens_Australian_Care(2).docx",
+      "git_blob": "5a4f3dab52525c63be52b7554caa1aa8a62a4111",
+      "sha256": "794eb83ce475d7dafd761e4e7e5f4aa0bc977bfbf33d7ec24696962ffe65cea4",
+      "bytes": 64063,
+      "available": true,
+      "source_url": "https://raw.githubusercontent.com/auraofintelligence/aura-child-services/4d879d2eb14c46fd7ea4292760ac9e9fc5ada96f/documents/Aura_Genesis_Children_and_Teens_Australian_Care.docx",
+      "note": "Child and youth learning, care continuity, Verse Box and opportunities for adulthood.",
+      "application": "Age-appropriate creative challenges, continuity through transitions, personal agency, supported learning and concrete opportunities as young people enter adulthood."
+    },
+    {
+      "id": "D04",
+      "title": "Aura Genesis Geode Development, Edition 3",
+      "original_name": "Aura_Genesis_Geode_Development_Edition_3(4).pdf",
+      "path": "documents/originals/Aura_Genesis_Geode_Development_Edition_3(4).pdf",
+      "git_blob": "4d362193afda17a5ffe5955901812fddf98ff056",
+      "sha256": "add4102f8f7bccef97fbd0b63b06e99aaa89d04f6a807398b8b5f985ff0f5496",
+      "bytes": 691604,
+      "available": true,
+      "source_url": "https://raw.githubusercontent.com/auraofintelligence/open-record-luke-nathan-hayes/e4ffea29e5ba99ec4a3caa256277658bb87d3fb0/documents/supplementary/Aura_Genesis_Geode_Development_Edition_3.pdf",
+      "note": "Genesis, personal models, materials, hub workloads and civic infrastructure; especially page 37.",
+      "application": "Personal-context records, reflection, simulation, selected sensor observations and connected civic/creative applications. Adult clinical/HBOT components stay in their separate programme."
+    },
+    {
+      "id": "D05",
+      "title": "Aura Teacher Training: 60 Days",
+      "original_name": "Aura_Teacher_Training_60_Days(7).pdf",
+      "path": "documents/originals/Aura_Teacher_Training_60_Days(7).pdf",
+      "git_blob": "65853657f9f1e10b680d11c5475185bfec9d09d3",
+      "sha256": "13bb521a9f754aedb2cb88c5af981efa778bd7ec844297d92d7256534ea2418c",
+      "bytes": 458131,
+      "available": true,
+      "source_url": "https://raw.githubusercontent.com/auraofintelligence/Redlands_discovers_Luke_Hayes/2a8990819b78fda139f9948068f9bdfdd9fa58d9/references/files/hayes-aura-teacher-training-sixty-days-2026-10-14.pdf",
+      "note": "Sixty-day learning programme; Days 41–42 directly connect rack deployment and distributed continuity.",
+      "application": "Personal language and cultural meaning; observations separate from interpretations; repair; transfer tasks; Days 41–42 connect physical dependencies, XR installation rehearsal, commissioning and continuity."
+    },
+    {
+      "id": "D06",
+      "title": "Aura of Intelligence for Adaptive Whole-of-Life Support",
+      "original_name": "Aura_of_Intelligence_Adaptive_Whole_of_Life_Support(2).docx",
+      "path": "documents/originals/Aura_of_Intelligence_Adaptive_Whole_of_Life_Support(2).docx",
+      "git_blob": "50dfd1e7453876f76ce78d33a7a9d6d9ae3a146e",
+      "sha256": "ecc1a96e88ea0364378601379f96b8156d08b06045fc57bff433d113aca68822",
+      "bytes": 68043,
+      "available": true,
+      "source_url": "https://raw.githubusercontent.com/auraofintelligence/aura-whole-of-life/9197431e5064a8c9ebdea8d36f9ef79561e8a2aa/documents/Aura_of_Intelligence_Adaptive_Whole_of_Life_Support.docx",
+      "note": "Dementia, disability, ageing, personal records and changes of care or home.",
+      "application": "Participant-directed support, communication and access preferences, revisable personal context, transitions between home and services, contribution and learning through later life."
+    },
+    {
+      "id": "D07",
+      "title": "Aura of Intelligence for Tourism and Domestic Travel",
+      "original_name": "Aura_of_Intelligence_Tourism_and_Domestic_Travel(2).docx",
+      "path": "documents/originals/Aura_of_Intelligence_Tourism_and_Domestic_Travel(2).docx",
+      "git_blob": "fa0b68cffb3bf36009c30dea04a8f727fa86c520",
+      "sha256": "811f7690e5690af08f74fec4e1031ffe517dd6a6fd0976bd248e006ee56cbe22",
+      "bytes": 78042,
+      "available": true,
+      "source_url": "https://raw.githubusercontent.com/auraofintelligence/aura-tourism/7c2b6af8cf109475444597d8a9b3760aa593b081/sources/originals/Aura_of_Intelligence_Tourism_and_Domestic_Travel.docx",
+      "note": "Qualified-self development through travel; operator, volunteer and public-service connections.",
+      "application": "Before/during/after travel, operator-defined offers, group negotiation, personal learning, transport information, referral-income visibility and paid host work."
+    },
+    {
+      "id": "D08",
+      "title": "Building an Australian Legal RAG System",
+      "original_name": "Building an Australian Legal RAG System(20261029-080516).pdf",
+      "path": "documents/originals/Building an Australian Legal RAG System(20261029-080516).pdf",
+      "git_blob": "73ba95dea4085719b8f292e9e6042924666fd3f8",
+      "sha256": "0aaef38f7b36cd96bca35d657ecd57bf45e9683988677d73d95a2e5c0b9aa498",
+      "bytes": 303822,
+      "available": true,
+      "source_url": "https://raw.githubusercontent.com/auraofintelligence/aura-disaster-resilience/e781e7c2f24c2cf38f6ab422790247cde86b889f/sources/documents/Building%20an%20Australian%20Legal%20RAG%20System.pdf",
+      "note": "Legal intelligence design background; the current project direction governs development.",
+      "application": "Jurisdiction, current source and version, quoted authority, project context and review trails support premises, hiring, recording, package terms and renewal agreements."
+    },
+    {
+      "id": "D09",
+      "title": "Do Not Put All Our Eggs in One Basket",
+      "original_name": "Do Not Put All Our Eggs in One Basket(9).docx",
+      "path": "documents/originals/Do Not Put All Our Eggs in One Basket(9).docx",
+      "git_blob": "4f127fe47da66e0823cd755c12ff3412dd143627",
+      "sha256": "1d936a8432cb88c323010b0ca01fc497c8318c73356e63b49a6b2edf1c8c54c1",
+      "bytes": 41427,
+      "available": true,
+      "source_url": "https://raw.githubusercontent.com/auraofintelligence/aura-disaster-resilience/e781e7c2f24c2cf38f6ab422790247cde86b889f/sources/documents/Do%20Not%20Put%20All%20Our%20Eggs%20in%20One%20Basket.docx",
+      "note": "Distributed infrastructure discussion and carried-forward capital planning assumptions.",
+      "application": "Parallel opportunity discovery with staged physical delivery; preserve local purpose, paid skills, maintenance, upgrades and options for local ownership. No compute capital or population ratio is reused."
+    },
+    {
+      "id": "D10",
+      "title": "Fiji–Australia Vuvale Union Submission",
+      "original_name": "Fiji_Australia_Vuvale_Union_Submission_Luke_Nathan_Hayes_2026(20261029-080505).docx",
+      "path": "documents/originals/Fiji_Australia_Vuvale_Union_Submission_Luke_Nathan_Hayes_2026(20261029-080505).docx",
+      "git_blob": "993a79420e2d09781faa943e5858887f1403eac6",
+      "sha256": "f62ae877f90e437583d9ecc2db29f3b11f20253c05b6feda573d7e694c3e8af0",
+      "bytes": 52947,
+      "available": true,
+      "source_url": "https://raw.githubusercontent.com/auraofintelligence/UNGA81-Luke-Hayes/12afc71ba7375a2096ab4c307934198568e58bed/documents/fiji-australia-vuvale-union-submission.docx",
+      "note": "Regional relationships, ownership, workforce and public-purpose development.",
+      "application": "Locally appropriate organisations, ownership and duties, paid work separate from voluntary contribution, staged capability development and reciprocal regional connections."
+    },
+    {
+      "id": "D11",
+      "title": "Local Government Funding Inquiry Submission",
+      "original_name": "Local Government Funding Inquiry Submission(20261029-080754).pdf",
+      "path": "documents/originals/Local Government Funding Inquiry Submission(20261029-080754).pdf",
+      "git_blob": "b28410f92a996e11da47511828230232ecb9a130",
+      "sha256": null,
+      "bytes": null,
+      "available": false,
+      "source_url": null,
+      "note": "Civic twins, community assets and local-government funding context.",
+      "application": "The exact listed edition was unavailable in the inherited archive. The separately identified D15 public copy supplies the local-government reference for this business plan."
+    },
+    {
+      "id": "D12",
+      "title": "Ocean of Peace Alliance / Veitacini Treaty Submission",
+      "original_name": "Ocean_of_Peace_Alliance_Veitacini_Treaty_Submission_Luke_Nathan_Hayes_2026(20261029-080506).docx",
+      "path": "documents/originals/Ocean_of_Peace_Alliance_Veitacini_Treaty_Submission_Luke_Nathan_Hayes_2026(20261029-080506).docx",
+      "git_blob": "ae5697a50652fd89896d24acc3e7b0424bec223d",
+      "sha256": "71532df9fdd542df9a77506608746f187f71c82ed01b35ffee3e7f25c500060a",
+      "bytes": 40964,
+      "available": true,
+      "source_url": "https://raw.githubusercontent.com/auraofintelligence/UNGA81-Luke-Hayes/12afc71ba7375a2096ab4c307934198568e58bed/documents/Ocean_of_Peace_Alliance_Veitacini_Treaty_Submission_Luke_Nathan_Hayes_2026.docx",
+      "note": "Regional cooperation and longer-term shared capability.",
+      "application": "Regional cooperation, shared capability and locally meaningful participation can inform eventual cross-border collaborations. Australian venues remain the immediate business scope."
+    },
+    {
+      "id": "D13",
+      "title": "Ready SET Co-op: 2026 Strategy Archive",
+      "original_name": "SETCo 2026 Pitch Plan Revision(20261029-080533).pdf",
+      "path": "documents/originals/SETCo 2026 Pitch Plan Revision(20261029-080533).pdf",
+      "git_blob": "f7bd8d246ba8483f087d9b83b25b3aebe50630dd",
+      "sha256": "1be16446dc69d8dc6c8caee9dc9e1fd924826a65d5a3750560011960e73e0411",
+      "bytes": 293853,
+      "available": true,
+      "source_url": "https://raw.githubusercontent.com/auraofintelligence/Redlands_discovers_Luke_Hayes/2a8990819b78fda139f9948068f9bdfdd9fa58d9/references/files/hayes-ready-set-co-2026-strategy-undated.pdf",
+      "note": "Earlier organisational and workforce design; read with current naming and the non-monetary C-Hour direction.",
+      "application": "Employment and training pathways, shared equipment, operational procedures and paid learning. Current ready SET Co-op naming and non-monetary C-Hour direction govern new prose."
+    },
+    {
+      "id": "D14",
+      "title": "Global Sensorium: Scientific Models and Debate",
+      "original_name": "Web3 Sensorium for Science Debate(20261029-083308).pdf",
+      "path": "documents/originals/Web3 Sensorium for Science Debate(20261029-083308).pdf",
+      "git_blob": "2aa8f529e1bddc6bd921766d6653fb9392af5220",
+      "sha256": "f3808a7e57262f416d792639080e68b6010fcb1c53573cac9d8ea9d829a30122",
+      "bytes": 604459,
+      "available": true,
+      "source_url": "https://raw.githubusercontent.com/auraofintelligence/Redlands_discovers_Luke_Hayes/2a8990819b78fda139f9948068f9bdfdd9fa58d9/references/files/hayes-decentralized-global-sensorium-strategic-plan-undated.pdf",
+      "note": "Earth-space digital twins, sensor pipelines, simulation, model comparison and community science.",
+      "application": "Compare models and assumptions, trace observations, invite debate, run experiments and preserve explanations. It supplies scenario-design methods, not automatic validation of every scientific claim."
+    },
+    {
+      "id": "D15",
+      "title": "Local Government Funding Inquiry Submission 2, public reference copy",
+      "original_name": "Local-Government-Funding-Submission-Public-Copy.pdf",
+      "path": "documents/originals/Local-Government-Funding-Submission-Public-Copy.pdf",
+      "sha256": "7371d879ee5397b509cbad76d28593e288030bed973ba085d0d44ad8aaa27eb1",
+      "bytes": 276605,
+      "available": true,
+      "source_url": "https://raw.githubusercontent.com/auraofintelligence/Redlands_discovers_Luke_Hayes/main/references/files/hayes-local-government-funding-submission-2-undated.pdf",
+      "note": "Public copy recovered from the Redlands reference repository. This makes the submission available for this plan while preserving the separate unavailable exact-edition record D11.",
+      "application": "Council relationships, shared community assets, locally useful digital twins and public-purpose funding. The exact original-upload edition D11 remains separately identified."
+    }
+  ],
+  "links": [
+    {
+      "id": "P01",
+      "title": "UNGA81: A fair go in the age of intelligence",
+      "url": "https://auraofintelligence.github.io/UNGA81-Luke-Hayes/",
+      "purpose": "Public-purpose and missing-middle framework",
+      "application": "The public purpose and guiding questions for Joyful Responsible Abundance, shared capability, livelihoods and time."
+    },
+    {
+      "id": "P02",
+      "title": "Ready SET Co-op Cultural Intelligence Node",
+      "url": "https://auraofintelligence.github.io/ready-set-co-op-cultural-intelligence-node/index.html",
+      "purpose": "A local rack, workloads, shared equipment and learning",
+      "application": "A locally chosen cultural and technical hub can support media capture, room design, digital twins and shared processing. Cultural relationships and material custody remain locally agreed."
+    },
+    {
+      "id": "P03",
+      "title": "Ready SET Co-op Trust Hub",
+      "url": "https://auraofintelligence.github.io/ready-set-co-op-trust-hub/",
+      "purpose": "Participation, relationships and shared assets",
+      "application": "Turn a useful service into documented learning and the next paid local role; relationships and shared equipment can support venue operations and contractor development."
+    },
+    {
+      "id": "P04",
+      "title": "500 Queens Venture Capital",
+      "url": "https://auraofintelligence.github.io/500-Queens-VC-2026/",
+      "purpose": "Women-led enterprise, leadership and investment development",
+      "application": "A potential connection for women-led venue businesses, leadership, mentoring and investment development, without claiming finance or appointments."
+    },
+    {
+      "id": "P05",
+      "title": "Mutual Futures",
+      "url": "https://auraofintelligence.github.io/mutual-futures/",
+      "purpose": "Business succession, ownership, learning and time",
+      "application": "Business succession, paid mentoring, local ownership and periods of work, learning and travel across life."
+    },
+    {
+      "id": "P06",
+      "title": "Australian Law 2012 and Your Relevance",
+      "url": "https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/",
+      "purpose": "Personal and project-specific legal relevance",
+      "application": "Understand the laws and terms relevant to an actual person or project through readable sources and context."
+    },
+    {
+      "id": "P07",
+      "title": "Australian Legal Engine",
+      "url": "https://github.com/auraofintelligence/australian-legal-engine",
+      "purpose": "Source-linked legal intelligence development",
+      "application": "Future source-linked legal research integration for contract preparation and current obligations; preserve qualified human decision-making."
+    },
+    {
+      "id": "P08",
+      "title": "Legal Memory Workbench",
+      "url": "https://auraofintelligence.github.io/legal-memory-workbench/",
+      "purpose": "Project context and legal research preparation",
+      "application": "Organise the actual premises, employment and partnership questions and source trails into a usable project record."
+    },
+    {
+      "id": "P09",
+      "title": "C-Hour Introduction",
+      "url": "https://auraofintelligence.github.io/C-Hour-introduction/",
+      "purpose": "Voluntary contribution and non-monetary reciprocity",
+      "application": "Voluntary contribution and recognition alongside funded access; no cash conversion or replacement of wages."
+    },
+    {
+      "id": "P10",
+      "title": "P4A",
+      "url": "https://p4a.xyz/",
+      "purpose": "Civic development, councils, divisions and electorate twins",
+      "application": "Civic maps, local economic development, councils and public discussion scenarios. Participation in the business does not require political agreement."
+    },
+    {
+      "id": "P11",
+      "title": "Aura Genesis Geode Atlas",
+      "url": "https://auraofintelligence.github.io/aura-genesis-geode-atlas/",
+      "purpose": "Genesis, Geode development and teacher learning",
+      "application": "Personal Aura continuity and rehearsal, selected teacher development and public/private/secret permissions. Escape rooms remain a distinct product from the intensive adult programme."
+    },
+    {
+      "id": "P12",
+      "title": "Oceania Healthy De-Slop Co-ops",
+      "url": "https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/",
+      "purpose": "Locally shaped wellbeing co-operatives",
+      "application": "Locally shaped shared spaces and services, with opportunities to connect wellbeing, food, social participation and travel under separate offers."
+    },
+    {
+      "id": "P13",
+      "title": "82 Claytons Road Anglican partnership proposal",
+      "url": "https://github.com/auraofintelligence/Anglican-Diocese-82-Claytons-Amity",
+      "purpose": "Aged care, longevity and community assets",
+      "application": "An example of a proposed community and care partnership on Minjerribah, useful for thinking about intergenerational access and place-based enterprise. No land or institutional commitment is assumed."
+    },
+    {
+      "id": "P14",
+      "title": "Installing the Missing Middle source repository",
+      "url": "https://github.com/auraofintelligence/installing-the-missing-middle",
+      "purpose": "This presentation, source register and shared development briefs",
+      "application": "The deployment, documentation, licensing and navigation reference. This business adapts that method to Luke's proposed agent suite, with operating authority subject to his approval."
+    }
+  ],
+  "research": [
+    {
+      "id": "M01",
+      "title": "Tourism Research Australia national fast facts",
+      "url": "https://www.tra.gov.au/",
+      "kind": "Official statistics",
+      "checked": "2026-10-29",
+      "supported_fact": "Year ending June 2026: 112.5 million domestic overnight trips and AUD 108.1 billion spend; 288.4 million domestic day trips and AUD 52.0 billion spend; 9.1 million international trips and AUD 40.5 billion spend. Trips are not unique customers.",
+      "web_ref": "turn42search0",
+      "application": "Year ending June 2026: 112.5 million domestic overnight trips and AUD 108.1 billion spend; 288.4 million domestic day trips and AUD 52.0 billion spend; 9.1 million international trips and AUD 40.5 billion spend. Trips are not unique customers."
+    },
+    {
+      "id": "M02",
+      "title": "Domestic Tourism Statistics June quarter 2026",
+      "url": "https://www.tra.gov.au/en/tourism-statistics/domestic-tourism-statistics-results",
+      "kind": "Official statistics",
+      "checked": "2026-10-29",
+      "supported_fact": "June quarter 2026: 27.1 million overnight trips and AUD 25.7 billion spend; 74.2 million day trips and AUD 13.8 billion spend. DoTS replaced NVS in January 2025, with backcasting notes for earlier periods.",
+      "web_ref": "turn42search1",
+      "application": "June quarter 2026: 27.1 million overnight trips and AUD 25.7 billion spend; 74.2 million day trips and AUD 13.8 billion spend. DoTS replaced NVS in January 2025, with backcasting notes for earlier periods."
+    },
+    {
+      "id": "M03",
+      "title": "ABS Schools 2025",
+      "url": "https://www.abs.gov.au/statistics/people/education/schools/latest-release",
+      "kind": "Official statistics",
+      "checked": "2026-10-29",
+      "supported_fact": "Australia had 4,160,918 students and 9,673 schools in 2025. Queensland had 1,803 schools. Released 5 March 2026.",
+      "web_ref": "turn42search5",
+      "application": "Australia had 4,160,918 students and 9,673 schools in 2025. Queensland had 1,803 schools. Released 5 March 2026."
+    },
+    {
+      "id": "M04",
+      "title": "TRA Business events data",
+      "url": "https://www.tra.gov.au/en/tourism-statistics/business-events-data",
+      "kind": "Official statistics",
+      "checked": "2026-10-29",
+      "supported_fact": "Calendar 2025 business-event visitors spent AUD 17.2 billion in Australia: AUD 2.3 billion international, AUD 12.0 billion domestic overnight, AUD 2.9 billion domestic day trips. These are trip expenditures, not a team-building market size.",
+      "web_ref": "turn55view2",
+      "application": "Calendar 2025 business-event visitors spent AUD 17.2 billion in Australia: AUD 2.3 billion international, AUD 12.0 billion domestic overnight, AUD 2.9 billion domestic day trips. These are trip expenditures, not a team-building market size."
+    },
+    {
+      "id": "M05",
+      "title": "Tourism Australia travel distribution system",
+      "url": "https://www.tourism.australia.com/en/resources/industry-resources/trade-show-tips/the-travel-distribution-system.html",
+      "kind": "Official industry guidance",
+      "checked": "2026-10-29",
+      "supported_fact": "Indicative commissions: retail agents 10%, OTAs 10–15%, wholesalers 20%, inbound tour operators 30%. Guidance only, with gross and net rates distinguished.",
+      "web_ref": "turn55view1",
+      "application": "Indicative commissions: retail agents 10%, OTAs 10–15%, wholesalers 20%, inbound tour operators 30%. Guidance only, with gross and net rates distinguished."
+    },
+    {
+      "id": "M06",
+      "title": "Tourism Australia ATDW distribution",
+      "url": "https://www.tourism.australia.com/en/resources/industry-resources/building-your-tourism-business/getting-your-product-on-australia-com.html",
+      "kind": "Official industry guidance",
+      "checked": "2026-10-29",
+      "supported_fact": "ATDW listings can distribute through state/territory websites, Australia.com and distributor network. Registration/approval through relevant state or territory organisation.",
+      "web_ref": "turn42search6",
+      "application": "ATDW listings can distribute through state/territory websites, Australia.com and distributor network. Registration/approval through relevant state or territory organisation."
+    },
+    {
+      "id": "M07",
+      "title": "Fox in a Box Brisbane corporate events",
+      "url": "https://foxinaboxbrisbane.com/corporate-events/",
+      "kind": "Operator published offer",
+      "checked": "2026-10-29",
+      "supported_fact": "Ten rooms and up to 60 players simultaneously. One game AUD 45 per person, minimum 13. Two games AUD 80 per person, minimum 13, approximately 2.5–3 hours including a break. Groups 40+ receive exclusive use.",
+      "web_ref": "turn51view3",
+      "application": "Ten rooms and up to 60 players simultaneously. One game AUD 45 per person, minimum 13. Two games AUD 80 per person, minimum 13, approximately 2.5–3 hours including a break. Groups 40+ receive exclusive use."
+    },
+    {
+      "id": "M08",
+      "title": "Fox in a Box Brisbane FAQs",
+      "url": "https://foxinaboxbrisbane.com/",
+      "kind": "Operator capacity and duration",
+      "checked": "2026-10-29",
+      "supported_fact": "Two to six players per room, selected rooms accept seven by request; two identical prison rooms support 12 head-to-head players. Up to 60 minutes gameplay and 90 minutes for the whole visit; arrive 15 minutes early.",
+      "web_ref": "turn47search5",
+      "application": "Two to six players per room, selected rooms accept seven by request; two identical prison rooms support 12 head-to-head players. Up to 60 minutes gameplay and 90 minutes for the whole visit; arrive 15 minutes early."
+    },
+    {
+      "id": "M09",
+      "title": "Red Lock pricing",
+      "url": "https://www.redlockescaperooms.com.au/pricing/",
+      "kind": "Operator published offer",
+      "checked": "2026-10-29",
+      "supported_fact": "60-minute games: AUD 55 per person for two players, 47 for three, 45 for four, 42 for five and 40 for six or more. Weekday three-room package AUD 99 per person; extra rooms AUD 33. Minimum two players; Queensland school holidays excluded.",
+      "web_ref": "turn51view1",
+      "application": "60-minute games: AUD 55 per person for two players, 47 for three, 45 for four, 42 for five and 40 for six or more. Weekday three-room package AUD 99 per person; extra rooms AUD 33. Minimum two players; Queensland school holidays excluded."
+    },
+    {
+      "id": "M10",
+      "title": "Team Escapes by Escape This capacity",
+      "url": "https://www.teamescape.com.au/capacity/",
+      "kind": "Operator booking-system capacity",
+      "checked": "2026-10-29",
+      "supported_fact": "48 rooms across five venues: Perth CBD 14 rooms/108 players; Northbridge 9/62; Sydney CBD 10/66; Manly 3/18; Melbourne CBD 12/82. Total 336 at each maximum team size simultaneously. Operator data dated 29 October 2026.",
+      "web_ref": "turn54search3",
+      "application": "48 rooms across five venues: Perth CBD 14 rooms/108 players; Northbridge 9/62; Sydney CBD 10/66; Manly 3/18; Melbourne CBD 12/82. Total 336 at each maximum team size simultaneously. Operator data dated 29 October 2026."
+    },
+    {
+      "id": "M11",
+      "title": "The Great Escape Melbourne fitout case study",
+      "url": "https://www.amicus.com.au/projects/the-great-escape-melbourne",
+      "kind": "Fitout contractor project record",
+      "checked": "2026-10-29",
+      "supported_fact": "1,240 m² entire floor with a nine-escape-room design, two nine-hole mini-golf courses, arcade, bar, kitchen and lounges. No individual game-room area or opening-capacity inference.",
+      "web_ref": "turn47view1",
+      "application": "1,240 m² entire floor with a nine-escape-room design, two nine-hole mini-golf courses, arcade, bar, kitchen and lounges. No individual game-room area or opening-capacity inference."
+    },
+    {
+      "id": "M12",
+      "title": "The Great Escape current game overview",
+      "url": "https://greatescapeau.com/melbourne/game-overview/?venue=melbourne",
+      "kind": "Operator published opening state",
+      "checked": "2026-10-29",
+      "supported_fact": "Current banner states five of nine Melbourne CBD rooms open. Individual listed games generally 60 minutes and up to eight players. Catalogue also contains Carlton and coming-soon rooms.",
+      "web_ref": "turn51view2",
+      "application": "Current banner states five of nine Melbourne CBD rooms open. Individual listed games generally 60 minutes and up to eight players. Catalogue also contains Carlton and coming-soon rooms."
+    },
+    {
+      "id": "M13",
+      "title": "Mission Sydney Trapped",
+      "url": "https://www.missionsydney.com/trapped/",
+      "kind": "Operator published game specification",
+      "checked": "2026-10-29",
+      "supported_fact": "Trapped takes two to four players for 70 minutes. Its smallest lift chamber is about 6 m², a part of the set rather than the full adventure or venue area.",
+      "web_ref": "turn47view2",
+      "application": "Trapped takes two to four players for 70 minutes. Its smallest lift chamber is about 6 m², a part of the set rather than the full adventure or venue area."
+    },
+    {
+      "id": "M14",
+      "title": "Indestroom Australia supplier catalogue",
+      "url": "https://erworkshop.com/escape-room-supplier-australia/",
+      "kind": "Supplier published configurations and prices",
+      "checked": "2026-10-29",
+      "supported_fact": "Published standard configurations: Jungle, 30–50 m², 2–8 players, AUD 42,500; Magic School, 30–50 m², 2–6 players, AUD 89,900; Pharaoh's Tomb, 30–70 m², 2–6 players, AUD 63,300; Vault-32, 40–80 m², 2–10 players, AUD 101,600; Enchanted Forest, 40–80 m², 2–8 players, AUD 63,100. Prices are converted from EUR. Standard production is 60 working days; custom production is 90. Installation usually takes 4–7 days. Freight, taxes and site works require an explicit offer. The default package includes hints, which this project excludes.",
+      "web_ref": "turn47view0",
+      "application": "Published standard configurations: Jungle, 30–50 m², 2–8 players, AUD 42,500; Magic School, 30–50 m², 2–6 players, AUD 89,900; Pharaoh's Tomb, 30–70 m², 2–6 players, AUD 63,300; Vault-32, 40–80 m², 2–10 players, AUD 101,600; Enchanted Forest, 40–80 m², 2–8 players, AUD 63,100. Prices are converted from EUR. Standard production is 60 working days; custom production is 90. Installation usually takes 4–7 days. Freight, taxes and site works require an explicit offer. The default package includes hints, which this project excludes."
+    },
+    {
+      "id": "M15",
+      "title": "Lost Locks founder interview",
+      "url": "https://www.commercialrealestate.com.au/news/how-this-duo-built-an-escape-room-business-from-scratch-1211242/",
+      "kind": "Dated founder interview",
+      "checked": "2026-10-29",
+      "supported_fact": "Founder interview published 8 May 2023: they sought about 500 m² for up to ten rooms; six were open at interview with space for four more. Whole-premises search target, not a verified current area or count.",
+      "web_ref": "turn55view3",
+      "application": "Founder interview published 8 May 2023: they sought about 500 m² for up to ten rooms; six were open at interview with space for four more. Whole-premises search target, not a verified current area or count."
+    },
+    {
+      "id": "M16",
+      "title": "Mystery Rooms Geelong consolidation and touring games",
+      "url": "https://themysteryrooms.com.au/escape-room-geelong/",
+      "kind": "Operator renewal and redeployment example",
+      "checked": "2026-10-29",
+      "supported_fact": "Page updated 8 May 2026: Geelong physical games consolidated at Fitzroy; Dragon Magic on long-term residency at Beechworth Escape Rooms and Galaxy Rebellion at Worlds Beyond Albury. Vouchers are not valid at the partners.",
+      "web_ref": "turn51view4",
+      "application": "Page updated 8 May 2026: Geelong physical games consolidated at Fitzroy; Dragon Magic on long-term residency at Beechworth Escape Rooms and Galaxy Rebellion at Worlds Beyond Albury. Vouchers are not valid at the partners."
+    },
+    {
+      "id": "M17",
+      "title": "Padlockd room catalogue",
+      "url": "https://padlockd.com.au/rooms/",
+      "kind": "Operator network catalogue",
+      "checked": "2026-10-29",
+      "supported_fact": "Sixteen experiences advertised across several Gold Coast locations. This is not one building. Includes 30- and 60-minute formats.",
+      "web_ref": "turn47search7",
+      "application": "Sixteen experiences advertised across several Gold Coast locations. This is not one building. Includes 30- and 60-minute formats."
+    },
+    {
+      "id": "M18",
+      "title": "Puzzled pricing",
+      "url": "https://puzzledroomescape.com.au/pricing/",
+      "kind": "Operator published offer",
+      "checked": "2026-10-29",
+      "supported_fact": "Public price AUD 42 per person for groups of four to six, AUD 48 for two and AUD 45 for three.",
+      "web_ref": "turn38view0",
+      "application": "Public price AUD 42 per person for groups of four to six, AUD 48 for two and AUD 45 for three."
+    },
+    {
+      "id": "M19",
+      "title": "Puzzled schools",
+      "url": "https://puzzledroomescape.com.au/student-programs/",
+      "kind": "Operator published offer",
+      "checked": "2026-10-29",
+      "supported_fact": "AUD 35 per person for the weekday student programme, minimum 20 participants; 60-minute play, maximum six per game.",
+      "web_ref": "turn36view1",
+      "application": "AUD 35 per person for the weekday student programme, minimum 20 participants; 60-minute play, maximum six per game."
+    },
+    {
+      "id": "M20",
+      "title": "Project Immersive events",
+      "url": "https://www.projectimmersive.com/events",
+      "kind": "Operator published offer",
+      "checked": "2026-10-29",
+      "supported_fact": "AUD 44 per person for groups of 7–20, minimum three per game, up to a 50-minute game and a 90-minute whole event.",
+      "web_ref": "turn36view2",
+      "application": "AUD 44 per person for groups of 7–20, minimum three per game, up to a 50-minute game and a 90-minute whole event."
+    },
+    {
+      "id": "M21",
+      "title": "TRA State and Regional Tourism Satellite Accounts",
+      "url": "https://www.tra.gov.au/en/tourism-industry-analysis/state-and-regional-sta",
+      "kind": "Official statistics",
+      "checked": "2026-10-29",
+      "supported_fact": "2024–25 Queensland tourism consumption AUD 49.0 billion, including regional Queensland AUD 19.8643 billion with 4.8% growth. Consumption differs from trip spending and must not be added to the other TRA headline measures.",
+      "web_ref": "turn42search4",
+      "application": "2024–25 Queensland tourism consumption AUD 49.0 billion, including regional Queensland AUD 19.8643 billion with 4.8% growth. Consumption differs from trip spending and must not be added to the other TRA headline measures."
+    },
+    {
+      "id": "M22",
+      "title": "Destination NSW tourism distribution",
+      "url": "https://www.destinationnsw.com.au/destination-nsw-business-support/nsw-first-program/how-to-sell-online-via-distribution-partners",
+      "kind": "Official industry guidance",
+      "checked": "2026-10-29",
+      "supported_fact": "Guidance recommends bookable products with commission included in pricing and connections with local government agencies and tourism associations for distribution.",
+      "web_ref": "turn44search4",
+      "application": "Guidance recommends bookable products with commission included in pricing and connections with local government agencies and tourism associations for distribution."
+    },
+    {
+      "id": "M23",
+      "title": "Local Government Funding submission register",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Committees/House/Regional_Development_Infrastructure_and_Transport/LocalGovernmentFunding/Submissions",
+      "kind": "Official parliamentary register",
+      "checked": "2026-10-29",
+      "supported_fact": "The official register identifies Submission 2 by Mr Luke Nathan Hayes, a 263 KB PDF. The exact uploaded Missing Middle edition has not been recovered.",
+      "web_ref": "turn54search0",
+      "application": "The official register identifies Submission 2 by Mr Luke Nathan Hayes, a 263 KB PDF. The exact uploaded Missing Middle edition has not been recovered."
+    },
+    {
+      "id": "M24",
+      "title": "Australian Curriculum, Personal and Social capability",
+      "url": "https://www.australiancurriculum.edu.au/curriculum-information/understand-this-general-capability/personal-and-social-capability/",
+      "checked": "2026-10-29",
+      "application": "Curriculum mapping for communication, collaboration, reflective practice and conflict resolution."
+    },
+    {
+      "id": "M25",
+      "title": "QCAA Personal and Social capability learning continuum",
+      "url": "https://www.qcaa.qld.edu.au/downloads/aciqv9/general-resources/ac9_gc_personal_social_capability_learning_continuum.pdf",
+      "checked": "2026-10-29",
+      "application": "Developmental continuum for selecting school-stage outcomes and planning suitable activities."
+    },
+    {
+      "id": "R101",
+      "title": "Fair Work, Amusement Events and Recreation Award, effective 1 July 2026",
+      "url": "https://awards.fairwork.gov.au/MA000080.html",
+      "web_ref": "turn46search0",
+      "support": "Published example adult casual Grade 4 rates $36.81 ordinary and $51.54 Sunday; Grade 6 $39.11 and $54.76. Coverage and classifications require confirmation against actual duties.",
+      "checked": "2026-10-29",
+      "application": "Published example adult casual Grade 4 rates $36.81 ordinary and $51.54 Sunday; Grade 6 $39.11 and $54.76. Coverage and classifications require confirmation against actual duties."
+    },
+    {
+      "id": "R102",
+      "title": "ATO, calculating super guarantee",
+      "url": "https://smallbusiness.taxsuperandyou.gov.au/super-guarantee-employer-obligations/how-to-calculate-super-guarantee",
+      "web_ref": "turn50search5",
+      "support": "Current super guarantee percentage 12%; apply to eligible earnings. This is separate from insurance, payroll tax and other employment costs.",
+      "checked": "2026-10-29",
+      "application": "Current super guarantee percentage 12%; apply to eligible earnings. This is separate from insurance, payroll tax and other employment costs."
+    },
+    {
+      "id": "R103",
+      "title": "Stripe Australia, current pricing",
+      "url": "https://stripe.com/au/pricing",
+      "web_ref": "turn64view3",
+      "support": "Live page checked 29 October shows domestic online cards 1.65% plus A$0.30, fees including GST. Older search snippets show 1.7% and are superseded here. International cards 3.5% plus A$0.30.",
+      "checked": "2026-10-29",
+      "application": "Domestic online card fees listed on 29 October 2026 are 1.65% plus A$0.30, including GST. International cards are 3.5% plus A$0.30."
+    },
+    {
+      "id": "R104",
+      "title": "Dash Group, Brisbane labour hire charge rates",
+      "url": "https://dashgroup.net.au/labour-hire-brisbane",
+      "web_ref": "turn62search7",
+      "support": "Provider indicative charge rates ex GST: general labour $55-60/hour; carpenter $75-85; shopfitting/joinery $65-85. Final project, duration and location quote required. Search retrieval available; full open failed.",
+      "checked": "2026-10-29",
+      "application": "Provider indicative charge rates excluding GST: general labour $55–60 per hour; carpenter $75–85; shopfitting and joinery $65–85. The final project, duration and location require a quotation."
+    },
+    {
+      "id": "R105",
+      "title": "Voltora, Brisbane electrical attendance prices",
+      "url": "https://www.voltoraindustries.com.au/",
+      "web_ref": "turn62search2",
+      "support": "Business hours callout and first hour $258.50 including GST; additional hour $148.50 including GST, materials extra. These convert to $235 and $135 excluding GST.",
+      "checked": "2026-10-29",
+      "application": "Business hours callout and first hour $258.50 including GST; additional hour $148.50 including GST, materials extra. These convert to $235 and $135 excluding GST."
+    },
+    {
+      "id": "R106",
+      "title": "Store DJ, Rode Wireless PRO dual kit",
+      "url": "https://www.storedj.com.au/products/rode-wireless-pro-dual-compact-wireless-mic-system-w-accessories-black",
+      "web_ref": "turn58view3",
+      "support": "Listed $385; online stock available, Brisbane branch zero in page snapshot. Shipping offer subject to conditions. Promotional price dated 29 October.",
+      "checked": "2026-10-29",
+      "application": "Listed $385; online stock available, Brisbane branch zero in page snapshot. Shipping offer subject to conditions. Promotional price dated 29 October."
+    },
+    {
+      "id": "R107",
+      "title": "Rode, simultaneous Wireless PRO systems",
+      "url": "https://help.rode.com/hc/en-us/articles/9220351205135-Can-I-use-multiple-Wireless-PRO-kits-at-a-single-location",
+      "web_ref": "turn61view0",
+      "support": "Manufacturer says up to four kits, eight transmitters, in one place. Consumer-kit prototype is not multiplied into an unengineered multi-room 24-channel system.",
+      "checked": "2026-10-29",
+      "application": "Manufacturer says up to four kits, eight transmitters, in one place. Consumer-kit prototype is not multiplied into an unengineered multi-room 24-channel system."
+    },
+    {
+      "id": "R108",
+      "title": "Better Music, Zoom LiveTrak L-8",
+      "url": "https://www.bettermusic.com.au/products/zoom-l8-livetrak",
+      "web_ref": "turn64view7",
+      "support": "Listed $715, online backorder when inspected, shipping calculated separately; six independent preamps and SD multitrack recording.",
+      "checked": "2026-10-29",
+      "application": "Listed $715, online backorder when inspected, shipping calculated separately; six independent preamps and SD multitrack recording."
+    },
+    {
+      "id": "R109",
+      "title": "Store DJ, Hosa CMP-159 breakout cable",
+      "url": "https://www.storedj.com.au/products/hosa-cmp-159-3-5mm-trs-to-dual-1-4-ts-stereo-breakout-cable-10ft",
+      "web_ref": "turn61view1",
+      "support": "Listed $22, 3.5mm stereo TRS to dual 6.35mm mono TS, online in stock; single item shipping $10, qualifying order shipping conditions apply.",
+      "checked": "2026-10-29",
+      "application": "Listed $22, 3.5 mm stereo TRS to dual 6.35 mm mono TS, online in stock; single item shipping $10, qualifying order shipping conditions apply."
+    },
+    {
+      "id": "R110",
+      "title": "Officeworks, Matrix visitor chair",
+      "url": "https://www.officeworks.com.au/shop/officeworks/p/matrix-visitor-chair-jbmatvmbk",
+      "web_ref": "turn52search0",
+      "support": "Listed new price $179. Commercial seating comparison, not the same model as the used chair.",
+      "checked": "2026-10-29",
+      "application": "Listed new price $179. Commercial seating comparison, not the same model as the used chair."
+    },
+    {
+      "id": "R111",
+      "title": "Officeworks, Matrix visitor armchair",
+      "url": "https://www.officeworks.com.au/shop/officeworks/p/matrix-mesh-visitor-armchair-black-jbmatvmabk",
+      "web_ref": "turn52search4",
+      "support": "New armchair listed in the associated Officeworks range at $199; product specifies 160kg capacity and delivery surcharge. See range https://www.officeworks.com.au/shop/officeworks/c/furniture/chairs-seating/lounge-chairs.",
+      "checked": "2026-10-29",
+      "application": "New armchair listed in the associated Officeworks range at $199; product specifies 160 kg capacity and delivery surcharge. See range https://www.officeworks.com.au/shop/officeworks/c/furniture/chairs-seating/lounge-chairs."
+    },
+    {
+      "id": "R112",
+      "title": "Danny's Desks, Chibel ex-hire chair",
+      "url": "https://dannysdesks.com.au/product/chibel-office-chair-ex-hire-stock/",
+      "web_ref": "turn64view1",
+      "support": "Category lists $39. Product describes light scuffs, as-is clearance, no commercial/manufacturer warranty, 110kg rating, Eagle Farm collection by appointment. Stock quantity and GST invoice to confirm. Category https://dannysdesks.com.au/product-category/clearance/clearance-visitor-chairs/.",
+      "checked": "2026-10-29",
+      "application": "Category lists $39. Product describes light scuffs, as-is clearance, no commercial/manufacturer warranty, 110 kg rating, Eagle Farm collection by appointment. Stock quantity and GST invoice to confirm. Category https://dannysdesks.com.au/product-category/clearance/clearance-visitor-chairs/."
+    },
+    {
+      "id": "R113",
+      "title": "Officeworks, folding table range",
+      "url": "https://www.officeworks.com.au/shop/officeworks/c/furniture/desks-tables/folding-trestle-tables",
+      "web_ref": "turn59search4",
+      "support": "Rapidline folding table 1800x900 white listed at $292. Delivery-only fee to confirm for the site.",
+      "checked": "2026-10-29",
+      "application": "Rapidline folding table 1800 × 900 white listed at $292. Delivery-only fee to confirm for the site."
+    },
+    {
+      "id": "R114",
+      "title": "Mack's Office Furniture, current second-hand catalogue",
+      "url": "https://www.macks.com.au/collections/second-hand-furniture",
+      "web_ref": "turn85view0",
+      "support": "Direct product pages list a used metal-frame desk, 1600 x 800 mm, at $150 including GST, listed 19 October 2026 and described as in good condition; and a used cupboard, 1600h x 900w x 430d mm, at $129 including GST, listed 23 October 2026. Both pages display availability, but required quantities and delivered cost remain unconfirmed. Central Victoria dealer. Exact desk: https://www.macks.com.au/collections/second-hand-furniture/products/secondhand-metal-frame-desk-1600-x-800 . Exact cupboard: https://www.macks.com.au/collections/second-hand-furniture/products/second-hand-cupboard-1600h-x-900w-x-430d .",
+      "checked": "2026-10-29",
+      "application": "Direct product pages list a used metal-frame desk, 1600 x 800 mm, at $150 including GST, listed 19 October 2026 and described as in good condition; and a used cupboard, 1600h x 900w x 430d mm, at $129 including GST, listed 23 October 2026. Both pages display availability, but required quantities and delivered cost remain unconfirmed. Central Victoria dealer. Direct product links: [used metal-frame desk](https://www.macks.com.au/collections/second-hand-furniture/products/secondhand-metal-frame-desk-1600-x-800) and [used cupboard](https://www.macks.com.au/collections/second-hand-furniture/products/second-hand-cupboard-1600h-x-900w-x-430d).",
+      "product_links": [
+        {
+          "item": "Used 1600 x 800 mm desk",
+          "url": "https://www.macks.com.au/collections/second-hand-furniture/products/secondhand-metal-frame-desk-1600-x-800"
+        },
+        {
+          "item": "Used 1600h x 900w x 430d mm cupboard",
+          "url": "https://www.macks.com.au/collections/second-hand-furniture/products/second-hand-cupboard-1600h-x-900w-x-430d"
+        }
+      ],
+      "web_refs": [
+        "turn86view0",
+        "turn85view0"
+      ]
+    },
+    {
+      "id": "R115",
+      "title": "Australian Computer Traders, refurbished desktop range",
+      "url": "https://www.australiancomputertraders.com.au/",
+      "web_ref": "turn65search4",
+      "support": "Grade A HP EliteDesk 800 G6 Mini, i5 tenth generation,16GB RAM,256GB SSD,Windows11 listed $399. Intended as prototype capture/control computer, not a guaranteed multi-room AI inference server.",
+      "checked": "2026-10-29",
+      "application": "Grade A HP EliteDesk 800 G6 Mini, i5 tenth generation, 16 GB RAM, 256 GB SSD, Windows 11 listed $399. Intended as prototype capture/control computer, not a guaranteed multi-room AI inference server."
+    },
+    {
+      "id": "R116",
+      "title": "Scorptec, CyberPower UPS published range",
+      "url": "https://www.scorptec.com.au/cyberpowerupsfreedel",
+      "web_ref": "turn57search4",
+      "support": "CP900EPFCLCDa 900VA/540W UPS listed $299 and in stock. Load and runtime must be verified for the chosen equipment; this does not supply emergency building systems.",
+      "checked": "2026-10-29",
+      "application": "CP900EPFCLCDa 900 VA/540 W UPS listed $299 and in stock. Load and runtime must be verified for the chosen equipment; this does not supply emergency building systems."
+    },
+    {
+      "id": "R117",
+      "title": "Indestroom, Australian turnkey room catalogue",
+      "url": "https://erworkshop.com/escape-room-supplier-australia/",
+      "web_ref": "turn66view0",
+      "support": "Published AUD package benchmarks: Jungle $42,500; Magic School $89,900; Pharaoh $63,300; Vault32 $101,600. Standard configurations converted from EUR; request a fixed scope and terms. Freight, tax, site works and required design changes are not established by the headline.",
+      "checked": "2026-10-29",
+      "application": "Published AUD package benchmarks: Jungle $42,500; Magic School $89,900; Pharaoh $63,300; Vault32 $101,600. Standard configurations converted from EUR; request a fixed scope and terms. Freight, tax, site works and required design changes are not established by the headline."
+    },
+    {
+      "id": "R118",
+      "title": "Property Now, 338 Lytton Road listing",
+      "url": "https://www.commercialrealestate.com.au/property/338-lytton-road-morningside-qld-4170-18288980",
+      "web_ref": "turn67search1",
+      "support": "300m2 listing $6750/month plus GST and outgoings, last updated 22 September 2026. A comparable asking rent, not a selected or approved 400 m2 venue.",
+      "checked": "2026-10-29",
+      "application": "300 m² listing $6,750 per month plus GST and outgoings, last updated 22 September 2026. A comparable asking rent, not a selected or approved 400 m² venue."
+    },
+    {
+      "id": "R119",
+      "title": "Chase Commercial, 4/65 Riverside Place listing",
+      "url": "https://www.commercialrealestate.com.au/property/4-65-riverside-place-morningside-qld-4170-18314217",
+      "web_ref": "turn67search2",
+      "support": "300m2 two-level office/storage listing $72000/year plus outgoings and GST, last updated 29 September 2026. Different layout from a single-level escape venue.",
+      "checked": "2026-10-29",
+      "application": "300 m² two-level office/storage listing $72,000 per year plus outgoings and GST, last updated 29 September 2026. Different layout from a single-level escape venue."
+    },
+    {
+      "id": "R120",
+      "title": "Alliance Electrical, Northern Rivers rates",
+      "url": "https://allianceelectrical.com.au/rates",
+      "web_ref": "turn63view0",
+      "support": "Northern Rivers NSW regional comparison only: first hour $190 excluding GST, later $110; effective 30 July 2026, materials and specified travel additional. Not used as a Brisbane quote.",
+      "checked": "2026-10-29",
+      "application": "Northern Rivers NSW regional comparison only: first hour $190 excluding GST, later $110; effective 30 July 2026, materials and specified travel additional. Not used as a Brisbane quote."
+    },
+    {
+      "id": "R121",
+      "title": "OpenAI, current API prices",
+      "url": "https://developers.openai.com/api/docs/pricing",
+      "web_ref": "turn71view0",
+      "support": "Current file transcription gpt-transcribe estimated US$0.0045/minute; live transcription US$0.017/minute. Standard gpt-6.1-sol US$2/million input and US$10/million output tokens; web search US$10/1000 calls plus content tokens; file search US$2.50/1000 calls. These are current unit-price benchmarks, not model selections or subscriptions.",
+      "checked": "2026-10-29",
+      "application": "Current file transcription gpt-transcribe estimated US$0.0045/minute; live transcription US$0.017/minute. Standard gpt-6.1-sol US$2/million input and US$10/million output tokens; web search US$10/1000 calls plus content tokens; file search US$2.50/1000 calls. These are current unit-price benchmarks, not model selections or subscriptions."
+    },
+    {
+      "id": "R122",
+      "title": "OpenAI, current transcription workflows",
+      "url": "https://developers.openai.com/api/docs/guides/transcription",
+      "web_ref": "turn71view4",
+      "support": "Recommends gpt-transcribe for recorded files and gpt-live-transcribe for live incoming audio. Older whisper/4o transcription models are deprecated; this budget uses the current file benchmark.",
+      "checked": "2026-10-29",
+      "application": "Recommends gpt-transcribe for recorded files and gpt-live-transcribe for live incoming audio. Older whisper/4o transcription models are deprecated; this budget uses the current file benchmark."
+    },
+    {
+      "id": "R123",
+      "title": "OpenAI, API credit currency",
+      "url": "https://help.openai.com/en/articles/10421635-multicurrency-billing",
+      "web_ref": "turn73search0",
+      "support": "API credit purchases are currently limited to USD. Translate actual invoice amounts using the actual AUD conversion and separately record taxes and payment charges.",
+      "checked": "2026-10-29",
+      "application": "API credit purchases are currently limited to USD. Translate actual invoice amounts using the actual AUD conversion and separately record taxes and payment charges."
+    },
+    {
+      "id": "R124",
+      "title": "Deepgram, processed multichannel duration pricing rule",
+      "url": "https://deepgram.com/pricing",
+      "web_ref": "turn70view2",
+      "support": "The official pricing page says multichannel processing is billed by total processed duration across channels. This supports the conservative separate-channel volume method; the selected unit-price example is a separate OpenAI file transcription benchmark.",
+      "checked": "2026-10-29",
+      "application": "The official pricing page says multichannel processing is billed by total processed duration across channels. This supports the conservative separate-channel volume method; the selected unit-price example is a separate OpenAI file transcription benchmark."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-29",
+  "method": "Managed isolated static preview and browser interaction",
+  "desktop": {
+    "executive_summary": "Business proposition, hero and navigation render cleanly",
+    "chapter_menu": "All 16 destinations available",
+    "source_filter": "Matching title, exact source ID R106 and zero-result states verified",
+    "presentation": "Next advances to 2 / 11; Escape returns to outline",
+    "source_reader_D15": "Full navigation renders; Sources returns to the main source library"
+  },
+  "responsive": {
+    "frame_widths_css_pixels": [
+      320,
+      390
+    ],
+    "page_horizontal_overflow": false,
+    "chapter_menu": "All 16 links visible when opened; Escape closes it",
+    "contents_links": "Equipment section link reaches the intended section",
+    "tables": "Wide financial table scrolls within its own region"
+  },
+  "publication_gate": "See content/build-report.json for final asset, source, archive and link checks",
+  "operating_agents_activated": false
+}

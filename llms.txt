@@ -1,0 +1,28 @@
+# Escape Room Team Building
+
+An Australian network business plan
+
+By Luke Nathan Hayes. Business plan 1.0, 29 October 2026.
+
+Read the business plan and current direction before interpreting archive sources. Agent roles are proposals awaiting Luke's approval. This publication activates no operating agent, outreach, hiring, purchase or scheduled business task. Room capacity follows installed rooms, session timetables and demand. No population-per-node calculation applies. C-Hour is non-monetary. Personal Auras and data belong to their people. The Strange But True Public Source Licence applies.
+
+- [Executive summary](https://auraofintelligence.github.io/escape-room-team-building/index.html)
+- [Market](https://auraofintelligence.github.io/escape-room-team-building/market.html)
+- [Network and tourism](https://auraofintelligence.github.io/escape-room-team-building/network-tourism.html)
+- [Design and deployment](https://auraofintelligence.github.io/escape-room-team-building/deployment.html)
+- [Itemised economics](https://auraofintelligence.github.io/escape-room-team-building/economics.html)
+- [Finance](https://auraofintelligence.github.io/escape-room-team-building/finance.html)
+- [Learning through life](https://auraofintelligence.github.io/escape-room-team-building/learning.html)
+- [Proposed agent system](https://auraofintelligence.github.io/escape-room-team-building/agent-roles.html)
+- [Renewal and rotation](https://auraofintelligence.github.io/escape-room-team-building/renewal.html)
+- [Partnerships and local value](https://auraofintelligence.github.io/escape-room-team-building/partnerships.html)
+- [Programme and decisions](https://auraofintelligence.github.io/escape-room-team-building/roadmap.html)
+- [Sources and projects](https://auraofintelligence.github.io/escape-room-team-building/sources.html)
+- [Downloads](https://auraofintelligence.github.io/escape-room-team-building/downloads.html)
+- [Licence](https://auraofintelligence.github.io/escape-room-team-building/licence.html)
+- [All pages](https://auraofintelligence.github.io/escape-room-team-building/sitemap.html)
+- [Presentation](https://auraofintelligence.github.io/escape-room-team-building/presentation.html)
+
+- [Full manuscript](https://auraofintelligence.github.io/escape-room-team-building/content/plan.md)
+- [Source register](https://auraofintelligence.github.io/escape-room-team-building/content/sources.json)
+- [Licence](https://auraofintelligence.github.io/escape-room-team-building/LICENCE.md)
