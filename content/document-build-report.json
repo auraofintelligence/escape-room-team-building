@@ -1,12 +1,12 @@
 {
   "docx": "downloads\\Escape-Room-Network-Business-Plan.docx",
-  "canonical_plan_sha256": "140849366d9c02876182281d0ab9d7b322cc6537b28922da3fb56849ac7301d4",
-  "source_register_sha256": "0af6159c4a3be8bbda20ce83cb13f08552a8a24c6fe1c84dab546d0ac1e10acb",
+  "canonical_plan_sha256": "0c5c6a410183bed2459512ee193bda2c70703811ac25b5823aa740487111af8d",
+  "source_register_sha256": "7bcb67a14c326d2dd12cc281566504a82d6082de8c09f15095e8b57a7bf742a3",
   "chapters": 11,
-  "sections": 59,
+  "sections": 35,
   "source_entries": 79,
-  "table_count": 26,
-  "manuscript_words": 12327,
+  "table_count": 17,
+  "manuscript_words": 4147,
   "licence_included": true,
   "all_chapter_bodies_included": true,
   "research_status": "ROUND ONE exploratory comparisons for founder review"

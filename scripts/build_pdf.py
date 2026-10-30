@@ -9,6 +9,7 @@ import json
 import re
 from html import escape
 from urllib.parse import quote
+from source_metadata import source_date
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_LEFT
 from reportlab.lib.pagesizes import A4
@@ -121,7 +122,7 @@ class PlanDoc(BaseDocTemplate):
         canvas.drawRightString(W-MARGIN,23,str(doc.page))
     def afterFlowable(self,f):
         if isinstance(f,Paragraph) and hasattr(f,'bookmark_key'):
-            self.canv.bookmarkPage(f.bookmark_key)
+            self.canv.bookmarkHorizontalAbsolute(f.bookmark_key,self.frame._y+f.height+f.getSpaceAfter())
             self.canv.addOutlineEntry(f.getPlainText(),f.bookmark_key,0,False)
             self.notify('TOCEntry',(0,f.getPlainText(),self.page,f.bookmark_key))
 
@@ -151,6 +152,9 @@ for idx,c in enumerate(plan['chapters']):
         story.append(KeepTogether(opening))
         story.extend(flows[first:])
         if s.get('refs'):story.append(Paragraph('Sources: '+rich(', '.join(s['refs'])),styles['SourceNote']))
+        if s.get('calculator'):
+            sid=s.get('id') or re.sub(r'[^a-z0-9]+','-',s['title'].lower()).strip('-')
+            story.append(Paragraph(rich('[Change inputs in the online calculator]('+BASE+c['slug']+'.html#'+sid+')'),styles['SourceNote']))
     if idx==0:
         image=ROOT/'assets/heroes/index.webp'
         if image.exists():
@@ -159,19 +163,18 @@ for idx,c in enumerate(plan['chapters']):
             art=Image(str(image),width=310,height=310*h/w)
             story.append(KeepTogether([art,Spacer(1,5),Paragraph('Original AI-generated concept artwork. An illustration, not a selected premises.',styles['SourceNote'])]))
 story.append(PageBreak());story.append(heading('Sources and project inventory','source_register'))
-story.append(Paragraph('Source observations, verification notes and project references support the comparisons. Advertised prices are not requested supplier quotations.',styles['BodyText']))
+story.append(Paragraph('Dates record source checks. Prices are advertised observations; no supplier quotations were requested. Original documents and full notes are linked.',styles['BodyText']))
 for group,label in [('documents','Original documents'),('links','Connected projects and websites'),('research','Market and cost sources')]:
+    story.append(CondPageBreak(95))
     story.append(Paragraph(label,styles['Heading2']))
     for e in sources.get(group,[]):
         start=len(story)
         story.append(Paragraph('<a name="source_'+e['id']+'"/>'+escape(e['id']+' '+e['title']),styles['SourceTitle']))
-        story.extend(markdown(e.get('application',e.get('purpose',e.get('note',''))),'Register'))
-        if e.get('checked'):story.append(Paragraph('Recorded observation date: '+e['checked'],styles['SourceNote']))
-        if e.get('verification_status'):
-            story.append(Paragraph(escape(e['verification_status'].replace('_',' ')+': '+e.get('verification_note','')),styles['SourceNote']))
-            story.append(Paragraph('Supplier quotation date: none recorded.',styles['SourceNote']))
-        url=e.get('url') or e.get('source_url') or BASE+'sources.html#'+e['id']
-        story.append(Paragraph('<a color="#275e67" href="'+escape(url,quote=True)+'">'+escape(url)+'</a>',styles['SourceNote']))
+        if group=='research' and e.get('verification_note')!='Unverified inherited reference.':story.extend(markdown(e.get('verification_note',''),'Register'))
+        if e.get('checked'):story.append(Paragraph(source_date(e),styles['SourceNote']))
+        url=(BASE+quote(e['path'],safe='/')) if group=='documents' and e.get('path') and (ROOT/e['path']).is_file() else e.get('url') or BASE+'sources.html#'+e['id']
+        story.append(Paragraph('<a color="#275e67" href="'+escape(url,quote=True)+'">Open source</a>',styles['SourceNote']))
+        for link in e.get('product_links',[]):story.append(Paragraph(rich('['+link['item']+']('+link['url']+')'),styles['SourceNote']))
         story[start:]=[KeepTogether(story[start:])]
 for file,title,key in [('RIGHTS.md','Rights and provenance','rights'),('LICENCE.md','Strange But True Public Source Licence','licence')]:
     story.append(PageBreak());story.append(heading(title,key));story.extend(markdown((ROOT/file).read_text(encoding='utf-8')))

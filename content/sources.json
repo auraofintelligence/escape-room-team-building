@@ -302,15 +302,16 @@
       "title": "Tourism Research Australia national fast facts",
       "url": "https://www.tra.gov.au/",
       "kind": "Official statistics",
-      "checked": "2026-10-29",
+      "checked": "2026-10-30",
       "supported_fact": "Year ending June 2026: 112.5 million domestic overnight trips and AUD 108.1 billion spend; 288.4 million domestic day trips and AUD 52.0 billion spend; 9.1 million international trips and AUD 40.5 billion spend. Trips are not unique customers.",
-      "application": "Year ending June 2026: 112.5 million domestic overnight trips and AUD 108.1 billion spend; 288.4 million domestic day trips and AUD 52.0 billion spend; 9.1 million international trips and AUD 40.5 billion spend. Trips are not unique customers.",
+      "application": "112.5 million overnight trips/$108.1 billion and 288.4 million day trips/$52.0 billion, year ending June 2026.",
       "quote_date": null,
       "quote_status": "No requested supplier quotation recorded",
-      "recorded_observation_date": "2026-10-29",
+      "recorded_observation_date": "2026-10-30",
       "verification_status": "page_rechecked",
       "rechecked": "2026-10-29",
-      "verification_note": "TRA homepage reproduces the year-ending June 2026 trip and spend figures."
+      "verification_note": "112.5 million overnight trips/$108.1 billion and 288.4 million day trips/$52.0 billion, year ending June 2026.",
+      "support": "112.5 million overnight trips/$108.1 billion and 288.4 million day trips/$52.0 billion, year ending June 2026."
     },
     {
       "id": "M02",
@@ -332,30 +333,32 @@
       "title": "ABS Schools 2025",
       "url": "https://www.abs.gov.au/statistics/people/education/schools/latest-release",
       "kind": "Official statistics",
-      "checked": "2026-10-29",
+      "checked": "2026-10-30",
       "supported_fact": "Australia had 4,160,918 students and 9,673 schools in 2025. Queensland had 1,803 schools. Released 5 March 2026.",
-      "application": "Australia had 4,160,918 students and 9,673 schools in 2025. Queensland had 1,803 schools. Released 5 March 2026.",
+      "application": "2025: 4,160,918 students and 9,673 schools.",
       "quote_date": null,
       "quote_status": "No requested supplier quotation recorded",
-      "recorded_observation_date": "2026-10-29",
+      "recorded_observation_date": "2026-10-30",
       "verification_status": "page_rechecked",
       "rechecked": "2026-10-29",
-      "verification_note": "ABS 2025 Schools release reports 4,160,918 students and 9,673 schools."
+      "verification_note": "2025: 4,160,918 students and 9,673 schools.",
+      "support": "2025: 4,160,918 students and 9,673 schools."
     },
     {
       "id": "M04",
       "title": "TRA Business events data",
       "url": "https://www.tra.gov.au/en/tourism-statistics/business-events-data",
       "kind": "Official statistics",
-      "checked": "2026-10-29",
+      "checked": "2026-10-30",
       "supported_fact": "Calendar 2025 business-event visitors spent AUD 17.2 billion in Australia: AUD 2.3 billion international, AUD 12.0 billion domestic overnight, AUD 2.9 billion domestic day trips. These are trip expenditures, not a team-building market size.",
-      "application": "Calendar 2025 business-event visitors spent AUD 17.2 billion in Australia: AUD 2.3 billion international, AUD 12.0 billion domestic overnight, AUD 2.9 billion domestic day trips. These are trip expenditures, not a team-building market size.",
+      "application": "2025 business-event visitor spending in Australia: $17.2 billion.",
       "quote_date": null,
       "quote_status": "No requested supplier quotation recorded",
-      "recorded_observation_date": "2026-10-29",
+      "recorded_observation_date": "2026-10-30",
       "verification_status": "page_rechecked",
       "rechecked": "2026-10-29",
-      "verification_note": "TRA reports 17.2 billion AUD spend in Australia for business-event visitors during 2025."
+      "verification_note": "2025 business-event visitor spending in Australia: $17.2 billion.",
+      "support": "2025 business-event visitor spending in Australia: $17.2 billion."
     },
     {
       "id": "M05",
@@ -369,7 +372,7 @@
       "quote_status": "No requested supplier quotation recorded",
       "recorded_observation_date": "2026-10-29",
       "verification_status": "inherited_reference_requires_verification",
-      "verification_note": "Source retained from the previous edition; not independently rechecked in this revision. Treat specific factual or price claims as inherited observations."
+      "verification_note": "Unverified inherited reference."
     },
     {
       "id": "M06",
@@ -383,22 +386,23 @@
       "quote_status": "No requested supplier quotation recorded",
       "recorded_observation_date": "2026-10-29",
       "verification_status": "inherited_reference_requires_verification",
-      "verification_note": "Source retained from the previous edition; not independently rechecked in this revision. Treat specific factual or price claims as inherited observations."
+      "verification_note": "Unverified inherited reference."
     },
     {
       "id": "M07",
       "title": "Fox in a Box Brisbane corporate events",
       "url": "https://foxinaboxbrisbane.com/corporate-events/",
       "kind": "Operator published offer",
-      "checked": "2026-10-29",
+      "checked": "2026-10-30",
       "supported_fact": "Ten rooms and up to 60 players simultaneously. One game AUD 45 per person, minimum 13. Two games AUD 80 per person, minimum 13, approximately 2.5–3 hours including a break. Groups 40+ receive exclusive use.",
-      "application": "Ten rooms and up to 60 players simultaneously. One game AUD 45 per person, minimum 13. Two games AUD 80 per person, minimum 13, approximately 2.5–3 hours including a break. Groups 40+ receive exclusive use.",
+      "application": "Brisbane venue: ten rooms, up to sixty simultaneous players; corporate offers $45 one game/$80 two, minimum thirteen.",
       "quote_date": null,
       "quote_status": "No requested supplier quotation recorded",
-      "recorded_observation_date": "2026-10-29",
+      "recorded_observation_date": "2026-10-30",
       "verification_status": "page_rechecked",
       "rechecked": "2026-10-29",
-      "verification_note": "Operator page confirms ten rooms and capacity up to sixty. Published corporate offers require their stated conditions."
+      "verification_note": "Brisbane venue: ten rooms, up to sixty simultaneous players; corporate offers $45 one game/$80 two, minimum thirteen.",
+      "support": "Brisbane venue: ten rooms, up to sixty simultaneous players; corporate offers $45 one game/$80 two, minimum thirteen."
     },
     {
       "id": "M08",
@@ -412,37 +416,39 @@
       "quote_status": "No requested supplier quotation recorded",
       "recorded_observation_date": "2026-10-29",
       "verification_status": "inherited_reference_requires_verification",
-      "verification_note": "Source retained from the previous edition; not independently rechecked in this revision. Treat specific factual or price claims as inherited observations."
+      "verification_note": "Unverified inherited reference."
     },
     {
       "id": "M09",
       "title": "Red Lock pricing",
       "url": "https://www.redlockescaperooms.com.au/pricing/",
       "kind": "Operator published offer",
-      "checked": "2026-10-29",
+      "checked": "2026-10-30",
       "supported_fact": "60-minute games: AUD 55 per person for two players, 47 for three, 45 for four, 42 for five and 40 for six or more. Weekday three-room package AUD 99 per person; extra rooms AUD 33. Minimum two players; Queensland school holidays excluded.",
-      "application": "60-minute games: AUD 55 per person for two players, 47 for three, 45 for four, 42 for five and 40 for six or more. Weekday three-room package AUD 99 per person; extra rooms AUD 33. Minimum two players; Queensland school holidays excluded.",
+      "application": "Public group tiers and weekday three-room $99 offer confirmed; same group/day, minimum two, excludes Queensland school holidays.",
       "quote_date": null,
       "quote_status": "No requested supplier quotation recorded",
-      "recorded_observation_date": "2026-10-29",
-      "verification_status": "partial_verification",
+      "recorded_observation_date": "2026-10-30",
+      "verification_status": "page_rechecked",
       "recheck_attempt": "2026-10-29",
-      "verification_note": "Pricing page rechecked: 99 AUD weekday three-room offer, minimum two people, same group in one day, excluding Queensland school holidays. Other conditions apply."
+      "verification_note": "Public group tiers and weekday three-room $99 offer confirmed; same group/day, minimum two, excludes Queensland school holidays.",
+      "support": "Public group tiers and weekday three-room $99 offer confirmed; same group/day, minimum two, excludes Queensland school holidays."
     },
     {
       "id": "M10",
       "title": "Team Escapes by Escape This capacity",
       "url": "https://www.teamescape.com.au/capacity/",
       "kind": "Operator booking-system capacity",
-      "checked": "2026-10-29",
+      "checked": "2026-10-30",
       "supported_fact": "48 rooms across five venues: Perth CBD 14 rooms/108 players; Northbridge 9/62; Sydney CBD 10/66; Manly 3/18; Melbourne CBD 12/82. Total 336 at each maximum team size simultaneously. Operator data dated 29 October 2026.",
-      "application": "48 rooms across five venues: Perth CBD 14 rooms/108 players; Northbridge 9/62; Sydney CBD 10/66; Manly 3/18; Melbourne CBD 12/82. Total 336 at each maximum team size simultaneously. Operator data dated 29 October 2026.",
+      "application": "Five venue rows checked: 14/108, 9/62, 10/66, 3/18 and 12/82. Subtotal 48 rooms/336 places across those five venues, not one venue.",
       "quote_date": null,
       "quote_status": "No requested supplier quotation recorded",
-      "recorded_observation_date": "2026-10-29",
-      "verification_status": "partial_verification",
+      "recorded_observation_date": "2026-10-30",
+      "verification_status": "page_rechecked",
       "recheck_attempt": "2026-10-29",
-      "verification_note": "Full open failed; official provider search result corroborates Perth CBD 14 rooms/108 players. Remaining per-venue counts are inherited and need page-level recheck."
+      "verification_note": "Five venue rows checked: 14/108, 9/62, 10/66, 3/18 and 12/82. Subtotal 48 rooms/336 places across those five venues, not one venue.",
+      "support": "Five venue rows checked: 14/108, 9/62, 10/66, 3/18 and 12/82. Subtotal 48 rooms/336 places across those five venues, not one venue."
     },
     {
       "id": "M11",
@@ -486,22 +492,23 @@
       "quote_status": "No requested supplier quotation recorded",
       "recorded_observation_date": "2026-10-29",
       "verification_status": "inherited_reference_requires_verification",
-      "verification_note": "Source retained from the previous edition; not independently rechecked in this revision. Treat specific factual or price claims as inherited observations."
+      "verification_note": "Unverified inherited reference."
     },
     {
       "id": "M14",
       "title": "Indestroom Australia supplier catalogue",
       "url": "https://erworkshop.com/escape-room-supplier-australia/",
       "kind": "Supplier published configurations and prices",
-      "checked": "2026-10-29",
+      "checked": "2026-10-30",
       "supported_fact": "Published standard configurations: Jungle, 30–50 m², 2–8 players, AUD 42,500; Magic School, 30–50 m², 2–6 players, AUD 89,900; Pharaoh's Tomb, 30–70 m², 2–6 players, AUD 63,300; Vault-32, 40–80 m², 2–10 players, AUD 101,600; Enchanted Forest, 40–80 m², 2–8 players, AUD 63,100. Prices are converted from EUR. Standard production is 60 working days; custom production is 90. Installation usually takes 4–7 days. Freight, taxes and site works require an explicit offer. The default package includes hints, which this project excludes.",
-      "application": "Published standard configurations: Jungle, 30–50 m², 2–8 players, AUD 42,500; Magic School, 30–50 m², 2–6 players, AUD 89,900; Pharaoh's Tomb, 30–70 m², 2–6 players, AUD 63,300; Vault-32, 40–80 m², 2–10 players, AUD 101,600; Enchanted Forest, 40–80 m², 2–8 players, AUD 63,100. Prices are converted from EUR. Standard production is 60 working days; custom production is 90. Installation usually takes 4–7 days. Freight, taxes and site works require an explicit offer. The default package includes hints, which this project excludes.",
+      "application": "Four named package area/player ranges, AUD prices and standard/custom lead-time statements checked.",
       "quote_date": null,
       "quote_status": "No requested supplier quotation recorded",
-      "recorded_observation_date": "2026-10-29",
+      "recorded_observation_date": "2026-10-30",
       "verification_status": "page_rechecked",
       "rechecked": "2026-10-29",
-      "verification_note": "Supplier page confirms named standard package prices, area ranges and source-specific production timing."
+      "verification_note": "Four named package area/player ranges, AUD prices and standard/custom lead-time statements checked.",
+      "support": "Four named package area/player ranges, AUD prices and standard/custom lead-time statements checked."
     },
     {
       "id": "M15",
@@ -515,7 +522,7 @@
       "quote_status": "No requested supplier quotation recorded",
       "recorded_observation_date": "2026-10-29",
       "verification_status": "inherited_reference_requires_verification",
-      "verification_note": "Source retained from the previous edition; not independently rechecked in this revision. Treat specific factual or price claims as inherited observations."
+      "verification_note": "Unverified inherited reference."
     },
     {
       "id": "M16",
@@ -552,45 +559,48 @@
       "title": "Puzzled pricing",
       "url": "https://puzzledroomescape.com.au/pricing/",
       "kind": "Operator published offer",
-      "checked": "2026-10-29",
+      "checked": "2026-10-30",
       "supported_fact": "Public price AUD 42 per person for groups of four to six, AUD 48 for two and AUD 45 for three.",
-      "application": "Public price AUD 42 per person for groups of four to six, AUD 48 for two and AUD 45 for three.",
+      "application": "Public tiers $48 for two, $45 for three and $42 for four to six; maximum six per room.",
       "quote_date": null,
       "quote_status": "No requested supplier quotation recorded",
-      "recorded_observation_date": "2026-10-29",
+      "recorded_observation_date": "2026-10-30",
       "verification_status": "page_rechecked",
       "rechecked": "2026-10-29",
-      "verification_note": "Operator page confirms 42 AUD per person for groups of four to six."
+      "verification_note": "Public tiers $48 for two, $45 for three and $42 for four to six; maximum six per room.",
+      "support": "Public tiers $48 for two, $45 for three and $42 for four to six; maximum six per room."
     },
     {
       "id": "M19",
       "title": "Puzzled schools",
       "url": "https://puzzledroomescape.com.au/student-programs/",
       "kind": "Operator published offer",
-      "checked": "2026-10-29",
+      "checked": "2026-10-30",
       "supported_fact": "AUD 35 per person for the weekday student programme, minimum 20 participants; 60-minute play, maximum six per game.",
-      "application": "AUD 35 per person for the weekday student programme, minimum 20 participants; 60-minute play, maximum six per game.",
+      "application": "$35 weekdays, minimum twenty school/community participants.",
       "quote_date": null,
       "quote_status": "No requested supplier quotation recorded",
-      "recorded_observation_date": "2026-10-29",
+      "recorded_observation_date": "2026-10-30",
       "verification_status": "page_rechecked",
       "rechecked": "2026-10-29",
-      "verification_note": "Operator page confirms weekday 35 AUD student price with minimum twenty."
+      "verification_note": "$35 weekdays, minimum twenty school/community participants.",
+      "support": "$35 weekdays, minimum twenty school/community participants."
     },
     {
       "id": "M20",
       "title": "Project Immersive events",
       "url": "https://www.projectimmersive.com/events",
       "kind": "Operator published offer",
-      "checked": "2026-10-29",
+      "checked": "2026-10-30",
       "supported_fact": "AUD 44 per person for groups of 7–20, minimum three per game, up to a 50-minute game and a 90-minute whole event.",
-      "application": "AUD 44 per person for groups of 7–20, minimum three per game, up to a 50-minute game and a 90-minute whole event.",
+      "application": "Fission $44 per person, 7 to 20 across games, minimum three per room; one game each.",
       "quote_date": null,
       "quote_status": "No requested supplier quotation recorded",
-      "recorded_observation_date": "2026-10-29",
+      "recorded_observation_date": "2026-10-30",
       "verification_status": "page_rechecked",
       "rechecked": "2026-10-29",
-      "verification_note": "Operator event page retrieved for group-event comparison."
+      "verification_note": "Fission $44 per person, 7 to 20 across games, minimum three per room; one game each.",
+      "support": "Fission $44 per person, 7 to 20 across games, minimum three per room; one game each."
     },
     {
       "id": "M21",
@@ -604,7 +614,7 @@
       "quote_status": "No requested supplier quotation recorded",
       "recorded_observation_date": "2026-10-29",
       "verification_status": "inherited_reference_requires_verification",
-      "verification_note": "Source retained from the previous edition; not independently rechecked in this revision. Treat specific factual or price claims as inherited observations."
+      "verification_note": "Unverified inherited reference."
     },
     {
       "id": "M22",
@@ -618,7 +628,7 @@
       "quote_status": "No requested supplier quotation recorded",
       "recorded_observation_date": "2026-10-29",
       "verification_status": "inherited_reference_requires_verification",
-      "verification_note": "Source retained from the previous edition; not independently rechecked in this revision. Treat specific factual or price claims as inherited observations."
+      "verification_note": "Unverified inherited reference."
     },
     {
       "id": "M23",
@@ -632,7 +642,7 @@
       "quote_status": "No requested supplier quotation recorded",
       "recorded_observation_date": "2026-10-29",
       "verification_status": "inherited_reference_requires_verification",
-      "verification_note": "Source retained from the previous edition; not independently rechecked in this revision. Treat specific factual or price claims as inherited observations."
+      "verification_note": "Unverified inherited reference."
     },
     {
       "id": "M24",
@@ -644,7 +654,7 @@
       "quote_status": "No requested supplier quotation recorded",
       "recorded_observation_date": "2026-10-29",
       "verification_status": "inherited_reference_requires_verification",
-      "verification_note": "Source retained from the previous edition; not independently rechecked in this revision. Treat specific factual or price claims as inherited observations."
+      "verification_note": "Unverified inherited reference."
     },
     {
       "id": "M25",
@@ -656,21 +666,21 @@
       "quote_status": "No requested supplier quotation recorded",
       "recorded_observation_date": "2026-10-29",
       "verification_status": "inherited_reference_requires_verification",
-      "verification_note": "Source retained from the previous edition; not independently rechecked in this revision. Treat specific factual or price claims as inherited observations."
+      "verification_note": "Unverified inherited reference."
     },
     {
       "id": "R101",
       "title": "Fair Work, Amusement Events and Recreation Award, effective 1 July 2026",
       "url": "https://awards.fairwork.gov.au/MA000080.html",
-      "support": "Published example adult casual Grade 4 rates $36.81 ordinary and $51.54 Sunday; Grade 6 $39.11 and $54.76. Coverage and classifications require confirmation against actual duties.",
-      "checked": "2026-10-29",
-      "application": "Published example adult casual Grade 4 rates $36.81 ordinary and $51.54 Sunday; Grade 6 $39.11 and $54.76. Coverage and classifications require confirmation against actual duties.",
+      "support": "Adult casual Grade 4: $36.81 ordinary/$51.54 Sunday; Grade 6: $39.11/$54.76. Classification remains job-specific.",
+      "checked": "2026-10-30",
+      "application": "Adult casual Grade 4: $36.81 ordinary/$51.54 Sunday; Grade 6: $39.11/$54.76. Classification remains job-specific.",
       "quote_date": null,
       "quote_status": "No requested supplier quotation recorded",
-      "recorded_observation_date": "2026-10-29",
+      "recorded_observation_date": "2026-10-30",
       "verification_status": "page_rechecked",
       "rechecked": "2026-10-29",
-      "verification_note": "Official award rechecked, including example adult casual Grade 4 and Grade 6 rates."
+      "verification_note": "Adult casual Grade 4: $36.81 ordinary/$51.54 Sunday; Grade 6: $39.11/$54.76. Classification remains job-specific."
     },
     {
       "id": "R102",
@@ -690,163 +700,163 @@
       "id": "R103",
       "title": "Stripe Australia, current pricing",
       "url": "https://stripe.com/au/pricing",
-      "support": "Live page checked 29 October shows domestic online cards 1.65% plus A$0.30, fees including GST. Older search snippets show 1.7% and are superseded here. International cards 3.5% plus A$0.30.",
-      "checked": "2026-10-29",
-      "application": "Domestic online card fees listed on 29 October 2026 are 1.65% plus A$0.30, including GST. International cards are 3.5% plus A$0.30.",
+      "support": "Domestic online cards: 1.65% plus $0.30 per successful payment including GST. Fees rounded per payment in calculators.",
+      "checked": "2026-10-30",
+      "application": "Domestic online cards: 1.65% plus $0.30 per successful payment including GST. Fees rounded per payment in calculators.",
       "quote_date": null,
       "quote_status": "No requested supplier quotation recorded",
-      "recorded_observation_date": "2026-10-29",
+      "recorded_observation_date": "2026-10-30",
       "verification_status": "page_rechecked",
       "rechecked": "2026-10-29",
-      "verification_note": "Provider page confirms domestic online cards at 1.65% plus 0.30 AUD and fees including GST."
+      "verification_note": "Domestic online cards: 1.65% plus $0.30 per successful payment including GST. Fees rounded per payment in calculators."
     },
     {
       "id": "R104",
       "title": "Dash Group, Brisbane labour hire charge rates",
       "url": "https://dashgroup.net.au/labour-hire-brisbane",
-      "support": "Provider indicative charge rates ex GST: general labour $55-60/hour; carpenter $75-85; shopfitting/joinery $65-85. Final project, duration and location quote required. Search retrieval available; full open failed.",
-      "checked": "2026-10-29",
-      "application": "Provider indicative charge rates excluding GST: general labour $55–60 per hour; carpenter $75–85; shopfitting and joinery $65–85. The final project, duration and location require a quotation.",
+      "support": "Provider charge rates ex GST: general labour $55–$60/hour; carpentry $75–$85; shopfitting/joinery $65–$85.",
+      "checked": "2026-10-30",
+      "application": "Provider charge rates ex GST: general labour $55–$60/hour; carpentry $75–$85; shopfitting/joinery $65–$85.",
       "quote_date": null,
       "quote_status": "No requested supplier quotation recorded",
-      "recorded_observation_date": "2026-10-29",
-      "verification_status": "partial_verification",
+      "recorded_observation_date": "2026-10-30",
+      "verification_status": "page_rechecked",
       "recheck_attempt": "2026-10-29",
-      "verification_note": "Full open failed; provider search result reproduces indicative labour/carpentry/shopfitting rates. Not a requested quote."
+      "verification_note": "Provider charge rates ex GST: general labour $55–$60/hour; carpentry $75–$85; shopfitting/joinery $65–$85."
     },
     {
       "id": "R105",
       "title": "Voltora, Brisbane electrical attendance prices",
       "url": "https://www.voltoraindustries.com.au/",
-      "support": "Business hours callout and first hour $258.50 including GST; additional hour $148.50 including GST, materials extra. These convert to $235 and $135 excluding GST.",
-      "checked": "2026-10-29",
-      "application": "Business hours callout and first hour $258.50 including GST; additional hour $148.50 including GST, materials extra. These convert to $235 and $135 excluding GST.",
+      "support": "$258.50 includes attendance and first hour; subsequent hours $148.50 including GST, materials extra.",
+      "checked": "2026-10-30",
+      "application": "$258.50 includes attendance and first hour; subsequent hours $148.50 including GST, materials extra.",
       "quote_date": null,
       "quote_status": "No requested supplier quotation recorded",
-      "recorded_observation_date": "2026-10-29",
+      "recorded_observation_date": "2026-10-30",
       "verification_status": "page_rechecked",
       "rechecked": "2026-10-29",
-      "verification_note": "Provider page confirms 258.50 AUD first attendance/hour and 148.50 AUD additional hours including GST; indicative only."
+      "verification_note": "$258.50 includes attendance and first hour; subsequent hours $148.50 including GST, materials extra."
     },
     {
       "id": "R106",
       "title": "Store DJ, Rode Wireless PRO dual kit",
       "url": "https://www.storedj.com.au/products/rode-wireless-pro-dual-compact-wireless-mic-system-w-accessories-black",
-      "support": "Listed $385; online stock available, Brisbane branch zero in page snapshot. Shipping offer subject to conditions. Promotional price dated 29 October.",
-      "checked": "2026-10-29",
-      "application": "Listed $385; online stock available, Brisbane branch zero in page snapshot. Shipping offer subject to conditions. Promotional price dated 29 October.",
+      "support": "Advertised $385 promotional price, online stock; location stock and offer expiry vary.",
+      "checked": "2026-10-30",
+      "application": "Advertised $385 promotional price, online stock; location stock and offer expiry vary.",
       "quote_date": null,
       "quote_status": "No requested supplier quotation recorded",
-      "recorded_observation_date": "2026-10-29",
+      "recorded_observation_date": "2026-10-30",
       "verification_status": "page_rechecked",
       "rechecked": "2026-10-29",
-      "verification_note": "Retail page rechecked for 385 AUD promotional price. Availability and offer expiry remain order-specific."
+      "verification_note": "Advertised $385 promotional price, online stock; location stock and offer expiry vary."
     },
     {
       "id": "R107",
       "title": "Rode, simultaneous Wireless PRO systems",
       "url": "https://help.rode.com/hc/en-us/articles/9220351205135-Can-I-use-multiple-Wireless-PRO-kits-at-a-single-location",
-      "support": "Manufacturer says up to four kits, eight transmitters, in one place. Consumer-kit prototype is not multiplied into an unengineered multi-room 24-channel system.",
-      "checked": "2026-10-29",
-      "application": "Manufacturer says up to four kits, eight transmitters, in one place. Consumer-kit prototype is not multiplied into an unengineered multi-room 24-channel system.",
+      "support": "Manufacturer states up to four kits/eight transmitters in one place; this is not a multi-room engineering design.",
+      "checked": "2026-10-30",
+      "application": "Manufacturer states up to four kits/eight transmitters in one place; this is not a multi-room engineering design.",
       "quote_date": null,
       "quote_status": "No requested supplier quotation recorded",
-      "recorded_observation_date": "2026-10-29",
+      "recorded_observation_date": "2026-10-30",
       "verification_status": "page_rechecked",
       "rechecked": "2026-10-29",
-      "verification_note": "Manufacturer page rechecked for up to four Wireless PRO kits/eight transmitters in one location."
+      "verification_note": "Manufacturer states up to four kits/eight transmitters in one place; this is not a multi-room engineering design."
     },
     {
       "id": "R108",
       "title": "Better Music, Zoom LiveTrak L-8",
       "url": "https://www.bettermusic.com.au/products/zoom-l8-livetrak",
-      "support": "Listed $715, online backorder when inspected, shipping calculated separately; six independent preamps and SD multitrack recording.",
-      "checked": "2026-10-29",
-      "application": "Listed $715, online backorder when inspected, shipping calculated separately; six independent preamps and SD multitrack recording.",
+      "support": "$715 advertised, backorder displayed; shipping separate.",
+      "checked": "2026-10-30",
+      "application": "$715 advertised, backorder displayed; shipping separate.",
       "quote_date": null,
       "quote_status": "No requested supplier quotation recorded",
-      "recorded_observation_date": "2026-10-29",
+      "recorded_observation_date": "2026-10-30",
       "verification_status": "page_rechecked",
       "rechecked": "2026-10-29",
-      "verification_note": "Retail page rechecked for 715 AUD. This is a list-price observation, not a delivered quote."
+      "verification_note": "$715 advertised, backorder displayed; shipping separate."
     },
     {
       "id": "R109",
       "title": "Store DJ, Hosa CMP-159 breakout cable",
       "url": "https://www.storedj.com.au/products/hosa-cmp-159-3-5mm-trs-to-dual-1-4-ts-stereo-breakout-cable-10ft",
-      "support": "Listed $22, 3.5mm stereo TRS to dual 6.35mm mono TS, online in stock; single item shipping $10, qualifying order shipping conditions apply.",
-      "checked": "2026-10-29",
-      "application": "Listed $22, 3.5 mm stereo TRS to dual 6.35 mm mono TS, online in stock; single item shipping $10, qualifying order shipping conditions apply.",
+      "support": "$22 advertised promotional cable price; delivery separate.",
+      "checked": "2026-10-30",
+      "application": "$22 advertised promotional cable price; delivery separate.",
       "quote_date": null,
       "quote_status": "No requested supplier quotation recorded",
-      "recorded_observation_date": "2026-10-29",
+      "recorded_observation_date": "2026-10-30",
       "verification_status": "page_rechecked",
       "rechecked": "2026-10-29",
-      "verification_note": "Retail page rechecked for 22 AUD cable price; delivery is separate."
+      "verification_note": "$22 advertised promotional cable price; delivery separate."
     },
     {
       "id": "R110",
       "title": "Officeworks, Matrix visitor chair",
       "url": "https://www.officeworks.com.au/shop/officeworks/p/matrix-visitor-chair-jbmatvmbk",
-      "support": "Listed new price $179. Commercial seating comparison, not the same model as the used chair.",
-      "checked": "2026-10-29",
-      "application": "Listed new price $179. Commercial seating comparison, not the same model as the used chair.",
+      "support": "Matrix visitor chair $179 advertised.",
+      "checked": "2026-10-30",
+      "application": "Matrix visitor chair $179 advertised.",
       "quote_date": null,
       "quote_status": "No requested supplier quotation recorded",
-      "recorded_observation_date": "2026-10-29",
+      "recorded_observation_date": "2026-10-30",
       "verification_status": "page_rechecked",
       "rechecked": "2026-10-29",
-      "verification_note": "Retail page rechecked for 179 AUD chair price."
+      "verification_note": "Matrix visitor chair $179 advertised."
     },
     {
       "id": "R111",
       "title": "Officeworks, Matrix visitor armchair",
       "url": "https://www.officeworks.com.au/shop/officeworks/p/matrix-mesh-visitor-armchair-black-jbmatvmabk",
-      "support": "New armchair listed in the associated Officeworks range at $199; product specifies 160kg capacity and delivery surcharge. See range https://www.officeworks.com.au/shop/officeworks/c/furniture/chairs-seating/lounge-chairs.",
-      "checked": "2026-10-29",
-      "application": "New armchair listed in the associated Officeworks range at $199; product specifies 160 kg capacity and delivery surcharge. See range https://www.officeworks.com.au/shop/officeworks/c/furniture/chairs-seating/lounge-chairs.",
+      "support": "Matrix visitor armchair $199 advertised; no unverified load-rating claim retained in the plan.",
+      "checked": "2026-10-30",
+      "application": "Matrix visitor armchair $199 advertised; no unverified load-rating claim retained in the plan.",
       "quote_date": null,
       "quote_status": "No requested supplier quotation recorded",
-      "recorded_observation_date": "2026-10-29",
+      "recorded_observation_date": "2026-10-30",
       "verification_status": "page_rechecked",
       "rechecked": "2026-10-29",
-      "verification_note": "Retail page rechecked for 199 AUD armchair price; specification claims retained from prior research need product confirmation."
+      "verification_note": "Matrix visitor armchair $199 advertised; no unverified load-rating claim retained in the plan."
     },
     {
       "id": "R112",
       "title": "Danny's Desks, Chibel ex-hire chair",
       "url": "https://dannysdesks.com.au/product/chibel-office-chair-ex-hire-stock/",
-      "support": "Category lists $39. Product describes light scuffs, as-is clearance, no commercial/manufacturer warranty, 110kg rating, Eagle Farm collection by appointment. Stock quantity and GST invoice to confirm. Category https://dannysdesks.com.au/product-category/clearance/clearance-visitor-chairs/.",
-      "checked": "2026-10-29",
-      "application": "Inherited observation, recorded 2026-10-29. Category lists $39. Product describes light scuffs, as-is clearance, no commercial/manufacturer warranty, 110 kg rating, Eagle Farm collection by appointment. Stock quantity and GST invoice to confirm. Category https://dannysdesks.com.au/product-category/clearance/clearance-visitor-chairs/.",
+      "support": "Earlier $39 ex-hire chair listing could not be retrieved. Price and claimed specifications excluded from active benchmarks and totals.",
+      "checked": "2026-10-30",
+      "application": "Earlier $39 ex-hire chair listing could not be retrieved. Price and claimed specifications excluded from active benchmarks and totals.",
       "quote_date": null,
       "quote_status": "No requested supplier quotation recorded",
-      "recorded_observation_date": "2026-10-29",
-      "verification_status": "inherited_reference_requires_verification",
-      "verification_note": "Used-product page not retrievable. 39 AUD, condition, load rating and collection details remain inherited unverified claims.",
+      "recorded_observation_date": "2026-10-30",
+      "verification_status": "unverified_withdrawn_from_active_costs",
+      "verification_note": "Earlier $39 ex-hire chair listing could not be retrieved. Price and claimed specifications excluded from active benchmarks and totals.",
       "recheck_attempt": "2026-10-29"
     },
     {
       "id": "R113",
-      "title": "Officeworks, folding table range",
-      "url": "https://www.officeworks.com.au/shop/officeworks/c/furniture/desks-tables/folding-trestle-tables",
-      "support": "Rapidline folding table 1800x900 white listed at $292. Delivery-only fee to confirm for the site.",
-      "checked": "2026-10-29",
-      "application": "Rapidline folding table 1800 × 900 white listed at $292. Delivery-only fee to confirm for the site.",
+      "title": "Officeworks Rapidline steel frame table 1800 × 900 mm",
+      "url": "https://www.officeworks.com.au/shop/officeworks/p/rapidline-steel-frame-table-1800-x-900mm-white-fnsft1890w",
+      "support": "The $292 Officeworks product is a Rapidline steel-frame 1800 × 900 mm table, code FNSFT1890W. Earlier folding description and category-only citation corrected.",
+      "checked": "2026-10-30",
+      "application": "The $292 Officeworks product is a Rapidline steel-frame 1800 × 900 mm table, code FNSFT1890W. Earlier folding description and category-only citation corrected.",
       "quote_date": null,
       "quote_status": "No requested supplier quotation recorded",
-      "recorded_observation_date": "2026-10-29",
-      "verification_status": "partial_verification",
+      "recorded_observation_date": "2026-10-30",
+      "verification_status": "corrected_page_rechecked",
       "recheck_attempt": "2026-10-29",
-      "verification_note": "Range page retrieved without the 292 AUD table price. Retain as unverified inherited input."
+      "verification_note": "The $292 Officeworks product is a Rapidline steel-frame 1800 × 900 mm table, code FNSFT1890W. Earlier folding description and category-only citation corrected."
     },
     {
       "id": "R114",
       "title": "Mack's Office Furniture, recorded second-hand catalogue",
       "url": "https://www.macks.com.au/collections/second-hand-furniture",
-      "support": "Direct product pages list a used metal-frame desk, 1600 x 800 mm, at $150 including GST, listed 19 October 2026 and described as in good condition; and a used cupboard, 1600h x 900w x 430d mm, at $129 including GST, listed 23 October 2026. Both pages display availability, but required quantities and delivered cost remain unconfirmed. Central Victoria dealer. Exact desk: https://www.macks.com.au/collections/second-hand-furniture/products/secondhand-metal-frame-desk-1600-x-800 . Exact cupboard: https://www.macks.com.au/collections/second-hand-furniture/products/second-hand-cupboard-1600h-x-900w-x-430d .",
-      "checked": "2026-10-29",
-      "application": "Inherited observation, recorded 2026-10-29. Direct product pages list a used metal-frame desk, 1600 x 800 mm, at $150 including GST, listed 19 October 2026 and described as in good condition; and a used cupboard, 1600h x 900w x 430d mm, at $129 including GST, listed 23 October 2026. Both pages display availability, but required quantities and delivered cost remain unconfirmed. Central Victoria dealer. Direct product links: [used metal-frame desk](https://www.macks.com.au/collections/second-hand-furniture/products/secondhand-metal-frame-desk-1600-x-800) and [used cupboard](https://www.macks.com.au/collections/second-hand-furniture/products/second-hand-cupboard-1600h-x-900w-x-430d).",
+      "support": "Direct used-product pages: desk $150 incl GST, 1600 × 800 mm; cupboard $129 incl GST, 1600h × 900w × 430d mm. Quantity and freight unconfirmed.",
+      "checked": "2026-10-30",
+      "application": "Direct used-product pages: desk $150 incl GST, 1600 × 800 mm; cupboard $129 incl GST, 1600h × 900w × 430d mm. Quantity and freight unconfirmed.",
       "product_links": [
         {
           "item": "Used 1600 x 800 mm desk",
@@ -859,80 +869,80 @@
       ],
       "quote_date": null,
       "quote_status": "No requested supplier quotation recorded",
-      "recorded_observation_date": "2026-10-29",
-      "verification_status": "inherited_reference_requires_verification",
-      "verification_note": "Used desk and cupboard pages not retrievable. 150/129 AUD, listing dates, tax basis, stock and condition remain inherited unverified claims.",
+      "recorded_observation_date": "2026-10-30",
+      "verification_status": "page_rechecked",
+      "verification_note": "Direct used-product pages: desk $150 incl GST, 1600 × 800 mm; cupboard $129 incl GST, 1600h × 900w × 430d mm. Quantity and freight unconfirmed.",
       "recheck_attempt": "2026-10-29"
     },
     {
       "id": "R115",
       "title": "Australian Computer Traders, refurbished desktop range",
       "url": "https://www.australiancomputertraders.com.au/",
-      "support": "Grade A HP EliteDesk 800 G6 Mini, i5 tenth generation,16GB RAM,256GB SSD,Windows11 listed $399. Intended as prototype capture/control computer, not a guaranteed multi-room AI inference server.",
-      "checked": "2026-10-29",
-      "application": "Inherited observation, recorded 2026-10-29. Grade A HP EliteDesk 800 G6 Mini, i5 tenth generation, 16 GB RAM, 256 GB SSD, Windows 11 listed $399. Intended as prototype capture/control computer, not a guaranteed multi-room AI inference server.",
+      "support": "Supplier homepage advertises Grade A HP EliteDesk 800 G6 Mini i5 tenth generation,16 GB/256 GB at $399.",
+      "checked": "2026-10-30",
+      "application": "Supplier homepage advertises Grade A HP EliteDesk 800 G6 Mini i5 tenth generation,16 GB/256 GB at $399.",
       "quote_date": null,
       "quote_status": "No requested supplier quotation recorded",
-      "recorded_observation_date": "2026-10-29",
-      "verification_status": "inherited_reference_requires_verification",
-      "verification_note": "Supplier homepage timed out. Exact refurbished configuration and 399 AUD remain inherited unverified claims.",
+      "recorded_observation_date": "2026-10-30",
+      "verification_status": "page_rechecked",
+      "verification_note": "Supplier homepage advertises Grade A HP EliteDesk 800 G6 Mini i5 tenth generation,16 GB/256 GB at $399.",
       "recheck_attempt": "2026-10-29"
     },
     {
       "id": "R116",
       "title": "Scorptec, CyberPower UPS published range",
-      "url": "https://www.scorptec.com.au/cyberpowerupsfreedel",
-      "support": "CP900EPFCLCDa 900VA/540W UPS listed $299 and in stock. Load and runtime must be verified for the chosen equipment; this does not supply emergency building systems.",
-      "checked": "2026-10-29",
-      "application": "CP900EPFCLCDa 900 VA/540 W UPS listed $299 and in stock. Load and runtime must be verified for the chosen equipment; this does not supply emergency building systems.",
+      "url": "https://www.scorptec.com.au/product/ups/ups/67645-cp900epfclcda",
+      "support": "Exact CP900EPFCLCDa page advertises $299, 900 VA/540 W. Delivery and stock conditions apply.",
+      "checked": "2026-10-30",
+      "application": "Exact CP900EPFCLCDa page advertises $299, 900 VA/540 W. Delivery and stock conditions apply.",
       "quote_date": null,
       "quote_status": "No requested supplier quotation recorded",
-      "recorded_observation_date": "2026-10-29",
-      "verification_status": "partial_verification",
+      "recorded_observation_date": "2026-10-30",
+      "verification_status": "page_rechecked",
       "recheck_attempt": "2026-10-29",
-      "verification_note": "Range page retrieved; exact 299 AUD model/stock assertion not independently confirmed in this revision."
+      "verification_note": "Exact CP900EPFCLCDa page advertises $299, 900 VA/540 W. Delivery and stock conditions apply."
     },
     {
       "id": "R117",
       "title": "Indestroom, Australian turnkey room catalogue",
       "url": "https://erworkshop.com/escape-room-supplier-australia/",
-      "support": "Published AUD package benchmarks: Jungle $42,500; Magic School $89,900; Pharaoh $63,300; Vault32 $101,600. Standard configurations converted from EUR; request a fixed scope and terms. Freight, tax, site works and required design changes are not established by the headline.",
-      "checked": "2026-10-29",
-      "application": "Published AUD package benchmarks: Jungle $42,500; Magic School $89,900; Pharaoh $63,300; Vault32 $101,600. Standard configurations converted from EUR; request a fixed scope and terms. Freight, tax, site works and required design changes are not established by the headline.",
+      "support": "Jungle $42,500; Magic School $89,900; Pharaoh $63,300; Vault32 $101,600 AUD advertised package benchmarks, not landed/site-installed costs.",
+      "checked": "2026-10-30",
+      "application": "Jungle $42,500; Magic School $89,900; Pharaoh $63,300; Vault32 $101,600 AUD advertised package benchmarks, not landed/site-installed costs.",
       "quote_date": null,
       "quote_status": "No requested supplier quotation recorded",
-      "recorded_observation_date": "2026-10-29",
+      "recorded_observation_date": "2026-10-30",
       "verification_status": "page_rechecked",
       "rechecked": "2026-10-29",
-      "verification_note": "Supplier catalogue rechecked for 42500, 89900, 63300 and 101600 AUD package benchmarks."
+      "verification_note": "Jungle $42,500; Magic School $89,900; Pharaoh $63,300; Vault32 $101,600 AUD advertised package benchmarks, not landed/site-installed costs."
     },
     {
       "id": "R118",
       "title": "Property Now, 338 Lytton Road listing",
       "url": "https://www.commercialrealestate.com.au/property/338-lytton-road-morningside-qld-4170-18288980",
-      "support": "300m2 listing $6750/month plus GST and outgoings, last updated 22 September 2026. A comparable asking rent, not a selected or approved 400 m2 venue.",
-      "checked": "2026-10-29",
-      "application": "300 m² listing $6,750 per month plus GST and outgoings, last updated 22 September 2026. A comparable asking rent, not a selected or approved 400 m² venue.",
+      "support": "Unit 7 / 338 Lytton Road: 300 m² partial building; $6,750/month plus GST/outgoings. Another upstairs tenant is described. Listing updated 22 Sep 2026.",
+      "checked": "2026-10-30",
+      "application": "Unit 7 / 338 Lytton Road: 300 m² partial building; $6,750/month plus GST/outgoings. Another upstairs tenant is described. Listing updated 22 Sep 2026.",
       "quote_date": null,
       "quote_status": "No requested supplier quotation recorded",
-      "recorded_observation_date": "2026-10-29",
+      "recorded_observation_date": "2026-10-30",
       "verification_status": "page_rechecked",
       "rechecked": "2026-10-29",
-      "verification_note": "Listing rechecked at 6750 AUD per month plus GST and outgoings, 300 m², updated 22 September 2026."
+      "verification_note": "Unit 7 / 338 Lytton Road: 300 m² partial building; $6,750/month plus GST/outgoings. Another upstairs tenant is described. Listing updated 22 Sep 2026."
     },
     {
       "id": "R119",
       "title": "Chase Commercial, 4/65 Riverside Place listing",
       "url": "https://www.commercialrealestate.com.au/property/4-65-riverside-place-morningside-qld-4170-18314217",
-      "support": "Rechecked advertised rent: 300 m² two-level premises at 78,000 AUD per year plus outgoings and GST, equivalent to 260 AUD/m²/year. Page update 11 September 2026; observed 29 October 2026. No lease or site choice.",
-      "checked": "2026-10-29",
-      "application": "Rechecked advertised rent: 300 m² two-level premises at 78,000 AUD per year plus outgoings and GST, equivalent to 260 AUD/m²/year. Page update 11 September 2026; observed 29 October 2026. No lease or site choice.",
+      "support": "4/65 Riverside Place: 300 m²; $78,000/year plus GST/outgoings. Listing updated 11 Sep 2026. Earlier $72,000 value was superseded in the previous revision.",
+      "checked": "2026-10-30",
+      "application": "4/65 Riverside Place: 300 m²; $78,000/year plus GST/outgoings. Listing updated 11 Sep 2026. Earlier $72,000 value was superseded in the previous revision.",
       "quote_date": null,
       "quote_status": "No requested supplier quotation recorded",
-      "recorded_observation_date": "2026-10-29",
+      "recorded_observation_date": "2026-10-30",
       "verification_status": "page_rechecked",
       "rechecked": "2026-10-29",
-      "verification_note": "Correction: retrieved listing asks 78000 AUD per year plus GST and outgoings, 300 m², updated 11 September 2026. Earlier 72000 AUD value superseded."
+      "verification_note": "4/65 Riverside Place: 300 m²; $78,000/year plus GST/outgoings. Listing updated 11 Sep 2026. Earlier $72,000 value was superseded in the previous revision."
     },
     {
       "id": "R120",
@@ -945,35 +955,35 @@
       "quote_status": "No requested supplier quotation recorded",
       "recorded_observation_date": "2026-10-29",
       "verification_status": "inherited_reference_requires_verification",
-      "verification_note": "Source retained from the previous edition; not independently rechecked in this revision. Treat specific factual or price claims as inherited observations."
+      "verification_note": "Unverified inherited reference."
     },
     {
       "id": "R121",
       "title": "OpenAI, current API prices",
       "url": "https://developers.openai.com/api/docs/pricing",
-      "support": "Current file transcription gpt-transcribe estimated US$0.0045/minute; live transcription US$0.017/minute. Standard gpt-6.1-sol US$2/million input and US$10/million output tokens; web search US$10/1000 calls plus content tokens; file search US$2.50/1000 calls. These are current unit-price benchmarks, not model selections or subscriptions.",
-      "checked": "2026-10-29",
-      "application": "Current file transcription gpt-transcribe estimated US$0.0045/minute; live transcription US$0.017/minute. Standard gpt-6.1-sol US$2/million input and US$10/million output tokens; web search US$10/1000 calls plus content tokens; file search US$2.50/1000 calls. These are current unit-price benchmarks, not model selections or subscriptions.",
+      "support": "Official Standard short-context gpt-6.1-sol $2 input/$10 output per million; estimated file transcription $0.0045/minute and live $0.017. Currency USD; tier/context conditions apply.",
+      "checked": "2026-10-30",
+      "application": "Official Standard short-context gpt-6.1-sol $2 input/$10 output per million; estimated file transcription $0.0045/minute and live $0.017. Currency USD; tier/context conditions apply.",
       "quote_date": null,
       "quote_status": "No requested supplier quotation recorded",
-      "recorded_observation_date": "2026-10-29",
+      "recorded_observation_date": "2026-10-30",
       "verification_status": "page_rechecked",
       "rechecked": "2026-10-29",
-      "verification_note": "Official pricing and named model pages rechecked. Standard short-context gpt-6.1-sol input/output examples are 2/10 USD per million; transcription examples 0.0045/0.017 USD per minute."
+      "verification_note": "Official Standard short-context gpt-6.1-sol $2 input/$10 output per million; estimated file transcription $0.0045/minute and live $0.017. Currency USD; tier/context conditions apply."
     },
     {
       "id": "R122",
       "title": "OpenAI, current transcription workflows",
       "url": "https://developers.openai.com/api/docs/guides/transcription",
-      "support": "Recommends gpt-transcribe for recorded files and gpt-live-transcribe for live incoming audio. Older whisper/4o transcription models are deprecated; this budget uses the current file benchmark.",
-      "checked": "2026-10-29",
-      "application": "Recommends gpt-transcribe for recorded files and gpt-live-transcribe for live incoming audio. Older whisper/4o transcription models are deprecated; this budget uses the current file benchmark.",
+      "support": "Official recorded-file and live transcription guide checked.",
+      "checked": "2026-10-30",
+      "application": "Official recorded-file and live transcription guide checked.",
       "quote_date": null,
       "quote_status": "No requested supplier quotation recorded",
-      "recorded_observation_date": "2026-10-29",
+      "recorded_observation_date": "2026-10-30",
       "verification_status": "page_rechecked",
       "rechecked": "2026-10-29",
-      "verification_note": "Official transcription guide retrieved. Workflow/model names are documentation examples, not business choices."
+      "verification_note": "Official recorded-file and live transcription guide checked."
     },
     {
       "id": "R123",
@@ -986,7 +996,7 @@
       "quote_status": "No requested supplier quotation recorded",
       "recorded_observation_date": "2026-10-29",
       "verification_status": "inherited_reference_requires_verification",
-      "verification_note": "Source retained from the previous edition; not independently rechecked in this revision. Treat specific factual or price claims as inherited observations."
+      "verification_note": "Unverified inherited reference."
     },
     {
       "id": "R124",
@@ -999,20 +1009,21 @@
       "quote_status": "No requested supplier quotation recorded",
       "recorded_observation_date": "2026-10-29",
       "verification_status": "inherited_reference_requires_verification",
-      "verification_note": "Source retained from the previous edition; not independently rechecked in this revision. Treat specific factual or price claims as inherited observations."
+      "verification_note": "Unverified inherited reference."
     },
     {
       "id": "R125",
       "title": "ATO Payday Super",
       "url": "https://softwaredevelopers.ato.gov.au/PaydaySuper",
-      "checked": "2026-10-29",
-      "recorded_observation_date": "2026-10-29",
+      "checked": "2026-10-30",
+      "recorded_observation_date": "2026-10-30",
       "rechecked": "2026-10-29",
       "verification_status": "page_rechecked",
-      "verification_note": "Official ATO source retrieved for the 12% rate and payment timing from 1 July 2026.",
+      "verification_note": "ATO states 12% of qualifying earnings for Payday Super from 1 July 2026.",
       "quote_date": null,
       "quote_status": "Official guidance, not a supplier quotation",
-      "application": "The official ATO page states that from 1 July 2026 super guarantee is calculated at 12% of qualifying earnings and paid on payday. The actual payroll treatment requires the relevant current rules."
+      "application": "ATO states 12% of qualifying earnings for Payday Super from 1 July 2026.",
+      "support": "ATO states 12% of qualifying earnings for Payday Super from 1 July 2026."
     }
   ]
 }

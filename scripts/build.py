@@ -4,6 +4,8 @@ from html import escape, unescape
 from html.parser import HTMLParser
 from urllib.parse import quote, urlsplit, unquote
 import argparse, hashlib, json, re, zipfile
+from calculator_markup import calculator_markup
+from source_metadata import source_date
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://auraofintelligence.github.io/escape-room-team-building/'
@@ -21,6 +23,7 @@ NAV = [(x['slug'], x.get('nav_title', x['title'])) for x in CHAPTERS] + UTILITIE
 TITLE = PLAN.get('title', 'Escape Room Team Building')
 DATE = PLAN.get('date', '29 October 2026')
 EDITION = PLAN.get('edition', 'Business plan 1.0')
+FINANCE = json.loads((ROOT/'content/finance.json').read_text(encoding='utf-8'))
 
 def write(path, text):
     p = ROOT/path
@@ -137,12 +140,18 @@ def build_chapters():
             used.add(sid)
             anchors.append((sid,s['title']))
             basis = '<p class="scenario-basis">'+escape(s['basis'])+'</p>' if s.get('basis') else ''
-            blocks.append(f'<section id="{sid}"><h2>{escape(s["title"])}</h2>{basis}{markdown(s["body"])}{reference_chips(s.get("refs",[]))}</section>')
+            calc = calculator_markup(s['calculator'], FINANCE) if s.get('calculator') else ''
+            blocks.append(f'<section id="{sid}"><h2>{escape(s["title"])}</h2>{basis}{markdown(s["body"])}{reference_chips(s.get("refs",[]))}{calc}</section>')
         metrics = c.get('metrics', [])
         metric = '<div class="metrics">'+''.join(f'<div class="metric"><strong>{escape(str(m["value"]))}</strong><span>{escape(m["label"])}</span></div>' for m in metrics)+'</div>' if metrics else ''
         aside = '<aside class="aside"><h2>On this page</h2>'+''.join(f'<a href="#{a}">{escape(t)}</a>' for a,t in anchors)+'</aside>'
         body = '<div class="wrap">'+metric+'<div class="content-layout"><article class="reading">'+''.join(blocks)+reference_chips(c.get('refs',[]))+'</article>'+aside+'</div></div>'
-        write(c['slug']+'.html',shell(c['slug'],c['title'],c['lead'],body,section=f'{i+1:02} · '+c.get('nav_title',c['title'])))
+        if any(s.get('calculator') for s in c['sections']):
+            data=json.dumps({'benchmarks':FINANCE['benchmarks'],'verified_rates':FINANCE['verified_rates']},ensure_ascii=False).replace('<','\\u003c')
+            body += '<script type="application/json" id="calculator-data">'+data+'</script><script defer src="assets/calculator-engine.js"></script><script defer src="assets/calculators.js"></script>'
+        page=shell(c['slug'],c['title'],c['lead'],body,section=f'{i+1:02} · '+c.get('nav_title',c['title']))
+        if any(s.get('calculator') for s in c['sections']):page=page.replace('</head>','<link rel="stylesheet" href="assets/calculators.css"></head>')
+        write(c['slug']+'.html',page)
     manuscript = '# '+TITLE+'\n\n'+PLAN.get('subtitle','')+'\n\n'+PLAN.get('author','Luke Nathan Hayes')+' | '+DATE+' | '+EDITION+'\n\n'
     for c in CHAPTERS:
         manuscript += '## '+c['title']+'\n\n'+c['lead']+'\n\n'
@@ -150,13 +159,12 @@ def build_chapters():
             manuscript += '### '+s['title']+'\n\n'+(s['basis']+'\n\n' if s.get('basis') else '')+s['body'].strip()+'\n\n'
             if s.get('refs'): manuscript += 'Sources: '+', '.join(s['refs'])+'\n\n'
         if c.get('refs'): manuscript += 'Chapter sources: '+', '.join(c['refs'])+'\n\n'
-    manuscript += '## Source register\n\n'
+    manuscript += '## Source register\n\nAdvertised observations, not requested quotations. Full source notes are linked.\n\n'
     for ref in DOCS+PROJECTS+RESEARCH:
         url = ref.get('url') or ref.get('source_url') or BASE+'sources.html#'+ref['id']
         manuscript += ref['id']+' ['+ref['title']+']('+url+')\n\n'
-        manuscript += ref.get('verification_note',ref.get('application',''))+'\n\n'
-        if ref.get('recorded_observation_date'):
-            manuscript += 'Recorded observation date: '+ref['recorded_observation_date']+'. Supplier quotation date: none recorded.\n\n'
+        if ref.get('verification_note'):manuscript += ref['verification_note']+'\n\n'
+        if source_date(ref):manuscript += source_date(ref)+'.\n\n'
     write('content/plan.md',manuscript)
 
 def build_sources():
@@ -170,13 +178,14 @@ def build_sources():
     for kind,items in [('Connected project',PROJECTS),('Market and operating source',RESEARCH)]:
         for x in items:
             purpose = x.get('application',x.get('purpose',x.get('note','')))
-            checked = f'<p class="metadata">Recorded observation date: {escape(x["checked"])}</p>' if x.get('checked') else ''
-            if x.get('verification_status'):
-                checked += '<p class="metadata">'+escape(x['verification_status'].replace('_',' '))+': '+escape(x.get('verification_note',''))+'</p>'
-                checked += '<p class="metadata">Supplier quotation date: none recorded.</p>'
+            checked = '<p class="metadata">'+escape(source_date(x))+'</p>' if source_date(x) else ''
+            if x.get('verification_note') and x['verification_note'] != purpose:
+                checked += '<p class="metadata">'+escape(x['verification_note'])+'</p>'
+            if x.get('product_links'):
+                checked += '<p>'+ ' · '.join('<a href="'+escape(link['url'],quote=True)+'" target="_blank" rel="noopener noreferrer">'+escape(link['item'])+'</a>' for link in x['product_links'])+'</p>'
             cards.append(f'<article class="card" id="{x["id"]}" data-search="{escape(x["id"]+" "+x["title"]+" "+purpose,quote=True)}"><p class="tag">{x["id"]} · {kind}</p><h3><a href="{escape(x["url"],quote=True)}" target="_blank" rel="noopener noreferrer">{escape(x["title"])} ↗</a></h3><p>{inline(purpose)}</p>{checked}</article>')
     controls=f'<div class="filter"><label class="sr-only" for="source-search">Search sources and projects</label><input id="source-search" data-filter type="search" placeholder="Find a source, project or topic"></div><p data-count aria-live="polite">{len(cards)} entries</p><p data-empty class="empty" hidden>No matches. Try a broader term.</p>'
-    intro='<p>The complete reference collection from <a href="https://auraofintelligence.github.io/installing-the-missing-middle/" target="_blank" rel="noopener noreferrer">Installing the Missing Middle</a> sits alongside market and cost research. Each entry separates its recorded observation date from verification for this revision. Advertised prices are observations; no requested supplier quotation is recorded. Original files retain their wording and rights.</p>'
+    intro='<p>Market and cost evidence alongside the original <a href="https://auraofintelligence.github.io/installing-the-missing-middle/" target="_blank" rel="noopener noreferrer">Installing the Missing Middle</a> collection. Dates are source checks. Prices are advertised observations; no supplier quotations were requested. Unverified entries are identified. Original documents retain their wording and rights.</p>'
     body='<section class="wrap wide-section">'+intro+controls+'<div class="card-grid">'+''.join(cards)+'</div><div class="notice"><p><a href="content/embedded-links.json">Embedded links from the source documents</a> preserve the wider reference trail. <a href="content/sources.json">Download the source register</a>.</p></div></section>'
     write('sources.html',shell('sources','Sources and project connections','The market research, original documents and connected projects behind the business plan.',body,section='Reference library'))
 

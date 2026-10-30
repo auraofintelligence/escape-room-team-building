@@ -14,6 +14,7 @@ import zipfile
 from io import BytesIO
 from pathlib import Path
 from urllib.parse import quote, urlsplit
+from source_metadata import source_date
 
 from docx import Document
 from docx.enum.style import WD_STYLE_TYPE
@@ -388,6 +389,10 @@ def chapter(doc, c, refs, first=False):
             doc.add_paragraph(s['basis'], style='SourceNote').paragraph_format.keep_with_next = True
         markdown(doc, s["body"], refs)
         reference_note(doc, s.get("refs", []), refs)
+        if s.get('calculator'):
+            p=doc.add_paragraph(style='SourceNote')
+            sid=s.get('id') or re.sub(r'[^a-z0-9]+','-',s['title'].lower()).strip('-')
+            hyperlink(p,'Change inputs in the online calculator',BASE+c['slug']+'.html#'+sid)
     reference_note(doc, c.get("refs", []), refs)
 
 
@@ -438,7 +443,7 @@ def source_register(doc, sources, refs):
     p.paragraph_format.page_break_before = True
     bookmark(p, "source_register")
     p = doc.add_paragraph()
-    inline(p, "The original documents and project websites from Installing the Missing Middle inform the business design. Market and cost references distinguish source observations, worked assumptions and verification status. Source IDs below match the website and canonical source register.", refs)
+    inline(p, "Source checks and advertised prices are recorded below. No supplier quotations were requested. Original documents and full notes are linked.", refs)
     p = doc.add_paragraph(style="SourceNote")
     hyperlink(p, "Complete source register", BASE+"content/sources.json")
     p.add_run("  |  ")
@@ -451,15 +456,12 @@ def source_register(doc, sources, refs):
             p = doc.add_paragraph(style="SourceTitle")
             p.add_run(entry["id"] + "  " + entry["title"])
             bookmark(p, "source_"+entry["id"])
-            note = entry.get("application", entry.get("purpose", entry.get("note", entry.get("support", ""))))
-            if note:
+            note = entry.get('verification_note','') if key=='research' else ''
+            if note and note != 'Unverified inherited reference.':
                 markdown(doc, note, refs, style="RegisterText")
             if entry.get("checked"):
-                p = doc.add_paragraph("Recorded observation date: " + str(entry["checked"]), style="SourceNote")
+                p = doc.add_paragraph(source_date(entry), style="SourceNote")
                 p.paragraph_format.keep_with_next = True
-            if entry.get('verification_status'):
-                doc.add_paragraph(entry['verification_status'].replace('_',' ')+': '+entry.get('verification_note',''), style='SourceNote')
-                doc.add_paragraph('Supplier quotation date: none recorded.', style='SourceNote')
             p = doc.add_paragraph(style="SourceNote")
             if key == "documents":
                 path = entry.get("path", "")
@@ -475,8 +477,10 @@ def source_register(doc, sources, refs):
                     p.add_run("Exact original unavailable in the inherited archive. See the source entry for the available edition.")
             elif entry.get("url"):
                 url = entry["url"]
-                # Print the original URL as well as making it clickable.
-                hyperlink(p, url, url)
+                hyperlink(p, 'Open source', url)
+                for link in entry.get('product_links',[]):
+                    p.add_run(' | ')
+                    hyperlink(p,link['item'],link['url'])
             else:
                 hyperlink(p, "Source entry", BASE+"sources.html#"+entry["id"])
 

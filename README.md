@@ -1,44 +1,31 @@
 # Escape Room Team Building
 
-Business plan by Luke Nathan Hayes for an Australian escape-room network connecting immersive experiences, tourism, paid local work and whole-of-life skill development.
+ROUND ONE business-development research by Luke Nathan Hayes for an Australian escape-room network. The opening contains sourced capacities, competitor prices and editable throughput/turnover comparisons. Later chapters cover design, tourism, recorded learning, paid work, costs and renewal.
 
-ROUND ONE is exploratory market research, evidence, itemised cost options and worked calculations for Luke Nathan Hayes to review. The executive summary and one-sentence proposition open the plan. Language research and learning sit in the middle. Source facts, model assumptions and founder decisions remain separate. No commercial format, price, premises, timetable, technology, contractor arrangement or agent suite is selected by this edition.
+- [Website and summary calculator](https://auraofintelligence.github.io/escape-room-team-building/)
+- [PDF](downloads/Escape-Room-Network-Business-Plan.pdf) and [Word](downloads/Escape-Room-Network-Business-Plan.docx)
+- [Canonical manuscript](content/plan.json), [Markdown](content/plan.md), [source register](content/sources.json)
+- [Cost benchmarks and formulas](content/finance.json), [venue data](content/market-data.json), [revision record](content/revision-notes.json)
 
-## Read the plan
+Recording is part of the core design with a clear opt-out. AI supports research and computation; commercial choices remain with Luke. Numbers are sourced observations or labelled comparison inputs. Unknown cost inputs stay blank. Unsupported installation hours and their totals have been removed.
 
-- [Website](https://auraofintelligence.github.io/escape-room-team-building/)
-- [PDF business plan](downloads/Escape-Room-Network-Business-Plan.pdf)
-- [Editable Word business plan](downloads/Escape-Room-Network-Business-Plan.docx)
-- [Canonical manuscript](content/plan.json)
-- [Portable Markdown](content/plan.md)
-- [Financial inputs](content/finance.json)
-- [Sources](content/sources.json)
+## Build and check
 
-## Build
-
-Python 3 and Pillow are required for the static site generator. The full manuscript is kept in `content/plan.json`. Source registers, financial assumptions and artwork provenance are separate structured files. The source register records observation dates, recheck status and quotation dates where available. No requested supplier quotations are recorded in ROUND ONE.
+The site uses Python and Pillow. Portable editions also use python-docx and ReportLab; the audit uses PyMuPDF and lxml. Node runs the independent calculator fixtures. Embedded PDF fonts default to Windows Arial paths.
 
 ```sh
 python scripts/check_finance.py
-python scripts/build.py --check --require-assets
-```
-
-The repository's existing GitHub Pages publication serves the generated static files from the main branch. Run the checks above before publishing an update. Publication does not run an operating business agent, contact anyone, purchase anything or create a business schedule.
-
-## Rights
-
-[Strange But True Public Source Licence](LICENCE.md). Commercial and corporate rights remain with Luke Nathan Hayes. The style and navigation follow [Installing the Missing Middle](https://auraofintelligence.github.io/installing-the-missing-middle/). Original reference documents retain their original rights and wording.
-
-## Portable editions
-
-The Word builder uses python-docx, Pillow and ReportLab. The PDF builder uses the same canonical manuscript with independent pagination. Its default embedded-font paths target Windows Arial; pass suitable local font files when adapting the builder to another host.
-
-```sh
+node scripts/check_calculators.cjs
 python scripts/build_documents.py
 python scripts/build_pdf.py
+python scripts/build.py --check --require-assets
 python scripts/audit_documents.py
 ```
 
-The document audit also uses PyMuPDF and lxml. ROUND ONE's PDF received a full visual review. Word content and navigation were checked; Word pagination remains visually unverified because a compatible native renderer was unavailable on the authoring device.
+The seven calculators run locally in the browser without network calls or saved inputs. Only the summary starts with explicitly labelled comparison values. Its source price, group tier and arithmetic are checked against the portable edition. Document calculator links open the corresponding website section.
 
-The generated favicon and its full generation prompt are recorded in [content/favicon.json](content/favicon.json).
+The PDF is visually reviewed. Word content and navigation are checked; native Word pagination remains unverified because the packaged renderer requires LibreOffice, unavailable on this device. The editions share a manuscript and have independent layouts.
+
+## Rights
+
+[Strange But True Public Source Licence](LICENCE.md). Original source files and licence terms are preserved. Generated favicon artwork and prompt: [provenance](content/favicon.json).

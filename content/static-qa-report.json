@@ -1,12 +1,23 @@
 {
-  "date": "2026-10-29",
-  "edition": "ROUND ONE",
-  "main_pages": 16,
-  "source_readers": 14,
-  "source_entries": 79,
-  "hero_files": 16,
-  "generated_favicon": true,
-  "original_documents_unchanged": true,
-  "financial_arithmetic_checks": 709,
-  "errors": []
+  "date": "2026-10-30",
+  "original_documents_unchanged": [
+    "D01",
+    "D02",
+    "D03",
+    "D04",
+    "D05",
+    "D06",
+    "D07",
+    "D08",
+    "D09",
+    "D10",
+    "D12",
+    "D13",
+    "D14",
+    "D15"
+  ],
+  "source_and_manuscript_checks": 216,
+  "calculator_checks": 91,
+  "calculation_tests": "Independent values, missing/zero inputs, tax, transaction rounding, mixed cost tax bases, scale, closures, capacity limits, negative contribution and FX.",
+  "operating_workflows_activated": false
 }

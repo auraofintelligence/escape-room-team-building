@@ -1,33 +1,25 @@
 {
-  "date": "2026-10-29",
-  "edition": "ROUND ONE",
-  "method": "Local browser preview with desktop and 390 px viewport checks",
-  "desktop": {
-    "executive_summary": "ROUND ONE opening and generated puzzle-doorway brand icon render cleanly",
-    "chapter_menu": "16 destinations; revised research and paid-work chapter verified",
-    "source_filter": "R119 matches the corrected 78000 AUD listing and observation/quote status; no-match state verified",
-    "presentation": "11 chapter cards; old agent-suite framing absent"
-  },
+  "date": "2026-10-30",
+  "method": "Local browser forms and 390 px responsive view",
+  "calculators_checked": [
+    "throughput",
+    "cost",
+    "labour",
+    "software",
+    "operating",
+    "pass",
+    "renewal"
+  ],
+  "scaling": "1 room to 4 rooms at 5 locations gives 20 rooms and $4.2 million illustrative receipts under the labelled $42 / five-player / 50% / 250-day inputs.",
+  "blank_costs": "Revenue can be shown; operating result withheld until every cost field is entered.",
+  "invalid_timing": "Nine starts rejected where the window permits eight.",
+  "transaction_rounding": "Five-pass test cash charge $14.24, service amount $32.51 after eligible processing GST credit, before other costs.",
   "responsive": {
-    "width_css_pixels": 390,
-    "page_horizontal_overflow": false,
-    "brand_icon_loaded": true,
-    "scenario_labels_present": true
+    "requested_width": 390,
+    "client_width": 375,
+    "scroll_width": 375,
+    "overflow": false
   },
-  "favicon": {
-    "formats": [
-      "ICO",
-      "PNG"
-    ],
-    "sizes": [
-      16,
-      32,
-      48,
-      180,
-      192
-    ],
-    "generated": true,
-    "provenance": "content/favicon.json"
-  },
-  "operating_agents_activated": false
+  "browser_errors": [],
+  "generated_favicon_preserved": true
 }

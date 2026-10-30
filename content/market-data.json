@@ -1,0 +1,63 @@
+{
+  "checked": "2026-10-30",
+  "scope": "Six single-venue observations; Escape This subtotal includes only its five listed venues.",
+  "venues": [
+    {
+      "operator": "Escape This",
+      "venue": "Perth CBD",
+      "rooms": 14,
+      "players": 108,
+      "source": "M10"
+    },
+    {
+      "operator": "Escape This",
+      "venue": "Northbridge",
+      "rooms": 9,
+      "players": 62,
+      "source": "M10"
+    },
+    {
+      "operator": "Escape This",
+      "venue": "Sydney CBD",
+      "rooms": 10,
+      "players": 66,
+      "source": "M10"
+    },
+    {
+      "operator": "Escape This",
+      "venue": "Manly",
+      "rooms": 3,
+      "players": 18,
+      "source": "M10"
+    },
+    {
+      "operator": "Escape This",
+      "venue": "Melbourne CBD",
+      "rooms": 12,
+      "players": 82,
+      "source": "M10"
+    },
+    {
+      "operator": "Fox in a Box",
+      "venue": "Brisbane",
+      "rooms": 10,
+      "players": 60,
+      "source": "M07"
+    }
+  ],
+  "operator_subtotals": [
+    {
+      "operator": "Escape This",
+      "included_venues": [
+        "Perth CBD",
+        "Northbridge",
+        "Sydney CBD",
+        "Manly",
+        "Melbourne CBD"
+      ],
+      "rooms": 48,
+      "players": 336,
+      "source": "M10"
+    }
+  ]
+}

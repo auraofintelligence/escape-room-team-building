@@ -57,6 +57,11 @@ def main():
                     if plain_tokens(line) not in pdf_tokens:
                         pdf_missing.append(c['slug']+' / '+s['title']+': '+line[:65])
     toc = {title: page for level,title,page in doc.get_toc() if level == 1}
+    pdf_links=[link for page in doc for link in page.get_links()]
+    invalid_pdf_links=[link for link in pdf_links if link.get('kind')==fitz.LINK_GOTO and not 0<=link.get('page',-1)<len(doc)]
+    toc_links=[link for page in doc if re.search(r'^Contents$',page.get_text(),re.M) for link in page.get_links() if link.get('kind')==fitz.LINK_GOTO]
+    toc_destinations={link['page']+1 for link in toc_links}
+    missing_toc_links=[title for title,page in toc.items() if page not in toc_destinations]
     pagination = {"chapter_"+re.sub(r"\W", "_", c["slug"]):toc.get("EXECUTIVE SUMMARY" if i == 0 else c["title"]) for i,c in enumerate(plan["chapters"])}
     pagination.update({"source_register": toc.get("Sources and project inventory"), "rights": toc.get("Rights and provenance"), "licence": toc.get("Strange But True Public Source Licence")})
     if args.pagination_out:
@@ -76,6 +81,11 @@ def main():
         "missing_pdf_manuscript_sections": pdf_missing,
         "missing_source_entries": missing_sources,
         "unresolved_internal_links": missing_targets,
+        "invalid_pdf_internal_links":invalid_pdf_links,
+        "pdf_contents_links":len(toc_links),
+        "missing_pdf_contents_destinations":missing_toc_links,
+        "word_contents_links":len(xml.xpath('//w:hyperlink[starts-with(@w:anchor,"chapter_")]',namespaces=NS)),
+        "word_reference_links":len(xml.xpath('//w:hyperlink[starts-with(@w:anchor,"source_")]',namespaces=NS)),
         "duplicate_bookmarks": len(bookmarks)-len(set(bookmarks)),
         "em_dashes_in_document_text": all_text.count("\u2014"),
         "pdf_links": sum(len(p.get_links()) for p in doc),
@@ -85,7 +95,7 @@ def main():
     }
     args.report.write_text(json.dumps(report, indent=2)+"\n")
     print(json.dumps(report, indent=2))
-    if missing or pdf_missing or missing_targets or missing_sources or outside or len(bookmarks) != len(set(bookmarks)) or any(x is None for x in pagination.values()):
+    if missing or pdf_missing or missing_targets or missing_sources or invalid_pdf_links or missing_toc_links or outside or len(bookmarks) != len(set(bookmarks)) or any(x is None for x in pagination.values()):
         raise SystemExit(1)
 
 

@@ -12,7 +12,7 @@ Escape-room design; an Australia-wide network; interconnected tourism; repeat vi
 |---|---|---|
 | Customer offer and pricing | Competitor conditions, customer value and willingness to pay | None |
 | Premises and room count | Hosted, dedicated and partner formats; measured space and local demand | None |
-| Design and technology | Room concepts, independent play, capture alternatives and human review | None |
+| Design and technology | Room concepts, independent play, recorded play with a clear opt-out, capture methods and human review | None |
 | Paid work | Scope, skills, hours, contractor quotations, training and feasible staffing | None |
 | Tourism and renewal | Routes, repeat demand, rotation costs and commercial relationships | None |
 | Commercial and financial structure | Complete costs, cash timing, revenue relationships and ownership alternatives | None |
